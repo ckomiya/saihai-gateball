@@ -14,6 +14,13 @@ Las versiones son `X.Y.Z`: `X.Y` es el modelo (`saihai-vX.Y`) y `Z` son correcci
 
 Los pesos de v1.0 a v1.3 no se republican como versiones; están en `src/game/cpuWeights.v10.json` a `v13.json` solo para comparar (`npm run h2h`).
 
+## 1.4.1 (documentación y tipos; mismas jugadas)
+- Sin cambios de juego: los goldens, el planner-golden y las pruebas dan lo mismo que en 1.4.0.
+- API raíz: se exportan los tipos `MatchEvent`, `Transition`, `FoulReason`, `BallState` y `SoundCue` (antes solo estaban en `/engine`). No se quitó nada.
+- README: conceptos de gateball (equipos y colores, turno y golpe, reloj, fin del partido, determinismo), tabla de eventos con salida real y el significado de `Resolution.touches` (índices, no números de bola), `opponent` y `execution` con ejemplos, instalación (build en `prepare`, aviso `allow-scripts`, por qué se queda `private: true`), estado público y para qué sirven los mensajes de `/engine`.
+- `examples/duelo.mjs`: Saihai contra Saihai con semilla fija; ejemplo de humano contra Saihai en pseudocódigo.
+- Origen: informe de la prueba de desarrollador externo (instalación limpia desde GitHub).
+
 ## 1.4.0 (primera versión de Saihai como paquete)
 - Separado de gateball-retro: el motor de reglas, la física, el planificador, los pesos, las herramientas de entrenamiento y las pruebas viven aquí. El juego lo consume como dependencia.
 - API pública: `createMatch`, `Saihai.chooseShot`, `playShot` (`saihai-gateball`), más `/engine`, `/debug` y `/testing`.
