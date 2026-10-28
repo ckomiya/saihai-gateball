@@ -86,7 +86,7 @@ El resto de la `Resolution`: `kind` (`'stroke'`, `'spark'` o `'sparkFoul'`), `st
 
 ## Ejemplos
 
-- [`examples/duelo.mjs`](examples/duelo.mjs): Saihai (Rojas) contra Saihai (Blancas) con semilla fija, un resumen por golpe y el resultado final, en inglés (por defecto en el ejemplo) o en español; es el mismo partido en los dos idiomas. `node examples/duelo.mjs [semilla] [--lang en|es] [--raw]` (dentro de este repo necesita `npm run build`; desde otro proyecto es el mismo código importando `'saihai-gateball'`).
+- [`examples/duelo.mjs`](examples/duelo.mjs): Saihai (Rojas) contra Saihai (Blancas) con semilla fija, un resumen por golpe y el resultado final, en inglés (por defecto en el ejemplo) o en español; es el mismo partido en los dos idiomas. `node examples/duelo.mjs [semilla] [--lang en|es] [--raw]` (viene en el paquete: tras instalarlo puedes correrlo con `node node_modules/saihai-gateball/examples/duelo.mjs --lang en`; dentro de este repo necesita `npm run build` antes).
 - **Humano contra Saihai** (pseudocódigo; tu interfaz decide cómo se capturan las barras):
 
 ```js

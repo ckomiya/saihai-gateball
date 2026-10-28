@@ -30,6 +30,7 @@
   "files": [
     "dist",
     "src",
+    "examples",
     "LICENSE",
     "README.md",
     "README.es.md"

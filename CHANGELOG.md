@@ -20,7 +20,7 @@ The v1.0 to v1.3 weights are not republished as versions; they are in `src/game/
 - No gameplay changes: the goldens, the planner-golden and the tests give the same as in 1.4.1.
 - Texts in Spanish or English: `messageFor(event, lang?)`, `messagesFor(events, lang?)` and the new `noTouchMessage(lang?)` (`/engine`; `messageFor` and `messagesFor` also from the root), `new Saihai({ lang })` for `Shot.plan.decision`, and `OPENING_SITES[…].noteEn`. The default language is `'es'`: if you pass nothing, the output is identical to 1.4.1 (`tests/i18n.test.ts`, against a 360-stroke fingerprint recorded with 1.4.1). An unknown `lang` in `Saihai` throws a `RangeError`.
 - Documentation in two languages: `README.md` (English) and `README.es.md`; `RULES.md` and `RULES.es.md`; `CHANGELOG.md` and `CHANGELOG.es.md`. Glossary of gateball terms in both READMEs. `CLAUDE.md` and the code comments stay in Spanish.
-- `examples/duelo.mjs`: `--lang en|es` option (English by default in the example); the match is the same in both languages.
+- `examples/duelo.mjs`: `--lang en|es` option (English by default in the example); the match is the same in both languages. The `examples/` folder is now included in the published package (`files` in `package.json`).
 - Internal identifiers (`Decision` keys, `MatchEvent` types, the match log) remain untranslated: they are data, not texts for the player.
 
 ## 1.4.1 (documentation and types; same plays)

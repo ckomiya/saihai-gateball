@@ -20,7 +20,7 @@ Los pesos de v1.0 a v1.3 no se republican como versiones; están en `src/game/cp
 - Sin cambios de juego: los goldens, el planner-golden y las pruebas dan lo mismo que en 1.4.1.
 - Textos en español o inglés: `messageFor(evento, lang?)`, `messagesFor(eventos, lang?)` y la nueva `noTouchMessage(lang?)` (`/engine`; `messageFor` y `messagesFor` también desde la raíz), `new Saihai({ lang })` para `Shot.plan.decision` y `OPENING_SITES[…].noteEn`. El idioma por defecto es `'es'`: sin indicarlo, la salida es idéntica a 1.4.1 (`tests/i18n.test.ts`, contra una huella de 360 golpes grabada con 1.4.1). Un `lang` desconocido en `Saihai` lanza `RangeError`.
 - Documentación en dos idiomas: `README.md` (inglés) y `README.es.md`; `RULES.md` y `RULES.es.md`; `CHANGELOG.md` y `CHANGELOG.es.md`. Glosario de términos del gateball en los dos README. `CLAUDE.md` y los comentarios del código siguen en español.
-- `examples/duelo.mjs`: opción `--lang en|es` (inglés por defecto en el ejemplo); el partido es el mismo en los dos idiomas.
+- `examples/duelo.mjs`: opción `--lang en|es` (inglés por defecto en el ejemplo); el partido es el mismo en los dos idiomas. La carpeta `examples/` ahora viaja en el paquete (`files` de `package.json`).
 - Los identificadores internos (claves de `Decision`, tipos de `MatchEvent`, registro de partidas) siguen sin traducir: son datos, no textos para el jugador.
 
 ## 1.4.1 (documentación y tipos; mismas jugadas)

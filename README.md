@@ -86,7 +86,7 @@ The rest of the `Resolution`: `kind` (`'stroke'`, `'spark'` or `'sparkFoul'`), `
 
 ## Examples
 
-- [`examples/duelo.mjs`](examples/duelo.mjs): Saihai (Red) against Saihai (White) with a fixed seed, a summary per stroke and the final result, in English (default in the example) or Spanish. `node examples/duelo.mjs [seed] [--lang en|es] [--raw]` (inside this repo it needs `npm run build`; from another project it is the same code importing `'saihai-gateball'`). It is the same match in both languages.
+- [`examples/duelo.mjs`](examples/duelo.mjs): Saihai (Red) against Saihai (White) with a fixed seed, a summary per stroke and the final result, in English (default in the example) or Spanish. `node examples/duelo.mjs [seed] [--lang en|es] [--raw]` It ships with the package, so after installing you can run it with `node node_modules/saihai-gateball/examples/duelo.mjs --lang en` (inside this repo it needs `npm run build` first). It is the same match in both languages.
 - **Human against Saihai** (pseudocode; your interface decides how the bars are captured):
 
 ```js
