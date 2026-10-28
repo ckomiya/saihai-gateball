@@ -1,0 +1,5352 @@
+[
+ {
+  "name": "salida: pasa la puerta 1 y gana golpe continuo",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "turn": 0,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1789,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 10.03057,
+      "g": 2,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 1,
+    "msgs": [],
+    "turn": 1,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1779.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 6.02651,
+      "g": 2,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "salida: se queda corta y vuelve a la salida",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "FALLÓ LA PUERTA 1"
+    ],
+    "turn": 1,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1792.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "salida: sale de la cancha sin pasar la puerta",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "¡FUERA! VUELVE A SALIDA"
+    ],
+    "turn": 1,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1790.6,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "salida: desviada por la barra de rumbo",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "FALLÓ LA PUERTA 1"
+    ],
+    "turn": 1,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1791.8,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "salida: bola de otra puerta fuera del ángulo la mueve (inválido)",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "FALLÓ LA PUERTA 1"
+    ],
+    "turn": 1,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1791,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 15,
+      "y": 13,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "salida: bola en el ángulo de tiro es fantasma",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "turn": 0,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1789,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 10.03057,
+      "g": 2,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 13,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "salida: pasa la puerta y choca con una bola (sin touch)",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "SIN TOUCH: TIRO DE SALIDA",
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "turn": 0,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1787.3,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 8.185439,
+      "g": 2,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 7.146056,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 1,
+    "msgs": [
+     "¡TOUCH A LA BOLA 3!"
+    ],
+    "turn": 0,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 3,
+    "ending": false,
+    "endNow": false,
+    "clock": 1779.8,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 7.304668,
+      "g": 2,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 5.412284,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "puerta 2: la pasa en su sentido",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡PASÓ LA PUERTA 2! +1"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1789.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 6.030801,
+      "y": 2,
+      "g": 3,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1780,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 6.000188,
+      "y": 5.975589,
+      "g": 3,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "puerta 2: sentido contrario no cuenta",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1788.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 10.970419,
+      "y": 2,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "puerta 3: fuera de orden no cuenta",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1788.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 12.970419,
+      "y": 13,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "puerta 3: la pasa",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡PASÓ LA PUERTA 3! +1"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1788.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 12.970419,
+      "y": 13,
+      "g": 4,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "puerta 3: roza el poste y rebota",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡BOLA FUERA!"
+    ],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1789.9,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 11.417582,
+      "y": 15.2,
+      "g": 3,
+      "out": true,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "poste de meta: +2 y la bola sale",
+  "steps": [
+   {
+    "who": 5,
+    "msgs": [
+     "¡POSTE! +2 PUNTOS"
+    ],
+    "turn": 5,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1793.8,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 10,
+      "y": 7.650692,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "poste de meta antes de la puerta 3 no cuenta",
+  "steps": [
+   {
+    "who": 5,
+    "msgs": [],
+    "turn": 5,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1793.2,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 10,
+      "y": 7.629832,
+      "g": 3,
+      "out": false,
+      "p": 2
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "recorrido: puerta 1, puerta 2 y puerta 3 encadenadas",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "turn": 0,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1789,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 10.03057,
+      "g": 2,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 1,
+    "msgs": [
+     "¡PASÓ LA PUERTA 2! +1"
+    ],
+    "turn": 0,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1771.4,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 6.026573,
+      "y": 0.421326,
+      "g": 3,
+      "out": false,
+      "p": 2
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 1,
+    "msgs": [],
+    "turn": 1,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1758.6,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 6.000114,
+      "y": 7.96758,
+      "g": 3,
+      "out": false,
+      "p": 2
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "fuera: sale tras pasar una puerta y conserva el punto",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡PUERTA 2! +1 PERO FUERA"
+    ],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1792.2,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": -0.2,
+      "y": 2,
+      "g": 3,
+      "out": true,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bola fuera: vuelve a entrar",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "BOLA EN JUEGO"
+    ],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1791.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 2.975514,
+      "y": 6,
+      "g": 3,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bola fuera: no entra y vuelve a donde estaba",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡BOLA FUERA!"
+    ],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1791.8,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": -0.2,
+      "y": 6,
+      "g": 3,
+      "out": true,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bola fuera: toca otra bola (falta)",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡FALTA! TOCÓ OTRA BOLA"
+    ],
+    "turn": 3,
+    "phase": "set",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1793.3,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": -0.2,
+      "y": 6,
+      "g": 3,
+      "out": true,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 2,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "touch, spark exitoso y golpe continuo",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1792.1,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.198351,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 8.879971,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡SPARK!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 1,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1780.4,
+    "sparked": [
+     4
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.198351,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 2.828724,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [],
+    "turn": 3,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1770.1,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 13.969745,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 2.828724,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "spark corto es falta",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1792.1,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.198351,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 8.879971,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡FALTA! SPARK CORTO"
+    ],
+    "turn": 3,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1791.2,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.198351,
+      "y": -0.2,
+      "g": 2,
+      "out": true,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 8.998351,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "spark saca la bola de la cancha",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1793.7,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 1.194781,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 0.883849,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡SPARK!",
+     "BOLA 4 SALIÓ"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 1,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1792.5,
+    "sparked": [
+     4
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 1.194781,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": -0.2,
+      "y": 6,
+      "g": 2,
+      "out": true,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "spark con la bola tocada en el campo exterior (falta)",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1799.3,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 0.070532,
+      "y": 5,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 0.290844,
+      "y": 5,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡FALTA! BOLA FUERA DEL CAMPO"
+    ],
+    "turn": 3,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1799.3,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": -0.2,
+      "y": 5,
+      "g": 2,
+      "out": true,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 0.290844,
+      "y": 5,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "tocar dos veces la misma bola sparkeada es falta",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1792.1,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.198351,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 8.879971,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡SPARK!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 1,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1783.6,
+    "sparked": [
+     4
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.198351,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 5.823482,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡FALTA! TOCÓ DOS VECES LA MISMA BOLA"
+    ],
+    "turn": 3,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1774.7,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 6.019757,
+      "y": -0.2,
+      "g": 2,
+      "out": true,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 5.823482,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "spark empuja una bola por su puerta",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1794.6,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 8.800562,
+      "y": 13,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 9.122452,
+      "y": 13,
+      "g": 3,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡SPARK!",
+     "BOLA 4: PUERTA 3 +1"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 1,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1786.1,
+    "sparked": [
+     4
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 8.800562,
+      "y": 13,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 12.176076,
+      "y": 13,
+      "g": 4,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "touch y puerta en el mismo golpe (dos golpes tras el spark)",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡PASÓ LA PUERTA 2! +1",
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1790.3,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 5.69221,
+      "y": 2,
+      "g": 3,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 5.38602,
+      "y": 2,
+      "g": 3,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡SPARK!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 2,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1780.6,
+    "sparked": [
+     4
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 5.69221,
+      "y": 2,
+      "g": 3,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 1.327206,
+      "y": 2,
+      "g": 3,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 1,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1770.2,
+    "sparked": [
+     4
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 3.01436,
+      "y": 5.978664,
+      "g": 3,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 1.327206,
+      "y": 2,
+      "g": 3,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [],
+    "turn": 3,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1762,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 3.000134,
+      "y": 8.971906,
+      "g": 3,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 1.327206,
+      "y": 2,
+      "g": 3,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "touch a dos bolas a la vez",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "¡TOUCH A LA BOLA 4 Y 6!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1792.4,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.170285,
+      "y": 6.000479,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 8.946613,
+      "y": 5.867607,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 8.989858,
+      "y": 6.105927,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡SPARK!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 6,
+    "ending": false,
+    "endNow": false,
+    "clock": 1780.7,
+    "sparked": [
+     4
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.170285,
+      "y": 6.000479,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 2.825034,
+      "y": 4.948545,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 8.997566,
+      "y": 6.130262,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 3,
+    "msgs": [
+     "¡SPARK!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 1,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1769,
+    "sparked": [
+     4,
+     6
+    ],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.170285,
+      "y": 6.000479,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 2.825034,
+      "y": 4.948545,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 2.832737,
+      "y": 7.027095,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "touch fuerte: la bola tocada sale de la cancha",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "BOLA 4 SALIÓ"
+    ],
+    "turn": 3,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1793.5,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 0.787206,
+      "y": 6,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": -0.2,
+      "y": 6,
+      "g": 2,
+      "out": true,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "touch fuerte: empuja una bola por su puerta",
+  "steps": [
+   {
+    "who": 3,
+    "msgs": [
+     "BOLA 4: PUERTA 3 +1",
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "turn": 2,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 4,
+    "ending": false,
+    "endNow": false,
+    "clock": 1791.7,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 9.316947,
+      "y": 13,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 10.547327,
+      "y": 13,
+      "g": 4,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "tiempo: termina la roja, juega la blanca y acaba",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [],
+    "turn": 1,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": true,
+    "endNow": false,
+    "clock": 0,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 10,
+      "y": 9.018713,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 5,
+      "y": 5,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 2,
+    "msgs": [],
+    "turn": 1,
+    "phase": "done",
+    "owed": 0,
+    "spark": 0,
+    "ending": true,
+    "endNow": false,
+    "clock": 0,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 10,
+      "y": 9.018713,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 5,
+      "y": 5.981287,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "tiempo: la blanca que golpea termina el partido",
+  "steps": [
+   {
+    "who": 2,
+    "msgs": [],
+    "turn": 1,
+    "phase": "done",
+    "owed": 0,
+    "spark": 0,
+    "ending": true,
+    "endNow": false,
+    "clock": 1800,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 5,
+      "y": 5.981287,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "juego perfecto del rojo: juega la blanca y acaba",
+  "steps": [
+   {
+    "who": 1,
+    "msgs": [
+     "¡POSTE! +2 PUNTOS"
+    ],
+    "turn": 1,
+    "phase": "aim",
+    "owed": 0,
+    "spark": 0,
+    "ending": true,
+    "endNow": false,
+    "clock": 1795.6,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 10,
+      "y": 7.654028,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 2,
+      "x": 5,
+      "y": 5,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   },
+   {
+    "who": 2,
+    "msgs": [],
+    "turn": 1,
+    "phase": "done",
+    "owed": 0,
+    "spark": 0,
+    "ending": true,
+    "endNow": false,
+    "clock": 1795.6,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 10,
+      "y": 7.654028,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 2,
+      "x": 5,
+      "y": 5.981287,
+      "g": 2,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "juego perfecto del blanco: termina al acabar el golpe",
+  "steps": [
+   {
+    "who": 2,
+    "msgs": [
+     "¡POSTE! +2 PUNTOS"
+    ],
+    "turn": 1,
+    "phase": "done",
+    "owed": 0,
+    "spark": 0,
+    "ending": true,
+    "endNow": true,
+    "clock": 1795.6,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 2,
+      "x": 10,
+      "y": 7.654028,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 1,
+      "out": false,
+      "p": 0
+     },
+     {
+      "n": 10,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "todas las bolas en meta",
+  "steps": [
+   {
+    "who": 10,
+    "msgs": [
+     "¡POSTE! +2 PUNTOS"
+    ],
+    "turn": 9,
+    "phase": "done",
+    "owed": 0,
+    "spark": 0,
+    "ending": false,
+    "endNow": false,
+    "clock": 1795.6,
+    "sparked": [],
+    "balls": [
+     {
+      "n": 1,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 2,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 3,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 4,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 5,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 6,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 7,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 8,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 9,
+      "x": 18,
+      "y": 15.5,
+      "g": 5,
+      "out": false,
+      "p": 1
+     },
+     {
+      "n": 10,
+      "x": 10,
+      "y": 7.654028,
+      "g": 5,
+      "out": false,
+      "p": 3
+     }
+    ]
+   }
+  ]
+ }
+]

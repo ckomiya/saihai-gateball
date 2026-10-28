@@ -1,0 +1,52 @@
+{
+ "version": 2,
+ "riskWeights": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "base": {
+  "point": 1.592143496356946,
+  "outOwn": -1.360951393267041,
+  "outRivalBase": 3.142263650422657,
+  "outRivalPerPoint": 0.48015787194769166,
+  "failReenter": 4.753555749298523,
+  "shooterOutStart": 7.1777413151058544,
+  "shooterOutLater": 2.634332250954476,
+  "foul": 5.073997040618458,
+  "touchRivalBase": 4.1035817131300325,
+  "touchPerPoint": 0.3834066392784435,
+  "touchPole": 1.211152796232237,
+  "touchGate3": 0.6380822814070191,
+  "touchOwn": 0.7409534184194476,
+  "continuation": 0.7580857696711015,
+  "risk": 1,
+  "riskPerPoint": 0.4105357942798752,
+  "zone": 0.8125167565751641,
+  "support": 0.3658195841397965,
+  "posProb": 0.37865020682780565,
+  "nextMateBonus": 0.5124692734737042,
+  "poleBonus": 0.21215601483862467
+ },
+ "mult": {
+  "inicio": {
+   "risk": 1.5454100206309942,
+   "zone": 1.0285773142360968,
+   "point": 0.42949778566582786,
+   "touchRival": 0.6855731805974581
+  },
+  "final": {
+   "risk": 1.118638448036602,
+   "zone": 1.1808877979634098,
+   "point": 1.2231840686346813,
+   "touchRival": 1.7085601014260505
+  }
+ },
+ "sims": {
+  "topN": 6,
+  "errorSamples": 5
+ },
+ "advanced": true
+}
