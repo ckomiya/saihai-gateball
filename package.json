@@ -6,13 +6,37 @@
   "author": "Christian Komiya",
   "private": true,
   "type": "module",
-  "devDependencies": {
-    "@types/node": "^22.20.5",
-    "esbuild": "0.21.5",
-    "typescript": "5.6.3"
+  "main": "./dist/index.js",
+  "types": "./dist/types/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/src/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./engine": {
+      "types": "./dist/types/src/engine.d.ts",
+      "import": "./dist/engine.js"
+    },
+    "./debug": {
+      "types": "./dist/types/src/debug.d.ts",
+      "import": "./dist/debug.js"
+    },
+    "./testing": {
+      "types": "./dist/types/src/testing.d.ts",
+      "import": "./dist/testing.js"
+    },
+    "./package.json": "./package.json"
   },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
-    "test": "node scripts/run-node.mjs tests/rules.test.ts && node scripts/run-node.mjs tests/planner.test.ts && node scripts/run-node.mjs tests/cma.test.ts && node scripts/run-node.mjs tests/entry.test.ts && node scripts/run-node.mjs tests/grass.test.ts && node scripts/run-node.mjs tests/threat.test.ts && node scripts/run-node.mjs tests/continuation.test.ts && node scripts/run-node.mjs tests/spark.test.ts && node scripts/run-node.mjs tests/advanced.test.ts && node scripts/run-node.mjs tests/touchattempt.test.ts && node scripts/run-node.mjs tests/gate1.test.ts && node scripts/run-node.mjs tests/gateexit.test.ts && node scripts/run-node.mjs tests/heap.test.ts && node scripts/run-node.mjs tests/heaprisk.test.ts && node scripts/run-node.mjs tests/genes3.test.ts && node scripts/run-node.mjs tests/openings.test.ts && node scripts/run-node.mjs tests/agari.test.ts && node scripts/run-node.mjs tests/tsunagi.test.ts && node scripts/run-node.mjs tests/matchlog.test.ts && node scripts/run-node.mjs tests/touchpass.test.ts && node scripts/run-node.mjs tests/outofcourt.test.ts && node scripts/run-node.mjs tests/matespark.test.ts && node scripts/run-node.mjs tests/attackrule.test.ts && node scripts/run-node.mjs tests/longtouch.test.ts && node scripts/run-node.mjs tests/linetouch.test.ts && node scripts/run-node.mjs tests/certeza.test.ts && node scripts/run-node.mjs tests/startzone.test.ts && node scripts/run-node.mjs tests/combo.test.ts && node scripts/run-node.mjs tests/startdouble.test.ts && node scripts/run-node.mjs tests/barspeed.test.ts && node scripts/run-node.mjs tests/balance.test.ts && node scripts/run-node.mjs tests/exposure2.test.ts && node scripts/run-node.mjs tests/survival.test.ts && node scripts/run-node.mjs tests/zonespark.test.ts && node scripts/run-node.mjs tests/pace.test.ts && node scripts/run-node.mjs tests/mark.test.ts && node scripts/run-node.mjs tests/reentry.test.ts && node scripts/run-node.mjs tests/partida1027b.test.ts && node scripts/run-node.mjs tests/partida1027c.test.ts",
+    "build": "node scripts/build.mjs",
+    "prepare": "node scripts/build.mjs",
+    "test": "node scripts/run-node.mjs tests/rules.test.ts && node scripts/run-node.mjs tests/planner.test.ts && node scripts/run-node.mjs tests/cma.test.ts && node scripts/run-node.mjs tests/entry.test.ts && node scripts/run-node.mjs tests/grass.test.ts && node scripts/run-node.mjs tests/threat.test.ts && node scripts/run-node.mjs tests/continuation.test.ts && node scripts/run-node.mjs tests/spark.test.ts && node scripts/run-node.mjs tests/advanced.test.ts && node scripts/run-node.mjs tests/touchattempt.test.ts && node scripts/run-node.mjs tests/gate1.test.ts && node scripts/run-node.mjs tests/gateexit.test.ts && node scripts/run-node.mjs tests/heap.test.ts && node scripts/run-node.mjs tests/heaprisk.test.ts && node scripts/run-node.mjs tests/genes3.test.ts && node scripts/run-node.mjs tests/openings.test.ts && node scripts/run-node.mjs tests/agari.test.ts && node scripts/run-node.mjs tests/tsunagi.test.ts && node scripts/run-node.mjs tests/matchlog.test.ts && node scripts/run-node.mjs tests/touchpass.test.ts && node scripts/run-node.mjs tests/outofcourt.test.ts && node scripts/run-node.mjs tests/matespark.test.ts && node scripts/run-node.mjs tests/attackrule.test.ts && node scripts/run-node.mjs tests/longtouch.test.ts && node scripts/run-node.mjs tests/linetouch.test.ts && node scripts/run-node.mjs tests/certeza.test.ts && node scripts/run-node.mjs tests/startzone.test.ts && node scripts/run-node.mjs tests/combo.test.ts && node scripts/run-node.mjs tests/startdouble.test.ts && node scripts/run-node.mjs tests/barspeed.test.ts && node scripts/run-node.mjs tests/balance.test.ts && node scripts/run-node.mjs tests/exposure2.test.ts && node scripts/run-node.mjs tests/survival.test.ts && node scripts/run-node.mjs tests/zonespark.test.ts && node scripts/run-node.mjs tests/pace.test.ts && node scripts/run-node.mjs tests/mark.test.ts && node scripts/run-node.mjs tests/reentry.test.ts && node scripts/run-node.mjs tests/partida1027b.test.ts && node scripts/run-node.mjs tests/partida1027c.test.ts && node scripts/run-node.mjs tests/api.test.ts",
     "typecheck": "tsc --noEmit",
     "selfplay": "node scripts/run-node.mjs scripts/selfplay.ts",
     "rounds": "node scripts/run-node.mjs scripts/rounds.ts",
@@ -41,5 +65,10 @@
     "certeza": "node scripts/run-node.mjs scripts/certeza.ts",
     "diagcont": "node scripts/run-node.mjs scripts/diagcont.ts",
     "typecheck:todo": "tsc --noEmit -p tsconfig.check.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "esbuild": "0.21.5",
+    "typescript": "5.6.3"
   }
 }
