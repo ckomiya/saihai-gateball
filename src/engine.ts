@@ -7,6 +7,7 @@ export { COURT_H, COURT_W, GATES, POSTS } from './game/court';
 export type { Gate } from './game/court';
 export { browserRng, gauss, mulberry32 } from './game/rng';
 export type { Rng } from './game/rng';
-export { messageFor, messagesFor } from './game/messages';
+export { messageFor, messagesFor, noTouchMessage } from './game/messages';
+export type { Lang } from './game/i18n';
 export type { CpuPlan } from './game/cpu';
 export { CPU_AIM_SPEED, CPU_BAR_WAIT, CPU_SET_WAIT, cpuPlan, cpuThinkSeconds, levelOptions } from './game/cpuDriver';

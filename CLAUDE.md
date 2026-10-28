@@ -32,7 +32,7 @@ Saihai (采配) es un agente de IA kantoku para gateball: motor de reglas, físi
 
 ## Convenciones
 - La lógica trabaja en **metros y segundos**. Sin Phaser, DOM ni `window`.
-- Todo lo que se muestra va en español; el código y los comentarios también, salvo nombres técnicos.
+- Los textos que salen de Saihai están en español (`lang: 'es'`, el predeterminado: no cambiarlo, el juego depende de él) y en inglés (`lang: 'en'`), en `src/game/i18n.ts` y `messages.ts`. Los identificadores internos (claves de `Decision`, registro de partidas) siguen en español: los scripts los usan como claves; se traducen solo al salir por la API pública. `tests/i18n.test.ts` compara con `tests/fixtures/i18n-v1.4.1.json`: no lo regraves. La documentación pública es bilingüe (`README.md`/`README.es.md`, `RULES`, `CHANGELOG`: mismo contenido en los dos); `CLAUDE.md`, `TRAINING.md`, `BACKLOG.md` y los comentarios del código, en español.
 - Si cambias una regla **a propósito**, `npm test` va a fallar: revisa que la diferencia sea la esperada, ajusta el escenario en `tests/scenarios.ts` y regraba el golden **desde la escena del juego** (`npm run build` en este repo y, en gateball-retro, `npm run build` y `node scripts/run-node.mjs tests/browser-golden.ts grabar`, que escribe `tests/golden.json` aquí). Cuéntaselo a Chris. El golden es la prueba de que el motor y la escena coinciden: no lo cambies para que una prueba pase.
 - `tests/planner.test.ts` exige que con `handWeights` el planificador elija exactamente lo mismo que el planificador anterior (`planner-golden.json`).
 - Si cambias un valor de `config.ts` por feedback, deja un comentario con el motivo.

@@ -1,51 +1,53 @@
-# Reglas de gateball que implementa Saihai
+# Gateball rules implemented by Saihai
 
-Este documento describe, con palabras propias, qué reglas aplica el motor (`src/game/match.ts`) y cuáles son decisiones o simplificaciones de este proyecto.
-Las referencias «Art. N» apuntan a los artículos del reglamento oficial de gateball (edición 2025, Unión Mundial de Gateball); allí está el texto completo. Aquí no se copia.
-**Hecho** = está en el motor. **Propio** = decisión o interpretación nuestra. **No** = no se implementa.
+🇪🇸 [Leer en español](RULES.es.md)
 
-## Cancha y bolas (Art. 1, 6)
-- Cancha interior de 20 × 15 m. Las posiciones de las puertas y del poste están en `LAYOUT` (`src/config.ts`) y siguen la geometría del reglamento. **Hecho.**
-- Área de salida de 1 × 3 m en la franja exterior, junto a la esquina 1. **Hecho.**
-- Dos equipos de 5 bolas: rojas las impares, blancas las pares. Juegan alternadas en orden numérico. **Hecho.**
-- La bola que llega al poste sale del juego; su jugador ya no juega. **Hecho.**
-- Tamaños de bola, puerta y poste: **Propio** (medidas pensadas para verse bien en pantalla, no las del reglamento), en `config.ts`.
+This document describes, in our own words, which rules the engine applies (`src/game/match.ts`) and which are decisions or simplifications of this project.
+The "Art. N" references point to the articles of the official gateball rulebook (2025 edition, World Gateball Union); the full text is there. It is not copied here.
+**Done** = it is in the engine. **Own** = our own decision or interpretation. **No** = not implemented.
 
-## Recorrido y puntos (Art. 7, 13, 14)
-- Orden fijo: puerta 1 → puerta 2 → puerta 3 → poste. Cada puerta vale 1 punto; llegar al poste vale 2. Total 5 por bola. **Hecho.**
-- Una puerta se pasa en su dirección y con la bola cruzando entera la línea de la puerta (se mide con el borde de la bola). **Hecho.**
-- La puerta 1 se intenta con el tiro de salida. Si falla, la bola sale del campo y reintenta en su siguiente turno. **Hecho.**
-- Una bola que pasa una puerta por un golpe de bola fuera no suma. **Hecho.**
-- Se llega al poste golpeándolo con una bola en juego que ya pasó la puerta 3. **Hecho.**
-- Gana quien tenga más puntos al final; con empate, empate. Los desempates por detalle y la ronda de la puerta 1: **No.**
+## Court and balls (Art. 1, 6)
+- Inner court of 20 × 15 m. The positions of the gates and the pole are in `LAYOUT` (`src/config.ts`) and follow the rulebook geometry. **Done.**
+- Start area of 1 × 3 m in the outer strip, next to corner 1. **Done.**
+- Two teams of 5 balls: red the odd ones, white the even ones. They play alternately in numeric order. **Done.**
+- A ball that reaches the pole leaves the game; its player no longer plays. **Done.**
+- Ball, gate and pole sizes: **Own** (measurements chosen to look good on screen, not the rulebook ones), in `config.ts`.
 
-## Golpe continuo (Art. 12)
-- Un golpe que pasa una puerta y deja la bola quieta en juego da un golpe más; se encadena mientras cada golpe pase otra puerta. Varias puertas en un mismo golpe dan un solo golpe extra. **Hecho.**
-- Un touch no da golpe continuo: da derecho a spark (ver abajo). **Hecho.**
+## Run and points (Art. 7, 13, 14)
+- Fixed order: gate 1 → gate 2 → gate 3 → pole. Each gate is worth 1 point; reaching the pole is worth 2. 5 in total per ball. **Done.**
+- A gate is passed in its direction, with the ball crossing the gate line completely (measured with the edge of the ball). **Done.**
+- Gate 1 is attempted with the start shot. If it fails, the ball leaves the court and tries again on its next turn. **Done.**
+- A ball that passes a gate by an out-ball stroke does not score. **Done.**
+- The pole is reached by hitting it with an in-play ball that has already passed gate 3. **Done.**
+- Whoever has more points at the end wins; with a tie, it is a draw. Detailed tie-breakers and the gate 1 round: **No.**
+
+## Continuous stroke (Art. 12)
+- A stroke that passes a gate and leaves the ball still and in play earns one more stroke; it chains while each stroke passes another gate. Several gates in a single stroke give only one extra stroke. **Done.**
+- A touch does not give a continuous stroke: it gives the right to a spark (see below). **Done.**
 
 ## Touch (Art. 11, 15)
-- Hay touch cuando una bola en juego (que ya pasó la puerta 1) toca a otra. **Hecho.**
-- Si la bola que golpea aún no pasó la puerta 1 y mueve a otra, ese movimiento no vale y la otra vuelve a su sitio. **Hecho.**
-- Las bolas que estorban el tiro de salida a la puerta 1 se vuelven «fantasma» (no chocan con la bola que sale) hasta que pase la puerta o cambie el turno. **Hecho** (el reglamento hace que el árbitro las aparte).
-- Si el tiro de salida pasa la puerta 1 y luego choca con una bola, las bolas siguen su movimiento; no hay touch ni spark y el jugador gana el golpe continuo. **Propio.**
-- Tocar dos veces la misma bola en un turno es falta: la bola movida vuelve y la que golpea queda fuera. **Hecho.**
-- Una bola empujada por otra puede pasar una puerta o el poste y puntúa para su equipo; si es empujada fuera, queda como bola fuera. **Propio.**
+- There is a touch when an in-play ball (one that has already passed gate 1) hits another. **Done.**
+- If the striking ball has not yet passed gate 1 and moves another one, that movement does not count and the other ball returns to its place. **Done.**
+- Balls that get in the way of the start shot to gate 1 become "ghosts" (they do not collide with the ball that is starting) until it passes the gate or the turn changes. **Done** (the rulebook has the referee move them aside).
+- If the start shot passes gate 1 and then hits a ball, the balls follow their movement; there is no touch and no spark, and the player gets the continuous stroke. **Own.**
+- Touching the same ball twice in a turn is a foul: the moved ball returns and the striking ball goes out. **Done.**
+- A ball pushed by another can pass a gate or the pole and scores for its team; if it is pushed out, it becomes an out ball. **Own.**
 
 ## Spark (Art. 16)
-- Tras un touch, la bola tocada se coloca pegada a la que golpea, del lado de la mira. **Propio** (el reglamento hace que el jugador la coloque a mano).
-- La bola que golpea no se mueve: la fuerza y el rumbo van a la bola tocada, que puede pasar puertas, llegar al poste o salir. **Hecho.**
-- Spark exitoso: la bola tocada termina con su borde a 10 cm o más de la que golpea, llega al poste o sale. Da un golpe más; dos si el touch y una puerta fueron del mismo golpe. **Hecho.**
-- Spark fallido (corto, o la bola tocada queda en el campo exterior al golpear): todo vuelve a su sitio y la que golpea queda fuera. **Hecho.** Otras faltas del spark, como pisar la bola: **No.**
-- Con varias bolas tocadas en un golpe, se sparkean una a una en el orden del touch. **Propio.**
-- El spark va antes que el golpe continuo. **Hecho.**
+- After a touch, the touched ball is placed against the striking ball, on the side of the aim. **Own** (the rulebook has the player place it by hand).
+- The striking ball does not move: the power and direction go to the touched ball, which can pass gates, reach the pole or go out. **Done.**
+- Successful spark: the touched ball ends with its edge 10 cm or more from the striking ball, reaches the pole or goes out. It gives one more stroke; two if the touch and a gate came from the same stroke. **Done.**
+- Failed spark (short, or the touched ball ends up in the outer field when struck): everything returns to its place and the striking ball goes out. **Done.** Other spark fouls, such as stepping on the ball: **No.**
+- With several balls touched in one stroke, they are sparked one by one in the order of the touch. **Own.**
+- The spark goes before the continuous stroke. **Done.**
 
-## Bola fuera (Art. 17)
-- Si una bola que ya pasó la puerta 1 sale de la cancha interior por un golpe válido, queda cerca de la línea, por donde cruzó (a 25 cm en el juego; el reglamento dice 10 cm, `outBallOffsetM`), y conserva los puntos que ganó en ese golpe. **Hecho.**
-- La línea interior pertenece a la cancha: la bola está fuera cuando la cruza por completo. **Propio.**
-- Se vuelve a golpear desde ahí en su siguiente turno; si entra, vuelve a ser bola en juego. Mientras esté fuera no puntúa. **Hecho.**
-- Una bola que golpea desde fuera y toca otra comete falta: la otra vuelve y la que golpea queda fuera en el punto más cercano. **Hecho.**
+## Out ball (Art. 17)
+- If a ball that has already passed gate 1 leaves the inner court by a valid stroke, it ends up near the line, where it crossed (25 cm in the game; the rulebook says 10 cm, `outBallOffsetM`), and keeps the points it earned in that stroke. **Done.**
+- The inner line belongs to the court: the ball is out when it crosses it completely. **Own.**
+- It is struck again from there on its next turn; if it gets in, it is an in-play ball again. It scores nothing while it is out. **Done.**
+- A ball struck from outside that hits another commits a foul: the other returns and the striking ball ends up out at the nearest point. **Done.**
 
-## Reloj y fin del partido (Art. 5, 6, 7)
-- Cuenta regresiva de 30 minutos, que corre más rápido que el real según `clockFactor`. **Propio.**
-- Al acabarse el tiempo, o cuando un equipo llega a 25 puntos (juego perfecto), el partido termina con una bola blanca. Simplificación: si las blancas llegan a 25 por una jugada de una roja, también juega la blanca siguiente. **Propio.**
-- Límite de 10 segundos por golpe y sorteo de quién sale primero: **No** (salen las rojas).
+## Clock and end of the match (Art. 5, 6, 7)
+- A 30-minute countdown, which runs faster than real time according to `clockFactor`. **Own.**
+- When time runs out, or when a team reaches 25 points (perfect game), the match ends after a white ball has played. Simplification: if white reaches 25 through a red ball's play, the next white ball also plays. **Own.**
+- 10-second limit per stroke and the draw for who starts: **No** (red starts).
