@@ -11,6 +11,8 @@
 
 > Estado: en desarrollo. El repositorio es **público** (MIT); se instala directo desde GitHub.
 
+- **Hugging Face:** [ficha del modelo y pesos](https://huggingface.co/ckomiya/saihai-gateball) · [juega contra Saihai en el navegador (Space)](https://huggingface.co/spaces/ckomiya/saihai-gateball-demo)
+
 ## Instalación
 
 ```bash
