@@ -4,3 +4,4 @@ dist
 training/
 partidas/
 *.log
+src/game/cpuWeights.next.json
