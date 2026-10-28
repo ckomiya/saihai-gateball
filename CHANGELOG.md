@@ -12,7 +12,7 @@ Versions are `X.Y.Z`: `X.Y` is the model (`saihai-vX.Y`) and `Z` are fixes that 
 | `kantoku-v1.1` | `saihai-v1.1` (same) | "Send to mark", cover that can fall, open court, re-entry exposure |
 | `kantoku-v1.2` | `saihai-v1.2` (same) | Re-entries that almost always get in; candidates against the line |
 | `kantoku-v1.3` | `saihai-v1.3` (same) | Last turn: search for the chain that scores the most points |
-| `kantoku-v1.4` | **`saihai-v1.4`** | Spark without hitting own balls, opening blocked by any ball, `juntarse` (regroup) and `avanza` (advance) depending on who plays again |
+| `kantoku-v1.4` | **`saihai-v1.4`** | Spark without hitting own balls, opening blocked by any ball, `juntarse` (clustering) and `avanza` (advance) depending on who plays again |
 
 The v1.0 to v1.3 weights are not republished as versions; they are in `src/game/cpuWeights.v10.json` to `v13.json` only for comparison (`npm run h2h`).
 
