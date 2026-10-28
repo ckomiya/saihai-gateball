@@ -13,12 +13,13 @@ import type { CpuPlan } from './game/cpu';
 import { KANTOKU_LEVEL, cpuPlan, kantokuLevelErrors } from './game/cpuDriver';
 import { kantokuBrain } from './game/kantoku';
 import { Match, Resolution } from './game/match';
+import type { BallState, FoulReason, MatchEvent, SoundCue, Transition } from './game/match';
 import type { Rng } from './game/rng';
 import { mulberry32 } from './game/rng';
 
 export const SAIHAI_MODEL = 'saihai-v1.4';
 
-export type { ErrorBase, CpuPlan, Resolution, Rng };
+export type { ErrorBase, CpuPlan, Resolution, Rng, MatchEvent, Transition, FoulReason, BallState, SoundCue };
 export { Match };
 
 /** Partido nuevo: 10 bolas en la salida, reloj completo y turno de la bola 1. El azar se inyecta: con `seed` el partido se repite; sin ella usa `rng` o la semilla 1. */
