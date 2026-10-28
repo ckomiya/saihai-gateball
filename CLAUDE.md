@@ -28,7 +28,7 @@ Saihai (采配) es un agente de IA kantoku para gateball: motor de reglas, físi
 - `src/game/match.ts`: **motor de reglas**, sin Phaser ni dibujo. Cualquier cambio de reglas se hace aquí y se refleja solo en el planificador. `physics.ts`, `court.ts` (geometría), `rng.ts` (`Rng`: **no uses `Math.random`**, pasa un `Rng`), `messages.ts`, `matchLog.ts`, `zones.ts`.
 - `src/game/cpu.ts`, `cpuDriver.ts`, `cpuPlanner.ts`, `weights.ts`, `kantoku.ts`, `certainty.ts`, `threat.ts`, `pace.ts`, `phase.ts`, `lastTurn.ts`, `opening.ts`, `openings.ts`, `attackTable.*`: el planificador y el kantoku, con los pesos `cpuWeights.json` (el `saihai-v1.4`) y sus respaldos `cpuWeights.v*.json`, solo para comparar. El detalle de cada pieza (agari, tsunagi, riesgo, ritmo, último turno, aperturas) está en `TRAINING.md` y en los comentarios de cada archivo; los interruptores `legacy…` del archivo de pesos apagan reglas nuevas para comparar.
 - `scripts/`: herramientas de medición y entrenamiento. `tests/`: pruebas (`*.test.ts`), escenarios (`scenarios.ts`) y goldens (`golden.json`, `planner-golden.json`).
-- `candidatos-descartados/`, `training/` (no versionado; puntos de control y `endbank.json`), `partidas/` (no versionado).
+- `candidatos-descartados/`, `training/` (no versionado; puntos de control y `endbank.json`), `partidas/` (no versionado; las partidas que usan las pruebas van en `tests/fixtures/partidas/`).
 
 ## Convenciones
 - La lógica trabaja en **metros y segundos**. Sin Phaser, DOM ni `window`.
