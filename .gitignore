@@ -2,6 +2,6 @@ node_modules
 dist
 .build
 training/
-partidas/
+/partidas/
 *.log
 src/game/cpuWeights.next.json

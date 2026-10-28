@@ -1,0 +1,230 @@
+{
+ "version": 1,
+ "id": "partida-20261024-062823-nivel5",
+ "started": "2026-10-24T11:28:23.177Z",
+ "level": 4,
+ "cpuTeam": 1,
+ "config": {
+  "clockFactor": 5,
+  "matchMinutes": 30,
+  "messageSeconds": 1,
+  "kantokuRoundSeconds": 290,
+  "kantokuAgariTurns": 2
+ },
+ "shots": [
+  {
+   "shot": 1,
+   "turn": 1,
+   "stroke": 1,
+   "clock": 1800,
+   "clockText": "30:00",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 7,
+    "phase": "inicio"
+   },
+   "ball": 1,
+   "team": 0,
+   "mode": "golpe",
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18.9,
+     "y": 15.1,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 15.909,
+     "y": 1.707
+    },
+    "shownAim": {
+     "x": 15.909,
+     "y": 1.707
+    },
+    "power": 0.603,
+    "acc": 0.556
+   },
+   "result": {
+    "events": [
+     {
+      "type": "gate",
+      "ball": 1,
+      "gate": 1,
+      "stroker": true
+     }
+    ],
+    "messages": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 1,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 16.353,
+     "y": 2.457,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 2,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    0
+   ]
+  }
+ ]
+}

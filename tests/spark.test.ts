@@ -64,13 +64,13 @@ check(withFix.rate >= 0.98, `el spark de expulsión decidido sale al menos el 98
 void CONFIG;
 
 // Situaciones de partidas reales: los sparks contra bolas rivales que se jugaron (`tests/spark-situations.json`, sacadas de partidas registradas con `npm run audit -- --dump-sparks`, más todas las de
-// `partidas/*.json` si existen: las partidas que juegue Chris). Cada una se vuelve a planear con 6 combinaciones de error y pasto, y el golpe se juega a 30, 60 y 144 cuadros por segundo (la escena avanza
+// `tests/fixtures/partidas/*.json`: las partidas que juegue Chris). Cada una se vuelve a planear con 6 combinaciones de error y pasto, y el golpe se juega a 30, 60 y 144 cuadros por segundo (la escena avanza
 // la física con el dt de cada cuadro). Debe salir al menos el 98 % de las veces que el kantoku decide sacarla.
 interface Situation { before: BallRec[]; turn: number; sparkIdx: number; sparked: number[]; clock: number; turnNo: number }
 const situations: Situation[] = existsSync('tests/spark-situations.json') ? JSON.parse(readFileSync('tests/spark-situations.json', 'utf8')) : [];
-if (existsSync('partidas')) {
-  for (const f of readdirSync('partidas').filter((x) => x.endsWith('.json') && !x.startsWith('audit-') && !x.startsWith('sim-'))) {
-    const d = JSON.parse(readFileSync(`partidas/${f}`, 'utf8')) as MatchLogData;
+if (existsSync('tests/fixtures/partidas')) {
+  for (const f of readdirSync('tests/fixtures/partidas').filter((x) => x.endsWith('.json') && !x.startsWith('audit-') && !x.startsWith('sim-'))) {
+    const d = JSON.parse(readFileSync(`tests/fixtures/partidas/${f}`, 'utf8')) as MatchLogData;
     for (const sh of d.shots) {
       if (sh.mode !== 'spark' || !sh.cpu || sh.sparkBall === undefined || sh.sparkBall % 2 === sh.ball % 2) continue;
       situations.push({ before: sh.before, turn: sh.ball - 1, sparkIdx: sh.sparkBall - 1, sparked: (sh.sparked ?? []).map((n) => n - 1), clock: sh.clock, turnNo: sh.turn });

@@ -1,0 +1,6737 @@
+{
+ "version": 1,
+ "id": "partida-20261025-194443-nivel5",
+ "started": "2026-10-26T00:44:43.201Z",
+ "level": 4,
+ "cpuTeam": 1,
+ "config": {
+  "clockFactor": 5,
+  "matchMinutes": 30,
+  "messageSeconds": 1,
+  "kantokuRoundSeconds": 290,
+  "kantokuAgariTurns": 2
+ },
+ "shots": [
+  {
+   "shot": 1,
+   "turn": 1,
+   "stroke": 1,
+   "clock": 1800,
+   "clockText": "30:00",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 7,
+    "phase": "inicio"
+   },
+   "ball": 1,
+   "team": 0,
+   "mode": "golpe",
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18.9,
+     "y": 15.1,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 19.974,
+     "y": 6.345
+    },
+    "shownAim": {
+     "x": 19.974,
+     "y": 6.345
+    },
+    "power": 0.563,
+    "acc": 0.949
+   },
+   "result": {
+    "events": [
+     {
+      "type": "strokerOut",
+      "start": true,
+      "gate": 0,
+      "foul": null
+     }
+    ],
+    "messages": [
+     "¡FUERA! VUELVE A SALIDA"
+    ],
+    "touches": [],
+    "strokerOut": true,
+    "foul": null,
+    "shotGate": 0,
+    "next": "turn"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    0,
+    0
+   ]
+  },
+  {
+   "shot": 2,
+   "turn": 2,
+   "stroke": 1,
+   "clock": 1787.251,
+   "clockText": "29:48",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 7,
+    "phase": "inicio"
+   },
+   "ball": 2,
+   "team": 1,
+   "mode": "golpe",
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 17.998,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 18.066,
+     "y": 3.008
+    },
+    "shownAim": {
+     "x": 18.066,
+     "y": 3.008
+    },
+    "power": 0.648,
+    "acc": 0.495
+   },
+   "decision": {
+    "source": "apertura",
+    "kind": "salida: puerta 1",
+    "intended": {
+     "gate": 1,
+     "touched": [],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "opening": "red1"
+   },
+   "plan": {
+    "aim": {
+     "x": 18.066,
+     "y": 3.008
+    },
+    "power": 0.648,
+    "acc": 0.495,
+    "idealPower": 0.64,
+    "idealAcc": 0.5
+   },
+   "result": {
+    "events": [
+     {
+      "type": "gate",
+      "ball": 2,
+      "gate": 1,
+      "stroker": true
+     }
+    ],
+    "messages": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 1,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 18.065,
+     "y": 2.898,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    0,
+    1
+   ]
+  },
+  {
+   "shot": 3,
+   "turn": 2,
+   "stroke": 2,
+   "clock": 1766.001,
+   "clockText": "29:27",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 7,
+    "phase": "inicio"
+   },
+   "ball": 2,
+   "team": 1,
+   "mode": "golpe",
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 18.065,
+     "y": 2.898,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 8.494,
+     "y": 0.601
+    },
+    "shownAim": {
+     "x": 8.494,
+     "y": 0.601
+    },
+    "power": 0.628,
+    "acc": 0.526
+   },
+   "decision": {
+    "source": "apertura",
+    "kind": "acomodo",
+    "intended": {
+     "gate": 0,
+     "touched": [],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "opening": "red1"
+   },
+   "plan": {
+    "aim": {
+     "x": 8.494,
+     "y": 0.601
+    },
+    "power": 0.628,
+    "acc": 0.526,
+    "idealPower": 0.64,
+    "idealAcc": 0.5
+   },
+   "result": {
+    "events": [],
+    "messages": [],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "turn"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    0,
+    1
+   ]
+  },
+  {
+   "shot": 4,
+   "turn": 3,
+   "stroke": 1,
+   "clock": 1754.167,
+   "clockText": "29:15",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 7,
+    "phase": "inicio"
+   },
+   "ball": 3,
+   "team": 0,
+   "mode": "golpe",
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 18.9,
+     "y": 15.1,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 16.184,
+     "y": 2.763
+    },
+    "shownAim": {
+     "x": 16.184,
+     "y": 2.763
+    },
+    "power": 0.417,
+    "acc": 0.406
+   },
+   "result": {
+    "events": [
+     {
+      "type": "gate",
+      "ball": 3,
+      "gate": 1,
+      "stroker": true
+     }
+    ],
+    "messages": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 1,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 18.055,
+     "y": 5.778,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    1
+   ]
+  },
+  {
+   "shot": 5,
+   "turn": 3,
+   "stroke": 2,
+   "clock": 1742.334,
+   "clockText": "29:03",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 7,
+    "phase": "inicio"
+   },
+   "ball": 3,
+   "team": 0,
+   "mode": "golpe",
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 18.055,
+     "y": 5.778,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 7.856,
+     "y": 12.76
+    },
+    "shownAim": {
+     "x": 7.856,
+     "y": 12.76
+    },
+    "power": 0.528,
+    "acc": 0.808
+   },
+   "result": {
+    "events": [],
+    "messages": [],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "turn"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    1
+   ]
+  },
+  {
+   "shot": 6,
+   "turn": 4,
+   "stroke": 1,
+   "clock": 1723.916,
+   "clockText": "28:44",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 4,
+   "team": 1,
+   "mode": "golpe",
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 17.999,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 17.997,
+     "y": 2.978
+    },
+    "shownAim": {
+     "x": 17.997,
+     "y": 2.978
+    },
+    "power": 0.548,
+    "acc": 0.44
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "salida: puerta 1",
+    "intended": {
+     "gate": 1,
+     "touched": [],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 18,
+        "y": 3
+       },
+       "value": -0.522,
+       "chosen": true,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.216,
+        "oportunidadTouch": 1.544,
+        "riesgo": -4.132,
+        "zona": 0.435,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 9.5
+       },
+       "value": -0.794,
+       "chosen": false,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.135,
+        "oportunidadTouch": 1.875,
+        "riesgo": -4.241,
+        "zona": 0.416,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 8
+       },
+       "value": -0.798,
+       "chosen": false,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.156,
+        "oportunidadTouch": 1.815,
+        "riesgo": -4.23,
+        "zona": 0.42,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 10.5
+       },
+       "value": -0.804,
+       "chosen": false,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.121,
+        "oportunidadTouch": 1.898,
+        "riesgo": -4.245,
+        "zona": 0.414,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 6
+       },
+       "value": -2.597,
+       "chosen": false,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.186,
+        "oportunidadTouch": 1.721,
+        "riesgo": -4.22,
+        "zona": 0.426,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.113,
+         "threat": 0.113,
+         "weighted": 0.173
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.407,
+         "threat": 0.407,
+         "weighted": 0.623
+        }
+       ],
+       "best": 0.623
+      },
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.113,
+         "threat": 0.113,
+         "weighted": 0.173
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.407,
+         "threat": 0.407,
+         "weighted": 0.623
+        }
+       ],
+       "best": 0.623
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.113,
+         "threat": 0.113,
+         "weighted": 0.173
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.407,
+         "threat": 0.407,
+         "weighted": 0.623
+        }
+       ],
+       "best": 0.623
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.113,
+         "threat": 0.113,
+         "weighted": 0.173
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.407,
+         "threat": 0.407,
+         "weighted": 0.623
+        }
+       ],
+       "best": 0.623
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 0.304,
+       "pass": 0.003,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.227,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.194,
+         "threat": 0.069,
+         "weighted": 0.032
+        }
+       ],
+       "best": 0.032
+      }
+     ],
+     "candidates": 20,
+     "scored": 20
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 17.997,
+     "y": 2.978
+    },
+    "power": 0.548,
+    "acc": 0.44,
+    "idealPower": 0.55,
+    "idealAcc": 0.45
+   },
+   "result": {
+    "events": [
+     {
+      "type": "gate",
+      "ball": 4,
+      "gate": 1,
+      "stroker": true
+     }
+    ],
+    "messages": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 1,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 18.022,
+     "y": 3.067,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    2
+   ]
+  },
+  {
+   "shot": 7,
+   "turn": 4,
+   "stroke": 2,
+   "clock": 1703.833,
+   "clockText": "28:24",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 4,
+   "team": 1,
+   "mode": "golpe",
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.817,
+     "y": 0.223,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 18.022,
+     "y": 3.067,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 8.825,
+     "y": 0.221
+    },
+    "shownAim": {
+     "x": 8.825,
+     "y": 0.221
+    },
+    "power": 0.548,
+    "acc": 0.447
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "touch a compañera",
+    "intended": {
+     "gate": 0,
+     "touched": [
+      2
+     ],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 8.817,
+        "y": 0.223
+       },
+       "value": 0.372,
+       "chosen": true,
+       "kind": "touch a compañera",
+       "intended": {
+        "gate": 0,
+        "touched": [
+         2
+        ],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "touch": 0.72,
+        "acomodo": 0.103,
+        "oportunidadTouch": 1.711,
+        "riesgo": -2.775,
+        "zona": 0.722,
+        "lineaDiagonal": 0.247,
+        "sparkPropio": 0.2,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": -0.115,
+        "montonValor": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 4.515,
+        "y": 1.697
+       },
+       "value": -0.018,
+       "chosen": false,
+       "kind": "puerta 2",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": -0.14,
+        "oportunidadTouch": 1.81,
+        "riesgo": -2.81,
+        "zona": 0.517,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 6.008,
+        "y": 1.849
+       },
+       "value": -0.621,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.169,
+        "riesgo": -2.882,
+        "zona": 0.765,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": -0.07
+       }
+      },
+      {
+       "aim": {
+        "x": 7.202,
+        "y": 1.97
+       },
+       "value": -0.627,
+       "chosen": false,
+       "kind": "puerta 2",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": -0.173,
+        "oportunidadTouch": 1.869,
+        "riesgo": -2.81,
+        "zona": 0.507,
+        "lineaDiagonal": 0.124,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": -0.087
+       }
+      },
+      {
+       "aim": {
+        "x": 8.681,
+        "y": 0.709
+       },
+       "value": -1.764,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.124,
+        "riesgo": -2.78,
+        "zona": 0.743,
+        "lineaDiagonal": 0.247,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": -0.095
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.111,
+         "threat": 0.111,
+         "weighted": 0.17
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.177
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.111,
+         "threat": 0.111,
+         "weighted": 0.17
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.177
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.111,
+         "threat": 0.111,
+         "weighted": 0.17
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.177
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.111,
+         "threat": 0.111,
+         "weighted": 0.17
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.177
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 0.276,
+       "pass": 0.003,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.226,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.228,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0.003
+      }
+     ],
+     "candidates": 33,
+     "scored": 33
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 8.825,
+     "y": 0.221
+    },
+    "power": 0.548,
+    "acc": 0.447,
+    "idealPower": 0.55,
+    "idealAcc": 0.45
+   },
+   "result": {
+    "events": [
+     {
+      "type": "touch",
+      "balls": [
+       2
+      ]
+     }
+    ],
+    "messages": [
+     "¡TOUCH A LA BOLA 2!"
+    ],
+    "touches": [
+     2
+    ],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "spark"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 8.797,
+     "y": 0.231,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 8.998,
+     "y": 0.147,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    2
+   ]
+  },
+  {
+   "shot": 8,
+   "turn": 4,
+   "stroke": 3,
+   "clock": 1684.667,
+   "clockText": "28:05",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 4,
+   "team": 1,
+   "mode": "spark",
+   "sparkBall": 2,
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 9.198,
+     "y": 0.148,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 8.998,
+     "y": 0.147,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 11.989,
+     "y": 0.17
+    },
+    "shownAim": {
+     "x": 11.989,
+     "y": 0.17
+    },
+    "power": 0.557,
+    "acc": 0.442
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "spark propio: acomodo",
+    "intended": {
+     "gate": 0,
+     "touched": [],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 11.998,
+        "y": 0.147
+       },
+       "value": -3,
+       "chosen": true,
+       "kind": "spark propio: acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": -0.017,
+        "riesgo": -2.787,
+        "zona": 0.623,
+        "lineaDiagonal": 0.221,
+        "preparaTurno": -1.014,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0,
+        "montonValor": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 0.512,
+        "y": 8.632
+       },
+       "value": -3.086,
+       "chosen": false,
+       "kind": "spark propio: acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": -0.363,
+        "riesgo": -3.075,
+        "zona": 0.422,
+        "lineaDiagonal": 0.123,
+        "preparaTurno": -0.348,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0,
+        "montonValor": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 11.769,
+        "y": 1.295
+       },
+       "value": -3.116,
+       "chosen": false,
+       "kind": "spark propio: acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.011,
+        "riesgo": -2.982,
+        "zona": 0.602,
+        "lineaDiagonal": 0.123,
+        "preparaTurno": -0.801,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0,
+        "montonValor": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 11.5,
+        "y": 1.6
+       },
+       "value": -3.232,
+       "chosen": false,
+       "kind": "spark propio: acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.014,
+        "riesgo": -3.154,
+        "zona": 0.585,
+        "lineaDiagonal": 0.123,
+        "preparaTurno": -0.796,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0,
+        "montonValor": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 10.5,
+        "y": 1.6
+       },
+       "value": -3.343,
+       "chosen": false,
+       "kind": "spark propio: acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.014,
+        "riesgo": -3.195,
+        "zona": 0.609,
+        "lineaDiagonal": 0.123,
+        "preparaTurno": -0.79,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": -0.114,
+        "montonValor": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.164,
+         "threat": 0.164,
+         "weighted": 0.251
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.114,
+         "threat": 0.114,
+         "weighted": 0.175
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.164,
+         "threat": 0.164,
+         "weighted": 0.251
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.114,
+         "threat": 0.114,
+         "weighted": 0.175
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.164,
+         "threat": 0.164,
+         "weighted": 0.251
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.114,
+         "threat": 0.114,
+         "weighted": 0.175
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.164,
+         "threat": 0.164,
+         "weighted": 0.251
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.114,
+         "threat": 0.114,
+         "weighted": 0.175
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.01,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.211,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.225,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0.01
+      }
+     ],
+     "candidates": 59,
+     "scored": 59
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 11.989,
+     "y": 0.17
+    },
+    "power": 0.557,
+    "acc": 0.442,
+    "idealPower": 0.55,
+    "idealAcc": 0.45
+   },
+   "result": {
+    "events": [
+     {
+      "type": "spark"
+     }
+    ],
+    "messages": [
+     "¡SPARK!"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 8.998,
+     "y": 0.147,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    2
+   ]
+  },
+  {
+   "shot": 9,
+   "turn": 4,
+   "stroke": 4,
+   "clock": 1666.417,
+   "clockText": "27:47",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 4,
+   "team": 1,
+   "mode": "golpe",
+   "sparked": [
+    2
+   ],
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.977,
+     "y": 11.971,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 8.998,
+     "y": 0.147,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 7.814,
+     "y": 14.019
+    },
+    "shownAim": {
+     "x": 7.814,
+     "y": 14.019
+    },
+    "power": 0.549,
+    "acc": 0.445
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "touch a rival",
+    "intended": {
+     "gate": 0,
+     "touched": [
+      3
+     ],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 7.802,
+        "y": 14
+       },
+       "value": 1.022,
+       "chosen": true,
+       "kind": "touch a rival",
+       "intended": {
+        "gate": 0,
+        "touched": [
+         3
+        ],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "touch": 3.323,
+        "acomodo": -0.308,
+        "oportunidadTouch": 2.402,
+        "riesgo": -3.028,
+        "zona": 0.371,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 7.079,
+        "y": 13.918
+       },
+       "value": -3.569,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": -0.31,
+        "riesgo": -3.697,
+        "zona": 0.344,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.118,
+         "threat": 0.118,
+         "weighted": 0.181
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.118,
+         "threat": 0.118,
+         "weighted": 0.181
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.118,
+         "threat": 0.118,
+         "weighted": 0.181
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.118,
+         "threat": 0.118,
+         "weighted": 0.181
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 0.177,
+       "pass": 0.002,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.183,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.98,
+         "threat": 0.579,
+         "weighted": 0.157
+        }
+       ],
+       "best": 0.157
+      }
+     ],
+     "candidates": 29,
+     "scored": 29
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 7.814,
+     "y": 14.019
+    },
+    "power": 0.549,
+    "acc": 0.445,
+    "idealPower": 0.55,
+    "idealAcc": 0.45
+   },
+   "result": {
+    "events": [
+     {
+      "type": "touch",
+      "balls": [
+       3
+      ]
+     }
+    ],
+    "messages": [
+     "¡TOUCH A LA BOLA 3!"
+    ],
+    "touches": [
+     3
+    ],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "spark"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.808,
+     "y": 13.589,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 7.995,
+     "y": 11.805,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    2
+   ]
+  },
+  {
+   "shot": 10,
+   "turn": 4,
+   "stroke": 5,
+   "clock": 1640.75,
+   "clockText": "27:21",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 4,
+   "team": 1,
+   "mode": "spark",
+   "sparkBall": 3,
+   "sparked": [
+    2
+   ],
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.994,
+     "y": 12.005,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 7.995,
+     "y": 11.805,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 7.979,
+     "y": 15.979
+    },
+    "shownAim": {
+     "x": 7.979,
+     "y": 15.979
+    },
+    "power": 0.928,
+    "acc": 0.445
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "spark: expulsar bola rival",
+    "intended": {
+     "gate": 0,
+     "touched": [],
+     "out": [
+      3
+     ],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 7.995,
+        "y": 16
+       },
+       "powerMul": 1.715,
+       "value": 1.171,
+       "chosen": true,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         3
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -2.771,
+        "zona": 0.381,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 6.68,
+        "y": -0.945
+       },
+       "value": 1.171,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         3
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -2.771,
+        "zona": 0.381,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 7.349,
+        "y": -0.996
+       },
+       "value": 1.171,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         3
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -2.771,
+        "zona": 0.381,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": -0.49,
+        "y": 3.319
+       },
+       "value": 1.171,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         3
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -2.771,
+        "zona": 0.381,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 21,
+        "y": 11.805
+       },
+       "powerMul": 1.231,
+       "value": 1.171,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         3
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -2.771,
+        "zona": 0.381,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.176
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.176
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.176
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.115,
+         "threat": 0.115,
+         "weighted": 0.176
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 0.682,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      }
+     ],
+     "candidates": 67,
+     "scored": 66
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 7.979,
+     "y": 15.979
+    },
+    "power": 0.928,
+    "acc": 0.445,
+    "idealPower": 0.943,
+    "idealAcc": 0.45
+   },
+   "result": {
+    "events": [
+     {
+      "type": "spark"
+     },
+     {
+      "type": "out",
+      "ball": 3
+     }
+    ],
+    "messages": [
+     "¡SPARK!",
+     "BOLA 3 SALIÓ"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 7.995,
+     "y": 11.805,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    2
+   ]
+  },
+  {
+   "shot": 11,
+   "turn": 4,
+   "stroke": 6,
+   "clock": 1625.916,
+   "clockText": "27:06",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 4,
+   "team": 1,
+   "mode": "golpe",
+   "sparked": [
+    2,
+    3
+   ],
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 7.995,
+     "y": 11.805,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 10.012,
+     "y": 2.004
+    },
+    "shownAim": {
+     "x": 10.012,
+     "y": 2.004
+    },
+    "power": 0.551,
+    "acc": 0.439
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "acomodo",
+    "intended": {
+     "gate": 0,
+     "touched": [],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 10,
+        "y": 2
+       },
+       "value": -1.654,
+       "chosen": true,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.376,
+        "riesgo": -2.771,
+        "zona": 0.644,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 8.017,
+        "y": 0.488
+       },
+       "value": -1.816,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.109,
+        "riesgo": -2.771,
+        "zona": 0.422,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 10.995,
+        "y": 6.608
+       },
+       "value": -1.995,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.212,
+        "riesgo": -2.771,
+        "zona": 0.462,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 13.191,
+        "y": 8.805
+       },
+       "value": -2.149,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.153,
+        "riesgo": -2.771,
+        "zona": 0.373,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 6.834,
+        "y": 0.547
+       },
+       "value": -2.221,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0.019,
+        "riesgo": -2.771,
+        "zona": 0.434,
+        "lineaDiagonal": 0.097,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.142,
+         "threat": 0.142,
+         "weighted": 0.217
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.142,
+         "threat": 0.142,
+         "weighted": 0.217
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.142,
+         "threat": 0.142,
+         "weighted": 0.217
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        },
+        {
+         "ball": 4,
+         "pTouch": 0.142,
+         "threat": 0.142,
+         "weighted": 0.217
+        }
+       ],
+       "best": 0.423
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 0.682,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 2,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      }
+     ],
+     "candidates": 30,
+     "scored": 30
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 10.012,
+     "y": 2.004
+    },
+    "power": 0.551,
+    "acc": 0.439,
+    "idealPower": 0.55,
+    "idealAcc": 0.45
+   },
+   "result": {
+    "events": [],
+    "messages": [],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "turn"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 9.911,
+     "y": 1.998,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    1,
+    2
+   ]
+  },
+  {
+   "shot": 12,
+   "turn": 5,
+   "stroke": 1,
+   "clock": 1613.833,
+   "clockText": "26:54",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 5,
+   "team": 0,
+   "mode": "golpe",
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 9.911,
+     "y": 1.998,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 18.9,
+     "y": 15.1,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 16.245,
+     "y": 2.18
+    },
+    "shownAim": {
+     "x": 16.245,
+     "y": 2.18
+    },
+    "power": 0.738,
+    "acc": 0.482
+   },
+   "result": {
+    "events": [
+     {
+      "type": "gate",
+      "ball": 5,
+      "gate": 1,
+      "stroker": true
+     }
+    ],
+    "messages": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 1,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 9.911,
+     "y": 1.998,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 15.92,
+     "y": 1.555,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    2,
+    2
+   ]
+  },
+  {
+   "shot": 13,
+   "turn": 5,
+   "stroke": 2,
+   "clock": 1599.833,
+   "clockText": "26:40",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 5,
+   "team": 0,
+   "mode": "golpe",
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 9.911,
+     "y": 1.998,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 15.92,
+     "y": 1.555,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 5.618,
+     "y": 2.375
+    },
+    "shownAim": {
+     "x": 8.025,
+     "y": 2.183
+    },
+    "power": 0.905,
+    "acc": 0.607
+   },
+   "result": {
+    "events": [
+     {
+      "type": "touch",
+      "balls": [
+       4
+      ]
+     }
+    ],
+    "messages": [
+     "¡TOUCH A LA BOLA 4!"
+    ],
+    "touches": [
+     4
+    ],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "spark"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 8.131,
+     "y": 3.435,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 8.685,
+     "y": 0.771,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    2,
+    2
+   ]
+  },
+  {
+   "shot": 14,
+   "turn": 5,
+   "stroke": 3,
+   "clock": 1589.833,
+   "clockText": "26:30",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 5,
+   "team": 0,
+   "mode": "spark",
+   "sparkBall": 4,
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.205,
+     "y": 0.198,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 8.883,
+     "y": 0.743,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 8.685,
+     "y": 0.771,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 21,
+     "y": -1
+    },
+    "shownAim": {
+     "x": 21,
+     "y": -1
+    },
+    "power": 0.952,
+    "acc": 0.642
+   },
+   "result": {
+    "events": [
+     {
+      "type": "spark"
+     },
+     {
+      "type": "out",
+      "ball": 2
+     }
+    ],
+    "messages": [
+     "¡SPARK!",
+     "BOLA 2 SALIÓ"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 8.685,
+     "y": 0.771,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    2,
+    2
+   ]
+  },
+  {
+   "shot": 15,
+   "turn": 5,
+   "stroke": 4,
+   "clock": 1579.249,
+   "clockText": "26:20",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 5,
+   "team": 0,
+   "mode": "golpe",
+   "sparked": [
+    4
+   ],
+   "cpu": false,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 8.685,
+     "y": 0.771,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 9.479,
+     "y": 0.46
+    },
+    "shownAim": {
+     "x": 9.479,
+     "y": 0.46
+    },
+    "power": 0.5,
+    "acc": 0.519
+   },
+   "result": {
+    "events": [],
+    "messages": [],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "turn"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 9.237,
+     "y": 0.553,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    2,
+    2
+   ]
+  },
+  {
+   "shot": 16,
+   "turn": 6,
+   "stroke": 1,
+   "clock": 1570.333,
+   "clockText": "26:11",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 6,
+   "team": 1,
+   "mode": "golpe",
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 9.237,
+     "y": 0.553,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 18.002,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 17.979,
+     "y": 5.976
+    },
+    "shownAim": {
+     "x": 17.979,
+     "y": 5.976
+    },
+    "power": 0.704,
+    "acc": 0.552
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "salida: puerta 1",
+    "intended": {
+     "gate": 1,
+     "touched": [],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 18,
+        "y": 6
+       },
+       "value": -0.171,
+       "chosen": true,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.185,
+        "oportunidadTouch": 1.836,
+        "riesgo": -3.264,
+        "zona": 0.143,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 8
+       },
+       "value": -0.426,
+       "chosen": false,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.155,
+        "oportunidadTouch": 1.682,
+        "riesgo": -3.28,
+        "zona": 0.133,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 9.5
+       },
+       "value": -0.586,
+       "chosen": false,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.134,
+        "oportunidadTouch": 1.564,
+        "riesgo": -3.291,
+        "zona": 0.125,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 10.5
+       },
+       "value": -0.692,
+       "chosen": false,
+       "kind": "salida (no pasa la puerta 1)",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "riesgo": -3.364,
+        "zona": 0.075,
+        "apoyo": 0,
+        "apoyoRival": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 18,
+        "y": 3
+       },
+       "value": -2.179,
+       "chosen": false,
+       "kind": "salida: puerta 1",
+       "intended": {
+        "gate": 1,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0.171,
+        "continuo": 0.713,
+        "acomodo": 0.216,
+        "oportunidadTouch": 2.01,
+        "riesgo": -3.189,
+        "zona": 0.157,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": -0.176
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.415,
+         "threat": 0.415,
+         "weighted": 0.635
+        }
+       ],
+       "best": 0.635
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.415,
+         "threat": 0.415,
+         "weighted": 0.635
+        }
+       ],
+       "best": 0.635
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.415,
+         "threat": 0.415,
+         "weighted": 0.635
+        }
+       ],
+       "best": 0.635
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 1,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 6,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      },
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 0.159,
+       "pass": 0.088,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.369,
+         "threat": 0.371,
+         "weighted": 0.09
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.267,
+         "threat": 0.068,
+         "weighted": 0.017
+        }
+       ],
+       "best": 0.09
+      }
+     ],
+     "candidates": 17,
+     "scored": 17
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 17.979,
+     "y": 5.976
+    },
+    "power": 0.704,
+    "acc": 0.552,
+    "idealPower": 0.7,
+    "idealAcc": 0.55
+   },
+   "result": {
+    "events": [
+     {
+      "type": "gate",
+      "ball": 6,
+      "gate": 1,
+      "stroker": true
+     }
+    ],
+    "messages": [
+     "¡PASÓ LA PUERTA 1! +1"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 1,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 9.237,
+     "y": 0.553,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 17.934,
+     "y": 5.955,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    2,
+    3
+   ]
+  },
+  {
+   "shot": 17,
+   "turn": 6,
+   "stroke": 2,
+   "clock": 1547.915,
+   "clockText": "25:48",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 6,
+   "team": 1,
+   "mode": "golpe",
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 9.237,
+     "y": 0.553,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 17.934,
+     "y": 5.955,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 9.22,
+     "y": 0.543
+    },
+    "shownAim": {
+     "x": 9.22,
+     "y": 0.543
+    },
+    "power": 0.702,
+    "acc": 0.536
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "touch a rival",
+    "intended": {
+     "gate": 0,
+     "touched": [
+      5
+     ],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 9.237,
+        "y": 0.553
+       },
+       "value": 1.714,
+       "chosen": true,
+       "kind": "touch a rival",
+       "intended": {
+        "gate": 0,
+        "touched": [
+         5
+        ],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "touch": 3.323,
+        "acomodo": 0.196,
+        "oportunidadTouch": 2.402,
+        "riesgo": -3.125,
+        "zona": 0.507,
+        "lineaDiagonal": 0.13,
+        "apoyo": 0,
+        "apoyoRival": 0,
+        "montonRiesgo": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.123,
+         "threat": 0.123,
+         "weighted": 0.188
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.123,
+         "threat": 0.123,
+         "weighted": 0.188
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.123,
+         "threat": 0.123,
+         "weighted": 0.188
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 1,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 6,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      },
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 0.099,
+       "pass": 0.052,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.364,
+         "threat": 0.366,
+         "weighted": 0.056
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.98,
+         "threat": 0.345,
+         "weighted": 0.052
+        }
+       ],
+       "best": 0.056
+      }
+     ],
+     "candidates": 40,
+     "scored": 40
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 9.22,
+     "y": 0.543
+    },
+    "power": 0.702,
+    "acc": 0.536,
+    "idealPower": 0.7,
+    "idealAcc": 0.55
+   },
+   "result": {
+    "events": [
+     {
+      "type": "touch",
+      "balls": [
+       5
+      ]
+     }
+    ],
+    "messages": [
+     "¡TOUCH A LA BOLA 5!"
+    ],
+    "touches": [
+     5
+    ],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "spark"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 9.128,
+     "y": 0.533,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 9.428,
+     "y": 0.578,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    2,
+    3
+   ]
+  },
+  {
+   "shot": 18,
+   "turn": 6,
+   "stroke": 3,
+   "clock": 1523.582,
+   "clockText": "25:24",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 6,
+   "team": 1,
+   "mode": "spark",
+   "sparkBall": 5,
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": 9.286,
+     "y": 0.72,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 6,
+     "x": 9.428,
+     "y": 0.578,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": -0.734,
+     "y": 10.711
+    },
+    "shownAim": {
+     "x": -0.734,
+     "y": 10.711
+    },
+    "power": 0.847,
+    "acc": 0.564
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "spark: expulsar bola rival",
+    "intended": {
+     "gate": 0,
+     "touched": [],
+     "out": [
+      5
+     ],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": -0.707,
+        "y": 10.713
+       },
+       "powerMul": 1.209,
+       "value": 1.586,
+       "chosen": true,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         5
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": -0.171,
+        "bolasFuera": 4.13,
+        "riesgo": -3.034,
+        "zona": 0.526,
+        "lineaDiagonal": 0.135,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 6.656,
+        "y": -0.57
+       },
+       "value": 1.09,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         5
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -3.034,
+        "zona": 0.526,
+        "lineaDiagonal": 0.135,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 12.199,
+        "y": -0.57
+       },
+       "value": 1.09,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         5
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -3.034,
+        "zona": 0.526,
+        "lineaDiagonal": 0.135,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 21,
+        "y": 0.578
+       },
+       "powerMul": 1.259,
+       "value": 1.09,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         5
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -3.034,
+        "zona": 0.526,
+        "lineaDiagonal": 0.135,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 20.966,
+        "y": 3.67
+       },
+       "powerMul": 1.251,
+       "value": 1.09,
+       "chosen": false,
+       "kind": "spark: expulsar bola rival",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [
+         5
+        ],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "bolasFuera": 3.464,
+        "riesgo": -3.034,
+        "zona": 0.526,
+        "lineaDiagonal": 0.135,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.123,
+         "threat": 0.123,
+         "weighted": 0.188
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.123,
+         "threat": 0.123,
+         "weighted": 0.188
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.123,
+         "threat": 0.123,
+         "weighted": 0.188
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 1,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 6,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      },
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 0.643,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 6,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      }
+     ],
+     "candidates": 72,
+     "scored": 72
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": -0.734,
+     "y": 10.711
+    },
+    "power": 0.847,
+    "acc": 0.564,
+    "idealPower": 0.847,
+    "idealAcc": 0.55
+   },
+   "result": {
+    "events": [
+     {
+      "type": "spark"
+     },
+     {
+      "type": "gate",
+      "ball": 5,
+      "gate": 2,
+      "stroker": false
+     },
+     {
+      "type": "out",
+      "ball": 5
+     }
+    ],
+    "messages": [
+     "¡SPARK!",
+     "BOLA 5: PUERTA 2 +1",
+     "BOLA 5 SALIÓ"
+    ],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "continue"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": -0.35,
+     "y": 9.893,
+     "gate": 3,
+     "out": true,
+     "pts": 2
+    },
+    {
+     "n": 6,
+     "x": 9.428,
+     "y": 0.578,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    3,
+    3
+   ]
+  },
+  {
+   "shot": 19,
+   "turn": 6,
+   "stroke": 4,
+   "clock": 1496.749,
+   "clockText": "24:57",
+   "pacing": {
+    "secondsPerRound": 290,
+    "turnsLeft": 6,
+    "phase": "inicio"
+   },
+   "ball": 6,
+   "team": 1,
+   "mode": "golpe",
+   "sparked": [
+    5
+   ],
+   "cpu": true,
+   "before": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": -0.35,
+     "y": 9.893,
+     "gate": 3,
+     "out": true,
+     "pts": 2
+    },
+    {
+     "n": 6,
+     "x": 9.428,
+     "y": 0.578,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "input": {
+    "aim": {
+     "x": 11.929,
+     "y": 0.581
+    },
+    "shownAim": {
+     "x": 11.929,
+     "y": 0.581
+    },
+    "power": 0.704,
+    "acc": 0.535
+   },
+   "decision": {
+    "source": "planificador",
+    "kind": "acomodo",
+    "intended": {
+     "gate": 0,
+     "touched": [],
+     "out": [],
+     "shooterOut": false,
+     "foul": false,
+     "pole": false,
+     "sparkOk": true
+    },
+    "explanation": {
+     "alternatives": [
+      {
+       "aim": {
+        "x": 11.928,
+        "y": 0.578
+       },
+       "value": -2.481,
+       "chosen": true,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": -0.015,
+        "riesgo": -3.034,
+        "zona": 0.45,
+        "lineaDiagonal": 0.116,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 9.428,
+        "y": 3.078
+       },
+       "value": -2.531,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0,
+        "riesgo": -3.034,
+        "zona": 0.503,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 10,
+        "y": 2
+       },
+       "value": -2.537,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0,
+        "riesgo": -3.034,
+        "zona": 0.498,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 10.678,
+        "y": 2.744
+       },
+       "value": -2.564,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0,
+        "riesgo": -3.034,
+        "zona": 0.469,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      },
+      {
+       "aim": {
+        "x": 11.593,
+        "y": 1.828
+       },
+       "value": -2.582,
+       "chosen": false,
+       "kind": "acomodo",
+       "intended": {
+        "gate": 0,
+        "touched": [],
+        "out": [],
+        "shooterOut": false,
+        "foul": false,
+        "pole": false,
+        "sparkOk": true
+       },
+       "terms": {
+        "puntos": 0,
+        "acomodo": 0,
+        "riesgo": -3.034,
+        "zona": 0.452,
+        "apoyo": 0,
+        "montonRiesgo": 0
+       }
+      }
+     ],
+     "risk": [
+      {
+       "rival": 7,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 9,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 1,
+       "weight": 1,
+       "free": 1,
+       "pass": 0.423,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0.404,
+         "threat": 0.404,
+         "weighted": 0.618
+        },
+        {
+         "ball": 6,
+         "pTouch": 0.165,
+         "threat": 0.165,
+         "weighted": 0.253
+        }
+       ],
+       "best": 0.618
+      },
+      {
+       "rival": 3,
+       "weight": 1,
+       "free": 1,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 6,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      },
+      {
+       "rival": 5,
+       "weight": 1,
+       "free": 0.642,
+       "pass": 0,
+       "touches": [
+        {
+         "ball": 4,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        },
+        {
+         "ball": 6,
+         "pTouch": 0,
+         "threat": 0,
+         "weighted": 0
+        }
+       ],
+       "best": 0
+      }
+     ],
+     "candidates": 32,
+     "scored": 32
+    }
+   },
+   "plan": {
+    "aim": {
+     "x": 11.929,
+     "y": 0.581
+    },
+    "power": 0.704,
+    "acc": 0.535,
+    "idealPower": 0.7,
+    "idealAcc": 0.55
+   },
+   "result": {
+    "events": [],
+    "messages": [],
+    "touches": [],
+    "strokerOut": false,
+    "foul": null,
+    "shotGate": 0,
+    "next": "turn"
+   },
+   "after": [
+    {
+     "n": 1,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 2,
+     "x": 12.437,
+     "y": -0.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 3,
+     "x": 7.985,
+     "y": 15.35,
+     "gate": 2,
+     "out": true,
+     "pts": 1
+    },
+    {
+     "n": 4,
+     "x": 16.554,
+     "y": 3.522,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 5,
+     "x": -0.35,
+     "y": 9.893,
+     "gate": 3,
+     "out": true,
+     "pts": 2
+    },
+    {
+     "n": 6,
+     "x": 11.918,
+     "y": 0.594,
+     "gate": 2,
+     "out": false,
+     "pts": 1
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 9,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 15.5,
+     "gate": 1,
+     "out": false,
+     "pts": 0
+    }
+   ],
+   "score": [
+    3,
+    3
+   ]
+  }
+ ]
+}

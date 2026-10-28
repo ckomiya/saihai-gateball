@@ -37,10 +37,10 @@ function attempts(b: BallState[], turn: number, targets: number[], N: number, br
   return n;
 }
 const N = 20;
-// Partida de Chris (`partidas/partida-20261025-194443-nivel5.json`): golpe 9 (la blanca 4 tira a tocar la roja 3 a 11,8 m) y golpe 17 (la blanca 6 recién pasó la puerta 1, su compañera 4 queda expuesta y la rival 5 está a 10 m)
-const LOG = 'partidas/partida-20261025-194443-nivel5.json';
+// Partida de Chris (`tests/fixtures/partidas/partida-20261025-194443-nivel5.json`): golpe 9 (la blanca 4 tira a tocar la roja 3 a 11,8 m) y golpe 17 (la blanca 6 recién pasó la puerta 1, su compañera 4 queda expuesta y la rival 5 está a 10 m)
+const LOG = 'tests/fixtures/partidas/partida-20261025-194443-nivel5.json';
 const fromLog = (shot: number): BallState[] => JSON.parse(readFileSync(LOG, 'utf8')).shots[shot - 1].before.map((b: { n: number; x: number; y: number; gate: number; out: boolean; pts: number }) => ({ n: b.n, team: (b.n % 2 === 1 ? 0 : 1) as 0 | 1, x: b.x, y: b.y, vx: 0, vy: 0, nextGate: b.gate, outBall: b.out, points: b.pts }));
-if (!existsSync(LOG)) { console.log('   (pruebas A, B y D omitidas: falta ' + LOG + ')'); } else {
+if (!existsSync(LOG)) { console.log('   omitidas las pruebas A, B y D: falta archivo local ' + LOG + ''); } else {
   // A. una rival sola a ~12 m
   const A = fromLog(9);
   const on = attempts(A, 3, [3], N, kantokuBrain, 100), off = attempts(A, 3, [3], N, legacy, 100);

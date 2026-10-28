@@ -25,7 +25,7 @@ const board = (over: Record<number, BallState>): BallState[] => {
 const own = { ...kantokuLevelErrors(), rivalIsHuman: true };
 const file = (kantokuBrain as { file: AnyWeightFile }).file;
 const brains: [string, Brain][] = [['campeón actual', kantokuBrain]];
-if (existsSync('src/game/cpuWeights.next.json')) brains.push(['siguiente (next)', { kind: 'kantoku', file: JSON.parse(readFileSync('src/game/cpuWeights.next.json', 'utf8')) as AnyWeightFile }]);
+if (existsSync('src/game/cpuWeights.next.json')) brains.push(['siguiente (next)', { kind: 'kantoku', file: JSON.parse(readFileSync('src/game/cpuWeights.next.json', 'utf8')) as AnyWeightFile }]); else console.log('   omitida: falta archivo local src/game/cpuWeights.next.json (salida del entrenamiento)');
 const legacyOf = (b: Brain): Brain => (b.kind === 'kantoku' ? { kind: 'kantoku', file: { ...b.file, legacyAttackRule: true } as AnyWeightFile } : b);
 void file;
 

@@ -43,7 +43,7 @@ const CASES: [string, Record<number, Partial<BallState>>][] = [
   ['dos bolas rivales cerca de la salida', { 1: { x: 16.5, y: 8, nextGate: 2 }, 3: { x: 19, y: 9, nextGate: 2 } }],
 ];
 const brains: [string, Brain][] = [['campeón actual', kantokuBrain], ['campeón con las reglas avanzadas', { kind: 'kantoku', file: { ...(kantokuBrain as { file: AnyWeightFile }).file, advanced: true } as AnyWeightFile }]];
-if (existsSync('src/game/cpuWeights.next.json')) brains.push(['siguiente (next)', { kind: 'kantoku', file: JSON.parse(readFileSync('src/game/cpuWeights.next.json', 'utf8')) as AnyWeightFile }]);
+if (existsSync('src/game/cpuWeights.next.json')) brains.push(['siguiente (next)', { kind: 'kantoku', file: JSON.parse(readFileSync('src/game/cpuWeights.next.json', 'utf8')) as AnyWeightFile }]); else console.log('   omitida: falta archivo local src/game/cpuWeights.next.json (salida del entrenamiento)');
 for (const [bn, brain] of brains) {
   const touchRate: number[] = [];
   CASES.forEach(([name, over], ci) => {
