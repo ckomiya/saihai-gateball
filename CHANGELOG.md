@@ -17,4 +17,5 @@ Los pesos de v1.0 a v1.3 no se republican como versiones; están en `src/game/cp
 ## 1.4.0 (primera versión de Saihai como paquete)
 - Separado de gateball-retro: el motor de reglas, la física, el planificador, los pesos, las herramientas de entrenamiento y las pruebas viven aquí. El juego lo consume como dependencia.
 - API pública: `createMatch`, `Saihai.chooseShot`, `playShot` (`saihai-gateball`), más `/engine`, `/debug` y `/testing`.
+- **Nota sobre el poste de meta:** `saihai-v1.4` se midió primero con el poste de 0,05 m (h2h 49,8 %, 91/17/92; humanduel 87,3 %, 7,31 puntos). Desde el 2026-10-28 el poste mide 0,025 m (`poleRadiusM` en `src/config.ts`, a pedido de Chris) y las mismas medidas dan h2h 46,5 % (85/16/99, -0,38) y humanduel 84,5 % (7,00 puntos). Los pesos no cambiaron: con el poste en 0,05 m se recuperan exactamente las cifras anteriores. La referencia de esta versión es el poste de 0,025 m.
 - El comportamiento es idéntico al de gateball-retro en `pre-separacion` (poste de meta de 0,025 m): mismos goldens, mismo `h2h`, `behavior`, `humanduel` y `selfplay` con las mismas semillas.
