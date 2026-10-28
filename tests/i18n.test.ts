@@ -17,7 +17,7 @@ const fx: Fixture = JSON.parse(readFileSync('tests/fixtures/i18n-v1.4.1.json', '
 // 1) Mensajes: sin idioma = v1.4.1; 'es' explícito = lo mismo; `.map(messageFor)` (índice como 2.º argumento) sigue dando español
 check(JSON.stringify(messagesFor(fx.events)) === JSON.stringify(fx.messages), 'messagesFor sin idioma = v1.4.1 (19 eventos)');
 check(JSON.stringify(messagesFor(fx.events, 'es')) === JSON.stringify(fx.messages), "messagesFor(…, 'es') = v1.4.1");
-check(JSON.stringify(fx.events.map(messageFor)) === JSON.stringify(fx.messages), 'events.map(messageFor) sigue dando español');
+check(JSON.stringify(fx.events.map(messageFor as unknown as (e: MatchEvent, i: number) => string)) === JSON.stringify(fx.messages), 'events.map(messageFor) sigue dando español');
 check(noTouchMessage() === NO_TOUCH_MSG, 'NO_TOUCH_MSG intacto');
 
 // 2) Mensajes en inglés: los mismos eventos, sin restos del español
