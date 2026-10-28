@@ -1,0 +1,13 @@
+{
+  "name": "saihai-gateball",
+  "version": "1.4.0",
+  "description": "Saihai: agente de IA kantoku para gateball",
+  "license": "MIT",
+  "author": "Christian Komiya",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "0.21.5",
+    "typescript": "5.6.3"
+  }
+}
