@@ -1,6 +1,6 @@
 {
   "name": "saihai-gateball",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Saihai: agente de IA kantoku para gateball",
   "license": "MIT",
   "author": "Christian Komiya",
@@ -30,13 +30,15 @@
   "files": [
     "dist",
     "src",
+    "examples",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "README.es.md"
   ],
   "scripts": {
     "build": "node scripts/build.mjs",
     "prepare": "node scripts/build.mjs",
-    "test": "node scripts/run-node.mjs tests/rules.test.ts && node scripts/run-node.mjs tests/planner.test.ts && node scripts/run-node.mjs tests/cma.test.ts && node scripts/run-node.mjs tests/entry.test.ts && node scripts/run-node.mjs tests/grass.test.ts && node scripts/run-node.mjs tests/threat.test.ts && node scripts/run-node.mjs tests/continuation.test.ts && node scripts/run-node.mjs tests/spark.test.ts && node scripts/run-node.mjs tests/advanced.test.ts && node scripts/run-node.mjs tests/touchattempt.test.ts && node scripts/run-node.mjs tests/gate1.test.ts && node scripts/run-node.mjs tests/gateexit.test.ts && node scripts/run-node.mjs tests/heap.test.ts && node scripts/run-node.mjs tests/heaprisk.test.ts && node scripts/run-node.mjs tests/genes3.test.ts && node scripts/run-node.mjs tests/openings.test.ts && node scripts/run-node.mjs tests/agari.test.ts && node scripts/run-node.mjs tests/tsunagi.test.ts && node scripts/run-node.mjs tests/matchlog.test.ts && node scripts/run-node.mjs tests/touchpass.test.ts && node scripts/run-node.mjs tests/outofcourt.test.ts && node scripts/run-node.mjs tests/matespark.test.ts && node scripts/run-node.mjs tests/attackrule.test.ts && node scripts/run-node.mjs tests/longtouch.test.ts && node scripts/run-node.mjs tests/linetouch.test.ts && node scripts/run-node.mjs tests/certeza.test.ts && node scripts/run-node.mjs tests/startzone.test.ts && node scripts/run-node.mjs tests/combo.test.ts && node scripts/run-node.mjs tests/startdouble.test.ts && node scripts/run-node.mjs tests/barspeed.test.ts && node scripts/run-node.mjs tests/balance.test.ts && node scripts/run-node.mjs tests/exposure2.test.ts && node scripts/run-node.mjs tests/survival.test.ts && node scripts/run-node.mjs tests/zonespark.test.ts && node scripts/run-node.mjs tests/pace.test.ts && node scripts/run-node.mjs tests/mark.test.ts && node scripts/run-node.mjs tests/reentry.test.ts && node scripts/run-node.mjs tests/partida1027b.test.ts && node scripts/run-node.mjs tests/partida1027c.test.ts && node scripts/run-node.mjs tests/api.test.ts && node scripts/run-node.mjs tests/legal.test.ts",
+    "test": "node scripts/run-node.mjs tests/rules.test.ts && node scripts/run-node.mjs tests/planner.test.ts && node scripts/run-node.mjs tests/cma.test.ts && node scripts/run-node.mjs tests/entry.test.ts && node scripts/run-node.mjs tests/grass.test.ts && node scripts/run-node.mjs tests/threat.test.ts && node scripts/run-node.mjs tests/continuation.test.ts && node scripts/run-node.mjs tests/spark.test.ts && node scripts/run-node.mjs tests/advanced.test.ts && node scripts/run-node.mjs tests/touchattempt.test.ts && node scripts/run-node.mjs tests/gate1.test.ts && node scripts/run-node.mjs tests/gateexit.test.ts && node scripts/run-node.mjs tests/heap.test.ts && node scripts/run-node.mjs tests/heaprisk.test.ts && node scripts/run-node.mjs tests/genes3.test.ts && node scripts/run-node.mjs tests/openings.test.ts && node scripts/run-node.mjs tests/agari.test.ts && node scripts/run-node.mjs tests/tsunagi.test.ts && node scripts/run-node.mjs tests/matchlog.test.ts && node scripts/run-node.mjs tests/touchpass.test.ts && node scripts/run-node.mjs tests/outofcourt.test.ts && node scripts/run-node.mjs tests/matespark.test.ts && node scripts/run-node.mjs tests/attackrule.test.ts && node scripts/run-node.mjs tests/longtouch.test.ts && node scripts/run-node.mjs tests/linetouch.test.ts && node scripts/run-node.mjs tests/certeza.test.ts && node scripts/run-node.mjs tests/startzone.test.ts && node scripts/run-node.mjs tests/combo.test.ts && node scripts/run-node.mjs tests/startdouble.test.ts && node scripts/run-node.mjs tests/barspeed.test.ts && node scripts/run-node.mjs tests/balance.test.ts && node scripts/run-node.mjs tests/exposure2.test.ts && node scripts/run-node.mjs tests/survival.test.ts && node scripts/run-node.mjs tests/zonespark.test.ts && node scripts/run-node.mjs tests/pace.test.ts && node scripts/run-node.mjs tests/mark.test.ts && node scripts/run-node.mjs tests/reentry.test.ts && node scripts/run-node.mjs tests/partida1027b.test.ts && node scripts/run-node.mjs tests/partida1027c.test.ts && node scripts/run-node.mjs tests/api.test.ts && node scripts/run-node.mjs tests/i18n.test.ts && node scripts/run-node.mjs tests/legal.test.ts",
     "typecheck": "tsc --noEmit",
     "selfplay": "node scripts/run-node.mjs scripts/selfplay.ts",
     "rounds": "node scripts/run-node.mjs scripts/rounds.ts",

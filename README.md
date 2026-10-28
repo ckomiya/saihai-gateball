@@ -1,162 +1,199 @@
 # Saihai
 
-**Saihai** (采配, la forma de dirigir de un *kantoku*, el director técnico del gateball) es un agente de IA para gateball: el motor de reglas, la física y el planificador que elige cada golpe, con un modelo afinado por autojuego. No tiene interfaz: es una librería de TypeScript para integrarla en un juego de gateball, más las herramientas para medirla y reentrenarla.
+🇪🇸 [Leer en español](README.es.md)
 
-- Sin Phaser ni DOM; corre en Node y en el navegador.
-- Azar con semilla inyectable: las partidas se repiten exactamente.
-- Modelo actual: `saihai-v1.4`. Cada decisión puede explicarse (`explain`).
+**Saihai** (采配, the way a *kantoku*, the gateball team manager, directs a team) is an AI agent for gateball: the rules engine, the physics and the planner that picks every stroke, with a model tuned by self-play. It has no user interface: it is a TypeScript library to plug into a gateball game, plus the tools to measure and retrain it.
 
-> Estado: en desarrollo. El repositorio es **público** (MIT); se instala directo desde GitHub.
+- No Phaser, no DOM; runs in Node and in the browser.
+- Injectable seeded randomness: matches replay exactly.
+- Current model: `saihai-v1.4`. Every decision can be explained (`explain`).
+- Texts in Spanish (default) or English: `lang: 'es' | 'en'` (see [Languages](#languages)). Gateball terms are kept in their original form; the [glossary](#glossary) explains them.
 
-## Instalación
+> Status: in development. The repository is **public** (MIT); install it straight from GitHub.
+
+## Installation
 
 ```bash
-npm install github:ckomiya/saihai-gateball#v1.4.1
+npm install github:ckomiya/saihai-gateball#v1.4.2
 ```
 
-- **Se compila al instalar.** El paquete se instala desde Git, así que npm ejecuta su script `prepare` (`node scripts/build.mjs`), que genera `dist/` (JavaScript ESM con los pesos adentro y tipos `.d.ts`). Necesita `esbuild` y `typescript` (están en `devDependencies`; npm los instala para ese paso), por eso el primer `install` tarda unos segundos más.
-- **Aviso `allow-scripts`.** Las versiones recientes de npm avisan: `1 package has install scripts not yet covered by allowScripts: saihai-gateball (prepare)`. En las pruebas `dist/` se generó igualmente; si en tu entorno no, o si quieres silenciar el aviso, aprueba el script con `npm approve-scripts saihai-gateball` (o `npm approve-scripts --allow-scripts-pending` para revisarlos todos) y vuelve a instalar.
-- **`"private": true` en `package.json` se queda.** Solo impide publicar el paquete en el registro de npm por descuido; no afecta a la instalación desde GitHub. Saihai se distribuye por etiquetas de Git, no por npm.
-- Mientras trabajas en local con otro proyecto, `npm install ../saihai-gateball` (enlace) y `npm run build` en este repo cada vez que cambies algo.
+- **It is built on install.** The package is installed from Git, so npm runs its `prepare` script (`node scripts/build.mjs`), which generates `dist/` (ESM JavaScript with the weights inside, and `.d.ts` types). It needs `esbuild` and `typescript` (both in `devDependencies`; npm installs them for that step), which is why the first `install` takes a few extra seconds.
+- **`allow-scripts` warning.** Recent npm versions warn: `1 package has install scripts not yet covered by allowScripts: saihai-gateball (prepare)`. In our tests `dist/` was generated anyway; if it is not in your environment, or you want to silence the warning, approve the script with `npm approve-scripts saihai-gateball` (or `npm approve-scripts --allow-scripts-pending` to review them all) and install again.
+- **`"private": true` in `package.json` stays.** It only prevents publishing the package to the npm registry by accident; it does not affect installing from GitHub. Saihai is distributed through Git tags, not through npm.
+- While you work locally with another project, use `npm install ../saihai-gateball` (a link) and run `npm run build` in this repo every time you change something.
 
-## Ejemplo mínimo
+## Minimal example
 
 ```ts
 import { createMatch, Saihai, playShot } from 'saihai-gateball';
 
-const match = createMatch({ seed: 42 });            // partido nuevo (azar con semilla)
-const saihai = new Saihai({ opponent: 'human' });   // juzga a su rival como una persona
+const match = createMatch({ seed: 42 });            // new match (seeded randomness)
+const saihai = new Saihai({ opponent: 'human' });   // judges its rival as a person would
 
 while (match.stage !== 'done') {
   const shot = saihai.chooseShot(match);            // { startX, aim, power, accuracy, plan }
-  const res = playShot(match, shot);                // aplica el golpe y deja rodar las bolas
-  console.log(res.events);                          // puertas, touches, sparks, faltas…
-  match.proceed();                                  // siguiente golpe o turno
+  const res = playShot(match, shot);                // applies the stroke and lets the balls roll
+  console.log(res.events);                          // gates, touches, sparks, fouls…
+  match.proceed();                                  // next stroke or turn
 }
 console.log(match.teamScore(0), match.teamScore(1));
 ```
 
-`power` y `accuracy` son las posiciones (0 a 1) donde se detienen las dos barras con triángulo de la mecánica del juego; `aim` está en metros. Si tu juego usa otro control, `shot.plan.ideal` trae el golpe sin error.
+`power` and `accuracy` are the positions (0 to 1) where the two triangle bars of the game mechanic stop; `aim` is in meters. If your game uses another control scheme, `shot.plan.ideal` carries the error-free stroke.
 
-## Conceptos de gateball para desarrolladores
+## Gateball concepts for developers
 
-**Equipos y colores.** Hay dos equipos de cinco bolas: **Rojas = equipo 0 = bolas impares** (1, 3, 5, 7, 9) y **Blancas = equipo 1 = bolas pares** (2, 4, 6, 8, 10). `match.b` es la bola que juega ahora (`match.b.n` su número, `match.b.team` su equipo) y `match.teamScore(0)` / `match.teamScore(1)` son los puntos de las rojas y de las blancas. Se juega por turnos en orden numérico. Cada bola recorre puerta 1 → 2 → 3 → poste (1 punto por puerta, 2 por el poste).
+**Teams and colors.** There are two teams of five balls: **Red = team 0 = odd balls** (1, 3, 5, 7, 9) and **White = team 1 = even balls** (2, 4, 6, 8, 10). `match.b` is the ball playing now (`match.b.n` its number, `match.b.team` its team) and `match.teamScore(0)` / `match.teamScore(1)` are the Red and White points. Play goes in numeric order. Each ball runs gate 1 → 2 → 3 → pole (1 point per gate, 2 for the pole).
 
-**Turno y golpe.** Un *turno* es lo que juega una bola; un *golpe* es una llamada a `playShot`. Un turno puede tener varios golpes de la misma bola: al pasar una puerta y quedar en juego hay un **golpe continuo** (encadenable), y un touch a otra bola da un **spark** (el golpe a la bola tocada), que va antes. Después de cada `playShot`, `match.proceed()` pasa a lo que sigue y devuelve una `Transition`:
+**Turn and stroke.** A *turn* is what one ball plays; a *stroke* is one call to `playShot`. A turn can have several strokes by the same ball: passing a gate and staying in play gives a **continuous stroke** (chainable), and a touch on another ball gives a **spark** (the stroke on the touched ball), which goes first. After each `playShot`, `match.proceed()` moves on to what comes next and returns a `Transition`:
 
-| `Transition` | Qué viene |
+| `Transition` | What comes next |
 |---|---|
-| `'turn'` | pasa a la bola siguiente |
-| `'continue'` | golpe continuo: vuelve a jugar la misma bola |
-| `'spark'` | hay que hacer el spark de una bola tocada (`chooseShot` lo resuelve solo) |
-| `'end'` | el partido terminó (`match.stage === 'done'`) |
+| `'turn'` | the next ball plays |
+| `'continue'` | continuous stroke: the same ball plays again |
+| `'spark'` | a touched ball's spark must be played (`chooseShot` handles it by itself) |
+| `'end'` | the match is over (`match.stage === 'done'`) |
 
-`res.next` (de `playShot`) adelanta `'turn'`, `'continue'` o `'spark'`. Por eso el resumen más natural es **por golpe**, no por turno.
+`res.next` (from `playShot`) previews `'turn'`, `'continue'` or `'spark'`. That is why the most natural summary is **per stroke**, not per turn.
 
-**Reloj.** El partido es una cuenta regresiva (`match.clock`, empieza en 1800 s de reloj de partido y corre más rápido que el real, `CONFIG.clockFactor`). `playShot` **sí cobra el rodar**: mientras las bolas se mueven el reloj corre. **No cobra el pensar** ni leer mensajes: ese tiempo lo decide quien integra el motor (el juego detiene el reloj mientras el humano mide y apunta). Si quieres que pensar también cueste, llama tú a `match.update(dt, true)`.
+**Clock.** The match is a countdown (`match.clock`, starting at 1800 s of match clock and running faster than real time, `CONFIG.clockFactor`). `playShot` **does charge the rolling**: the clock runs while the balls move. It **does not charge the thinking** or reading messages: whoever integrates the engine decides that time (the game stops the clock while the human measures and aims). If you want thinking to cost time too, call `match.update(dt, true)` yourself.
 
-**Fin del partido.** Termina cuando se acaba el tiempo, un equipo llega a 25 puntos o todas las bolas terminan, y siempre con una bola blanca (decisión de diseño; ver [RULES.md](RULES.md)). `match.stage === 'done'` lo indica y `match.endReason()` dice por qué: `'perfect'` (25 puntos), `'time'` (se acabó el reloj) o `'allIn'` (todas las bolas terminaron).
+**End of the match.** It ends when time runs out, a team reaches 25 points, or all balls finish, and always after a White ball has played (a design decision; see [RULES.md](RULES.md)). `match.stage === 'done'` tells you, and `match.endReason()` says why: `'perfect'` (25 points), `'time'` (the clock ran out) or `'allIn'` (all balls finished).
 
-**Determinismo.** `createMatch({ seed })` usa un azar con semilla. **La misma semilla con la misma configuración (mismas opciones de `Saihai`, mismos valores de `CONFIG`, misma versión del paquete) da exactamente el mismo partido.** Cambiar `opponent`, `execution` o un valor de `CONFIG` da otro partido. También puedes inyectar tu propio `rng` (`createMatch({ rng })`).
+**Determinism.** `createMatch({ seed })` uses seeded randomness. **The same seed with the same configuration (same `Saihai` options, same `CONFIG` values, same package version) gives exactly the same match.** Changing `opponent`, `execution` or a `CONFIG` value gives a different match. You can also inject your own `rng` (`createMatch({ rng })`).
 
-## Eventos (`Resolution.events`)
+## Events (`Resolution.events`)
 
-`playShot` devuelve una `Resolution` con `events: MatchEvent[]` (en el orden en que conviene mostrarlos), `touches`, `next` y más. Los tipos se exportan desde la raíz (`MatchEvent`, `Resolution`, `Transition`, `FoulReason`, `BallState`, `SoundCue`). `stroker: true` significa que el evento es de la bola que golpea; si es `false`, `ball` es otra bola movida por el golpe.
+`playShot` returns a `Resolution` with `events: MatchEvent[]` (in the order in which they are best shown), `touches`, `next` and more. The types are exported from the root (`MatchEvent`, `Resolution`, `Transition`, `FoulReason`, `BallState`, `SoundCue`). `stroker: true` means the event belongs to the ball that strikes; if it is `false`, `ball` is another ball moved by the stroke.
 
-| `type` | Significado | Salida real (Saihai contra Saihai, `node examples/duelo.mjs 42 --raw`) |
+| `type` | Meaning | Real output (Saihai vs Saihai, `node examples/duelo.mjs 42 --raw`) |
 |---|---|---|
-| `gate` | una bola pasó la puerta `gate` (+1 punto) | `[{"type":"gate","ball":1,"gate":1,"stroker":true}]` |
-| `pole` | una bola llegó al poste (+2) | `[{"type":"spark"},{"type":"pole","ball":6,"stroker":false}]` |
-| `out` | **otra** bola (no la que golpea) salió de la cancha | `[{"type":"spark"},{"type":"out","ball":4}]` |
-| `noTouch` | tiro de salida: pasó la puerta 1 y luego tocó una bola; sin touch ni spark | no apareció en las 13 partidas de muestra (es rara) |
-| `strokerOut` | la bola que golpea salió. `start`: aún sin puerta 1; `gate`: última puerta pasada en el golpe; `foul`: `'touchedOther'` o `'touchedTwice'` si fue falta | `[{"type":"strokerOut","start":false,"gate":1,"foul":null}]`; con falta: `[{"type":"strokerOut","start":false,"gate":2,"foul":"touchedTwice"}]` |
-| `backInPlay` | una bola que estaba fuera volvió a entrar | `[{"type":"backInPlay"}]` |
-| `ballOut` | bola fuera (no entró o salió tras un spark) | no apareció en las 13 partidas de muestra |
-| `failGate1` | no pasó la puerta 1; volverá a intentarlo en su siguiente turno. Es lo más común en las primeras vueltas | `[{"type":"failGate1"}]` |
-| `touch` | touch válido; `balls` son **números de bola** (1 a 10) | `[{"type":"touch","balls":[4]}]` |
-| `spark` | el spark salió bien | `[{"type":"spark"},{"type":"out","ball":4}]` |
-| `sparkFoul` | falta de spark: `'short'` (la bola golpeada quedó a menos de 10 cm) o `'outside'` (bola tocada en el campo exterior) | no apareció en las 13 partidas de muestra |
+| `gate` | a ball passed gate `gate` (+1 point) | `[{"type":"gate","ball":1,"gate":1,"stroker":true}]` |
+| `pole` | a ball reached the pole (+2) | `[{"type":"spark"},{"type":"pole","ball":6,"stroker":false}]` |
+| `out` | **another** ball (not the striking one) left the court | `[{"type":"spark"},{"type":"out","ball":4}]` |
+| `noTouch` | start shot: it passed gate 1 and then hit a ball; no touch and no spark | did not appear in the 13 sample matches (it is rare) |
+| `strokerOut` | the striking ball went out. `start`: still without gate 1; `gate`: last gate passed in the stroke; `foul`: `'touchedOther'` or `'touchedTwice'` if it was a foul | `[{"type":"strokerOut","start":false,"gate":1,"foul":null}]`; with a foul: `[{"type":"strokerOut","start":false,"gate":2,"foul":"touchedTwice"}]` |
+| `backInPlay` | a ball that was out came back in | `[{"type":"backInPlay"}]` |
+| `ballOut` | out ball (did not get in, or went out after a spark) | did not appear in the 13 sample matches |
+| `failGate1` | it did not pass gate 1; it will try again in its next turn. The most common event in the first rounds | `[{"type":"failGate1"}]` |
+| `touch` | valid touch; `balls` are **ball numbers** (1 to 10) | `[{"type":"touch","balls":[4]}]` |
+| `spark` | the spark succeeded | `[{"type":"spark"},{"type":"out","ball":4}]` |
+| `sparkFoul` | spark foul: `'short'` (the struck ball ended less than 10 cm away) or `'outside'` (ball touched in the outer field) | did not appear in the 13 sample matches |
 
-**`Resolution.touches` usa índices, no números de bola:** son posiciones en `match.balls` (empiezan en 0), así que la bola número `n` es el índice `n - 1`. En el touch de la tabla: `events = [{"type":"touch","balls":[4]}]` y `touches = [3]`, o sea, la bola 4 es el índice 3. Un golpe con touch trae `next: 'spark'`.
+**`Resolution.touches` uses indexes, not ball numbers:** they are positions in `match.balls` (starting at 0), so ball number `n` is index `n - 1`. In the touch of the table: `events = [{"type":"touch","balls":[4]}]` and `touches = [3]`, that is, ball 4 is index 3. A stroke with a touch carries `next: 'spark'`.
 
-El resto de la `Resolution`: `kind` (`'stroke'`, `'spark'` o `'sparkFoul'`), `strokerOut`, `foul` y `shotGate` (última puerta pasada por la que golpea; 0 = ninguna).
+The rest of the `Resolution`: `kind` (`'stroke'`, `'spark'` or `'sparkFoul'`), `strokerOut`, `foul` and `shotGate` (last gate passed by the striking ball; 0 = none).
 
-## Ejemplos
+## Examples
 
-- [`examples/duelo.mjs`](examples/duelo.mjs): Saihai (Rojas) contra Saihai (Blancas) con semilla fija, un resumen en español por golpe y el resultado final. `node examples/duelo.mjs [semilla] [--raw]` (dentro de este repo necesita `npm run build`; desde otro proyecto es el mismo código importando `'saihai-gateball'`).
-- **Humano contra Saihai** (pseudocódigo; tu interfaz decide cómo se capturan las barras):
+- [`examples/duelo.mjs`](examples/duelo.mjs): Saihai (Red) against Saihai (White) with a fixed seed, a summary per stroke and the final result, in English (default in the example) or Spanish. `node examples/duelo.mjs [seed] [--lang en|es] [--raw]` It ships with the package, so after installing you can run it with `node node_modules/saihai-gateball/examples/duelo.mjs --lang en` (inside this repo it needs `npm run build` first). It is the same match in both languages.
+- **Human against Saihai** (pseudocode; your interface decides how the bars are captured):
 
 ```js
 import { createMatch, Saihai, playShot } from 'saihai-gateball';
 
-const match = createMatch({ seed: Date.now() });   // sin semilla fija: partido distinto cada vez
-const saihai = new Saihai({ opponent: 'human' });  // el humano es el equipo 0 (rojas)
+const match = createMatch({ seed: Date.now() });   // no fixed seed: a different match every time
+const saihai = new Saihai({ opponent: 'human' });  // the human is team 0 (red)
 
 while (match.stage !== 'done') {
   let res;
   if (match.b.team === 0) {
-    // Turno del humano: tu interfaz entrega lo mismo que devuelve Saihai.chooseShot
-    const shot = await pedirGolpeAlHumano(match);  // { startX, aim: {x, y}, power 0..1, accuracy 0..1 }
+    // Human turn: your interface delivers the same thing Saihai.chooseShot returns
+    const shot = await askHumanForShot(match);     // { startX, aim: {x, y}, power 0..1, accuracy 0..1 }
     res = playShot(match, shot);
   } else {
     res = playShot(match, saihai.chooseShot(match));
   }
-  mostrar(res.events);                             // animación y mensajes
+  show(res.events);                                // animation and messages
   match.proceed();                                 // 'turn' | 'continue' | 'spark' | 'end'
 }
 ```
 
-  Si animas las barras y la bola (como la escena del juego), usa `match.shoot` y `match.step(dt)` en vez de `playShot`, que es la versión sin animación.
+  If you animate the bars and the ball (like the game scene does), use `match.shoot` and `match.step(dt)` instead of `playShot`, which is the non-animated version.
 
-**`opponent` (`'human'` o `'saihai'`).** Es cómo Saihai *juzga a su rival* al planear (qué riesgos cree que puede aprovechar): con `'human'` (por defecto) supone el error de un buen jugador humano; con `'saihai'`, el suyo. Contra una persona usa `'human'`; en Saihai contra Saihai, `'saihai'`. No cambia cómo ejecuta sus propios tiros (eso es `execution`).
+**`opponent` (`'human'` or `'saihai'`).** It is how Saihai *judges its rival* when planning (which risks it believes the rival can exploit): with `'human'` (default) it assumes the error of a good human player; with `'saihai'`, its own. Against a person use `'human'`; in Saihai vs Saihai, `'saihai'`. It does not change how it executes its own strokes (that is `execution`).
 
-**Una instancia por equipo.** `new Saihai(opts)` solo guarda sus opciones: **no guarda estado entre golpes** (todo está en `match`, y el azar en `match.rng`). Se puede reutilizar una instancia, pero si los dos equipos son Saihai con opciones distintas conviene una por equipo, como en `examples/duelo.mjs`.
+**One instance per team.** `new Saihai(opts)` only stores its options: it **keeps no state between strokes** (everything is in `match`, and the randomness in `match.rng`). One instance can be reused, but if both teams are Saihai with different options it is better to have one per team, as in `examples/duelo.mjs`.
 
-**`execution`.** Es el error base de los propios tiros de Saihai: `{ aimErr, powerErr, accErr }` (desviación típica de la mira en metros, de la fuerza relativa y de la barra de rumbo 0-1; se multiplica por la certeza del jugador a cada distancia). Por defecto, el de un buen jugador humano: `{ aimErr: 0.05, powerErr: 0.025, accErr: 0.29 }`. Ejemplos sin calibrar: más certero, `new Saihai({ execution: { aimErr: 0.025, powerErr: 0.012, accErr: 0.15 } })`; más torpe, `{ aimErr: 0.1, powerErr: 0.05, accErr: 0.5 }`. La fuerza de Saihai se midió con el valor por defecto.
+**`execution`.** It is the base error of Saihai's own strokes: `{ aimErr, powerErr, accErr }` (standard deviation of the aim in meters, of the relative power and of the 0–1 direction bar; multiplied by the player's certainty at each distance). By default, that of a good human player: `{ aimErr: 0.05, powerErr: 0.025, accErr: 0.29 }`. Uncalibrated examples: more accurate, `new Saihai({ execution: { aimErr: 0.025, powerErr: 0.012, accErr: 0.15 } })`; clumsier, `{ aimErr: 0.1, powerErr: 0.05, accErr: 0.5 }`. Saihai's strength was measured with the default value.
 
-## Entradas del paquete
+## Package entry points
 
-| Import | Qué trae |
+| Import | What it brings |
 |---|---|
-| `saihai-gateball` | `createMatch`, `Saihai`, `playShot`, `SAIHAI_MODEL`, `Match` y los tipos `Shot`, `SaihaiOptions`, `Resolution`, `MatchEvent`, `Transition`, `FoulReason`, `BallState`, `SoundCue`, `CpuPlan`, `ErrorBase`, `Rng` |
-| `saihai-gateball/engine` | `Match` (el motor de reglas), `CONFIG`, `LAYOUT`, geometría de la cancha, `Rng`, mensajes en español y las funciones de la CPU |
-| `saihai-gateball/debug` | Zonas de entrada y de peligro, sitios de apertura, cadenas de touches y el registro de partidas (`MatchLogger`) |
-| `saihai-gateball/testing` | Los escenarios de reglas y su resultado grabado (`golden`), para comprobar un motor de pantalla contra este |
+| `saihai-gateball` | `createMatch`, `Saihai`, `playShot`, `messageFor`, `messagesFor`, `SAIHAI_MODEL`, `Match` and the types `Shot`, `SaihaiOptions`, `Resolution`, `MatchEvent`, `Transition`, `FoulReason`, `BallState`, `SoundCue`, `CpuPlan`, `ErrorBase`, `Rng`, `Lang` |
+| `saihai-gateball/engine` | `Match` (the rules engine), `CONFIG`, `LAYOUT`, court geometry, `Rng`, messages in Spanish and English (`messageFor`, `messagesFor`, `noTouchMessage`) and the CPU functions |
+| `saihai-gateball/debug` | Entry and danger zones, opening sites, touch chains and the match log (`MatchLogger`) |
+| `saihai-gateball/testing` | The rules scenarios and their recorded result (`golden`), to check an on-screen engine against this one |
 
-**Mensajes en español (`saihai-gateball/engine`).** `messageFor(evento)` y `messagesFor(res.events)` convierten los eventos en los textos que muestra el juego, en mayúsculas y pensados para un marcador de pantalla (por ejemplo `¡PASÓ LA PUERTA 1! +1`, `FALLÓ LA PUERTA 1`, `¡TOUCH A LA BOLA 4!`). Úsalos si quieres los mismos textos que el juego sin escribir tu propio `switch`: `import { messagesFor } from 'saihai-gateball/engine'; messagesFor(res.events).forEach(mostrar)`. Si prefieres otro tono o idioma, escribe el tuyo con los eventos de la raíz (ver `examples/duelo.mjs`).
+**Messages (`saihai-gateball/engine`, also from the root).** `messageFor(event, lang?)` and `messagesFor(res.events, lang?)` turn events into the texts the game shows, in capitals and meant for an on-screen scoreboard (for example, in English, `GATE 1 PASSED! +1`, `MISSED GATE 1`, `TOUCH ON BALL 4!`; in Spanish, `¡PASÓ LA PUERTA 1! +1`, `FALLÓ LA PUERTA 1`, `¡TOUCH A LA BOLA 4!`). Use them if you want the same texts as the game without writing your own `switch`: `import { messagesFor } from 'saihai-gateball/engine'; messagesFor(res.events, 'en').forEach(show)`. If you prefer another tone or language, write your own from the root events (see `examples/duelo.mjs`).
 
-`CONFIG` es un objeto compartido y mutable (los scripts y las pruebas cambian valores a propósito): asegúrate de tener una sola copia del paquete en tu bundler (`resolve.dedupe` en Vite).
+`CONFIG` is a shared, mutable object (scripts and tests change values on purpose): make sure your bundler has a single copy of the package (`resolve.dedupe` in Vite).
 
-## Niveles y certeza
+## Languages
 
-Saihai planea con la certeza de cada jugador a cada distancia (corto, medio, largo) y con el error base de ejecución (`SaihaiOptions.execution`). Con `opponent: 'human'` mide las opciones del rival con el error de un buen jugador humano; con `'saihai'`, con el suyo. Los niveles 1 a 4 del juego de ejemplo usan una CPU más simple (`cpuPlan` con un nivel numérico) que no necesita el modelo.
+Since 1.4.2, the texts Saihai produces can be in Spanish or English. **The default language is `'es'`: if you pass nothing, everything is identical to 1.4.1** (`tests/i18n.test.ts` checks it against a fingerprint recorded with the previous code). The language only changes texts; **it never changes a play** (same bars, same events, same match).
 
-## Reglas
+| Where | How | What changes |
+|---|---|---|
+| Event messages | `messagesFor(res.events, 'en')`, `messageFor(event, 'en')`, `noTouchMessage('en')` | The scoreboard texts (`GATE 1 PASSED! +1`) |
+| Decision explanation | `new Saihai({ explain: true, lang: 'en' })` | The texts in `shot.plan.decision`: `source`, `kind` (`'touch on a rival'`, `'spark: knock out rival ball'`, `'gate 2'`…), the `terms` keys (`points`, `risk`, `exposure`…), the agari `why` and `released`, `chain.turn` |
+| Opening sites (`/debug`) | `OPENING_SITES.red1.note` / `.noteEn` | The note of each site |
+| Example | `node examples/duelo.mjs 42 --lang es` | The printed summary |
 
-Qué reglas de gateball implementa el motor, y cuáles son decisiones propias: [RULES.md](RULES.md).
+- `lang` only accepts `'es'` or `'en'`. In `new Saihai({ lang })` any other value throws a `RangeError` (it does not silently fall back to Spanish). `messageFor` and `messagesFor` only recognize `'en'`; any other value gives Spanish, so that `events.map(messageFor)` (which passes the index as the second argument) keeps working as before.
+- **Events (`MatchEvent`) and code identifiers are not translated:** `type`, `reason` and `foul` (`'touchedOther'`, `'short'`…) are English keys for your code, not texts for the player. The match log of `/debug` (`MatchLogger`: causes and details for balls that go out) and the measurement scripts are not translated either: they are data and developer tools, in Spanish.
+- Gateball terms (touch, spark, agari, tsunagi, kantoku…) keep their original form in both languages.
 
-## Pruebas
+## Glossary
+
+| Term | Meaning |
+|---|---|
+| **Gateball** | A team sport of Japanese origin: you hit a ball with a mallet to pass it through three gates and reach a pole. |
+| **Gate (*puerta*)** | A hoop the ball must pass through, in order 1 → 2 → 3. Each is worth 1 point. |
+| **Pole (*poste*)** | The goal at the end of the run, after gate 3. Reaching it is worth 2 points and the ball leaves the game. |
+| **Start area (*área de salida*)** | Zone next to corner 1 from which the **start shot** (*tiro de salida*) is played; it tries to pass gate 1. |
+| **Touch** | An in-play ball hits another ball. It earns a spark. |
+| **Spark** | After a touch, the touched ball is placed against the striking ball and is struck itself (the striking ball stays put): it can be sent far away or knocked out of the court. |
+| **Continuous stroke (*golpe continuo*)** | An extra stroke after passing a gate and staying in play; it chains while each stroke passes another gate. |
+| **Out ball (*bola fuera*)** | A ball that left the inner court; it tries to get back in on its next turn and scores nothing meanwhile. |
+| **Kantoku (監督)** | The team manager, who decides the plays. Saihai is an artificial kantoku. |
+| **Saihai (采配)** | The way a kantoku directs a team; the name of this project. |
+| **Agari (上がり)** | Taking the ball to the pole and out of the game. Doing it early is a disadvantage (the team is left with fewer balls), so a kantoku chooses the moment. |
+| **Tsunagi (つなぎ)** | "Bridge": bringing a distant ball closer by chaining touches on nearby balls. |
+| **Teams** | Red = team 0 = odd balls; White = team 1 = even balls. |
+| **Power and direction bars** | Mechanic of the example game: two triangle bars that are stopped to set the power and the direction of the stroke. |
+
+## Levels and certainty
+
+Saihai plans with each player's certainty at each distance (short, medium, long) and with the base execution error (`SaihaiOptions.execution`). With `opponent: 'human'` it measures the rival's options with the error of a good human player; with `'saihai'`, with its own. Levels 1 to 4 of the example game use a simpler CPU (`cpuPlan` with a numeric level) that does not need the model.
+
+## Rules
+
+Which gateball rules the engine implements, and which are our own decisions: [RULES.md](RULES.md).
+
+## Tests
 
 ```bash
-npm test                # escenarios de reglas, planificador, kantoku y API (≈ 30 min)
-npm run typecheck       # tipos de src/
-npm run build           # dist/ con tipos
-npm run h2h -- --games 200 --vs src/game/cpuWeights.v13.json    # contra la versión anterior
-npm run behavior        # batería de jugadas de partidas reales
-npm run humanduel -- --variant rules --games 200                # contra un rival tipo humano
-npm run bench:plan -- --kantoku                                 # tiempo por golpe (≈ 55 ms)
+npm test                # rules scenarios, planner, kantoku and API (≈ 30 min)
+npm run typecheck       # types of src/
+npm run build           # dist/ with types
+npm run h2h -- --games 200 --vs src/game/cpuWeights.v13.json    # against the previous version
+npm run behavior        # battery of plays from real matches
+npm run humanduel -- --variant rules --games 200                # against a human-like rival
+npm run bench:plan -- --kantoku                                 # time per stroke (≈ 55 ms)
 ```
 
-Todas las herramientas de `scripts/` (entrenar, validar, auditar, reproducir partidas…) están en [CLAUDE.md](CLAUDE.md) y [TRAINING.md](TRAINING.md).
+All the tools in `scripts/` (train, validate, audit, replay matches…) are described in [CLAUDE.md](CLAUDE.md) and [TRAINING.md](TRAINING.md), which are written in Spanish.
 
-## Reentrenar
+## Retraining
 
-`npm run train` afina los pesos por autojuego (sep-CMA-ES) y publica en `src/game/cpuWeights.next.json` sin reemplazar al campeón. Ver [TRAINING.md](TRAINING.md). Las carpetas `training/` (puntos de control) y `partidas/` no se versionan; para el banco de finales hace falta `training/endbank.json`.
+`npm run train` tunes the weights by self-play (sep-CMA-ES) and publishes to `src/game/cpuWeights.next.json` without replacing the champion. See [TRAINING.md](TRAINING.md). The `training/` (checkpoints) and `partidas/` folders are not versioned; the endgame bank needs `training/endbank.json`.
 
-## Versiones
+## Versions
 
-`X.Y.Z`: `X.Y` es el modelo (`saihai-vX.Y`); `Z` son correcciones que no cambian las jugadas. La relación con las etiquetas `kantoku-v1.x` del juego está en [CHANGELOG.md](CHANGELOG.md).
+`X.Y.Z`: `X.Y` is the model (`saihai-vX.Y`); `Z` are fixes that do not change the plays. The relation with the game's `kantoku-v1.x` tags is in [CHANGELOG.md](CHANGELOG.md).
 
-## Licencia
+## License
 
 [MIT](LICENSE) © 2026 Christian Komiya.

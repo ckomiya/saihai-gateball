@@ -1,0 +1,5069 @@
+{
+ "events": [
+  {
+   "type": "gate",
+   "ball": 3,
+   "gate": 1,
+   "stroker": true
+  },
+  {
+   "type": "gate",
+   "ball": 3,
+   "gate": 2,
+   "stroker": false
+  },
+  {
+   "type": "pole",
+   "ball": 4,
+   "stroker": true
+  },
+  {
+   "type": "pole",
+   "ball": 4,
+   "stroker": false
+  },
+  {
+   "type": "out",
+   "ball": 6
+  },
+  {
+   "type": "noTouch"
+  },
+  {
+   "type": "strokerOut",
+   "start": true,
+   "gate": 0,
+   "foul": null
+  },
+  {
+   "type": "strokerOut",
+   "start": false,
+   "gate": 0,
+   "foul": "touchedOther"
+  },
+  {
+   "type": "strokerOut",
+   "start": false,
+   "gate": 0,
+   "foul": "touchedTwice"
+  },
+  {
+   "type": "strokerOut",
+   "start": false,
+   "gate": 2,
+   "foul": null
+  },
+  {
+   "type": "strokerOut",
+   "start": false,
+   "gate": 0,
+   "foul": null
+  },
+  {
+   "type": "backInPlay"
+  },
+  {
+   "type": "ballOut"
+  },
+  {
+   "type": "failGate1"
+  },
+  {
+   "type": "touch",
+   "balls": [
+    2
+   ]
+  },
+  {
+   "type": "touch",
+   "balls": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "spark"
+  },
+  {
+   "type": "sparkFoul",
+   "reason": "short"
+  },
+  {
+   "type": "sparkFoul",
+   "reason": "outside"
+  }
+ ],
+ "messages": [
+  "¡PASÓ LA PUERTA 1! +1",
+  "BOLA 3: PUERTA 2 +1",
+  "¡POSTE! +2 PUNTOS",
+  "BOLA 4: ¡POSTE! +2",
+  "BOLA 6 SALIÓ",
+  "SIN TOUCH: TIRO DE SALIDA",
+  "¡FUERA! VUELVE A SALIDA",
+  "¡FALTA! TOCÓ OTRA BOLA",
+  "¡FALTA! TOCÓ DOS VECES LA MISMA BOLA",
+  "¡PUERTA 2! +1 PERO FUERA",
+  "¡BOLA FUERA!",
+  "BOLA EN JUEGO",
+  "¡BOLA FUERA!",
+  "FALLÓ LA PUERTA 1",
+  "¡TOUCH A LA BOLA 2!",
+  "¡TOUCH A LA BOLA 2 Y 4!",
+  "¡SPARK!",
+  "¡FALTA! SPARK CORTO",
+  "¡FALTA! BOLA FUERA DEL CAMPO"
+ ],
+ "shots": [
+  {
+   "seed": 5,
+   "aim": [
+    17.990643458956185,
+    2.959167376722625,
+    0.642374835211286,
+    0.496059197896465
+   ],
+   "decisionSha": "34bd5bd8cf49512ca67c3d0f83d3a0008aea117a5fe1b6be204bcd800d827a41",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    9.488620472433158,
+    0.6317603498036866,
+    0.628432309913687,
+    0.46388173087835577
+   ],
+   "decisionSha": "1323f9a56235d4409231aa0e405b955173848e32515b5107c84533fd3cf998dc",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.491867814097958,
+    15.521084292888267,
+    0.6344267688916686,
+    0.4962698487466645
+   ],
+   "decisionSha": "7eaf2fbc8d6b94c3feb21ffb996f6ba6c4ece698d67eb496ce90e1b91e17d4c3",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.492929652461356,
+    15.501237068789123,
+    0.5513973522327577,
+    0.3456407031786517
+   ],
+   "decisionSha": "90b288831cd53d4266229387ecdab2d5b1be951a247186238c1a6e995ac8667c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.511031384572536,
+    15.45375588865269,
+    0.5490273785347807,
+    0.4008992935939164
+   ],
+   "decisionSha": "c0a2a601104a85ad454c1dbe8b21cd8cb572da5864e56a3b339c30620adee0e2",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.49825693861207,
+    15.490657305724435,
+    0.6881437172160593,
+    0.47295665106171825
+   ],
+   "decisionSha": "e002586e4d088af90f273b3f7347b557867d3e78ef453f1a565009d2dd0995ba",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.500110959925557,
+    15.482252286087585,
+    0.6867020141156494,
+    0.5120647895494104
+   ],
+   "decisionSha": "132dfc74a04136c36cba90e47b900aa1cb0b823b371fd2f7388a9dc8d08e37d1",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.481549308228598,
+    15.532367918875059,
+    0.6016080829116058,
+    0.5395625458428482
+   ],
+   "decisionSha": "4184d13fa5aba1c6f2cb7b578b5b8a85a1d69a52733f00089801e2ebd3ef2ef1",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.432074059142966,
+    15.53698189872035,
+    0.6032097603110224,
+    0.5108676447427734
+   ],
+   "decisionSha": "6f3b731e0c1a05672901b3497bacf4319028bb9d533cbfa6281976e889fdf6c7",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.515128076962203,
+    15.498553268402205,
+    0.49368423752246005,
+    0.5247349052854878
+   ],
+   "decisionSha": "b78c9db590edbb31d4ebff564c8a1b21a33aa023e018af0df429a68de54f643a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.491782949988004,
+    15.508356989860067,
+    0.4951474771617537,
+    0.5377590424686051
+   ],
+   "decisionSha": "c4c7c7bd9814e86619fbf3fac960114d0716ba20efca6471b0a566bf8859d36f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    2.87815636596504,
+    3.9404647034680598,
+    0.6387354088156022,
+    0.5230698972014548
+   ],
+   "decisionSha": "4f6f38e1a58881bca64771fbed082f38bd207c4fc1bde2e021d3fd2c6da40f0b",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.54247324713358,
+    15.516672811652297,
+    0.6448266045398282,
+    0.48592242630370835
+   ],
+   "decisionSha": "d7b200e1a27c111228871741336e404ae9abb5c030d9a882ef36f408bbe44267",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.53469613062703,
+    15.50984205596754,
+    0.5532489894124047,
+    0.27346579377927943
+   ],
+   "decisionSha": "f1d16a6e7a51c4e358dba25dea487c67bede109219a88f258c0cdaa6fbae7c10",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.4890779875983,
+    15.479968735662577,
+    0.5298230096860002,
+    0.5058769652843754
+   ],
+   "decisionSha": "d1cdd41b46632b1d594126a60f652d32ded01313eab760252aba7498568d4e95",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.46858758869742,
+    15.480077640274226,
+    0.6824413886859545,
+    0.5086354258011287
+   ],
+   "decisionSha": "a992d8c44a14cef63e2600a92f8d32420ad89ae00ee4f0044ff1178089c33bd0",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.506354269868673,
+    15.507713277073412,
+    0.6850785850555675,
+    0.5569654577707988
+   ],
+   "decisionSha": "f404e02ed49c267bc451a53666386f06520ae119be046fab924e0efe5c0f4ef7",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.474484690083827,
+    15.519429173285241,
+    0.6020788377149849,
+    0.5086377664971653
+   ],
+   "decisionSha": "f457d8971f9f52329e57672f759595bf6b00550fbbdd813d4c445913d18c5115",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.485093964720562,
+    15.486079902908044,
+    0.5810330426787721,
+    0.534206591263811
+   ],
+   "decisionSha": "98fd16be672f8ec5a66f1571da53ccf9e561dc210c571b184d48714640bd3c8e",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.496461863840953,
+    15.49523220984302,
+    0.4923185834657353,
+    0.5089429634951532
+   ],
+   "decisionSha": "e77570ae79c8632fe41f01e8327d965a34fcd237342b1fea45ab65479409d48a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.48412676807895,
+    15.5141593281448,
+    0.507198174470998,
+    0.5191231440307995
+   ],
+   "decisionSha": "cf8a857c08ea30fdbf6a9edb2e117da44c17348764e66087fe1956aadadb939a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.4392747802880365,
+    3.94893818531959,
+    0.6447664039758363,
+    0.477058227513418
+   ],
+   "decisionSha": "aafd3c4b9f3f53efac4b7fe430763feab773f70fd41b0d16ef67a6f18ebee152",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.498999294183545,
+    15.495839779291147,
+    0.6513981079359745,
+    0.5006968440113579
+   ],
+   "decisionSha": "2e89b3ec5624083095de7fd965b95945ba611e6595449fb7445160c7a5ec5279",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.42515015399573,
+    15.561099614128734,
+    0.5507726883007655,
+    0.46370417185693275
+   ],
+   "decisionSha": "0aa8fb0e76025fe2c6f634c5ec5f8702f9b8e30796d52b83c183dd518caa628f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.576819133798537,
+    15.537883160210615,
+    0.5493546964828032,
+    0.44447369766167505
+   ],
+   "decisionSha": "59077a01a9c6e337afd03add5ffc53fb7e5d75a6d0bba489f4e96070df80206a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.522164194455044,
+    15.490133839092975,
+    0.7001048404296395,
+    0.46327779727427876
+   ],
+   "decisionSha": "559f2db6557e83f49373db5e951d9d79b84b58ff66d46947a0608187526e4739",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.462221638656114,
+    15.477733002530094,
+    0.7229873926318189,
+    0.5591526679161751
+   ],
+   "decisionSha": "461823b333cc7d23adc5f5a50ae1b1beab75eb411ae31860ef3f1d30f2be9015",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.48826654161327,
+    15.512419167481283,
+    0.6051202330847922,
+    0.48469982029630626
+   ],
+   "decisionSha": "60f17a720fa97e2138705a5663b3f3f0bbcaa1e165029aa6ef597c239ba3850a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.467204168719444,
+    15.556510178818362,
+    0.5889854009054961,
+    0.43299330389815127
+   ],
+   "decisionSha": "c06f14ecdbb1e6c64fd07ce040d3370cef404decce405f29dc169ae27bd1be50",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.500789813698333,
+    15.495396601840998,
+    0.5052348178985051,
+    0.5164809059374398
+   ],
+   "decisionSha": "8111d8102b8c4cf62af193e5ecf39dfac4afaabcbf7184997faed733da3274dc",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.487364613753485,
+    15.49326998127855,
+    0.5048121808903894,
+    0.520843440160828
+   ],
+   "decisionSha": "d599a26b836d7e98b4e07f4e63347f0df7144b1c999f1be5d45a72c3b5ba4386",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.44539335931673785,
+    9.990612206673669,
+    0.6423449382740065,
+    0.2503381259736127
+   ],
+   "decisionSha": "f6985a96577202d004fd63cac1733e61c3e509d8bb49749c3abc8b33fbe89dc5",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.49109991624769,
+    15.504614898853992,
+    0.6426199004982114,
+    0.460641370303856
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.53879245528964,
+    15.497916276210129,
+    0.5451964810331335,
+    0.43149729742582554
+   ],
+   "decisionSha": "0926a2e3718e5b29a2266424f379b959ab6a3196ff5ca41da6aeb32b5cf68362",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.46195858125562,
+    15.46088943614412,
+    0.5198261167093031,
+    0.42078959214679523
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.486353041764964,
+    15.536347425489536,
+    0.7116484569283786,
+    0.5222063435974129
+   ],
+   "decisionSha": "faab3ad96793792dc214913c1e8cb98c5ff1fbf39c0f15107237fbd7fd1d4b31",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.497405643007273,
+    15.493996294699794,
+    0.7000416163089831,
+    0.5119171535016311
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.502091730201734,
+    15.541197978793432,
+    0.5829626950353693,
+    0.5243392809981551
+   ],
+   "decisionSha": "25faeedde63e63dd09263de00297f2c171a5ace9926864896d4c6db56290a0b0",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.470424387848226,
+    15.50219059028853,
+    0.5954585789474112,
+    0.5321457146695904
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.501156872746297,
+    15.478335286319151,
+    0.5075717024469983,
+    0.4834559624738796
+   ],
+   "decisionSha": "8c26bc523624997f70b6e30b5a468c01fd0367851076381804e1cd6665cf1236",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.488753035741258,
+    15.502734610173874,
+    0.5037115413720898,
+    0.4716096294558574
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.514515547215841,
+    12.46582250723476,
+    0.6285629542563538,
+    0.5393754382718314
+   ],
+   "decisionSha": "0f9ea3daa262a3ebb4c13500b1e56f623d6667cc55255f8dd180c13327747291",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.49874915111746,
+    15.482328016818084,
+    0.639580057112658,
+    0.4694768983553073
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.538717180327787,
+    15.499298924225736,
+    0.5504467454244817,
+    0.40150458046247883
+   ],
+   "decisionSha": "5abe86180e8fc8b27528fb30e6c3f25c8e982542638da10c1065e475cf520b68",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.537429954127827,
+    15.478114152381414,
+    0.5600097242930283,
+    0.46498512272699916
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.48275391083794,
+    15.50575605319143,
+    0.6883292558105641,
+    0.49588564251696643
+   ],
+   "decisionSha": "c7298fcc9862d8e6576fedfbe477867c2be19792007ea0a35ac4141437abfff3",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.563265870973343,
+    15.503437524433483,
+    0.6855475023019235,
+    0.6137682956333741
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.56481655118074,
+    15.516069920249866,
+    0.6221568857191325,
+    0.5232179350525518
+   ],
+   "decisionSha": "5daf354e574adb58369c6eab7ebb5be73354bfe5527f081e3cb5814fd3fd6ab5",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.6014496515486,
+    15.492755259648643,
+    0.6041428428388834,
+    0.4577990252247021
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.50834560615288,
+    15.526493930123323,
+    0.5069019203240951,
+    0.4615818801835538
+   ],
+   "decisionSha": "e402b405a03333f9a1ae59261dd2630c277e20d2daf6a05fb2b3494ac866e891",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.513373651489257,
+    15.494173947987049,
+    0.5021681056764402,
+    0.5015343026341476
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.43224073120268114,
+    14.865252057793285,
+    0.6244003884964255,
+    0.4551469955223068
+   ],
+   "decisionSha": "6f3c870ac3e5bcf8d18b2cf64ddd29715d495e5cbf9731c879b89e429fc349d1",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.51021222996037,
+    15.486435954448817,
+    0.6344406088738849,
+    0.505715324410233
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.39178198552276,
+    15.464396332172518,
+    0.5427307877515953,
+    0.39030218827902036
+   ],
+   "decisionSha": "6ff1f4d3e1c9913d1d3784e4b5016254240ed4654ef81180b427b6dd4e662ad2",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.594119615337863,
+    15.445404760557034,
+    0.5431040351438057,
+    0.49375164578343556
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.48059075703043,
+    15.533264135857086,
+    0.7065742197516741,
+    0.5996902612830348
+   ],
+   "decisionSha": "5eb5624350e95fc5fc8e35e479e68aff74245cf484f1ec61164b3ab5d3713734",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.49419316071489,
+    15.53760063360646,
+    0.7010619049915122,
+    0.5496646048766026
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.505757210612558,
+    15.505255947145002,
+    0.590629154402476,
+    0.5221159664708152
+   ],
+   "decisionSha": "60e0875c769d4b0c5cefa952c1a73f243ad94acaf051fcf5b259ea870e67c39f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.50396982244719,
+    15.552921450816179,
+    0.5903072869419478,
+    0.4945545978240118
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.481569673123378,
+    15.468434736893691,
+    0.5040848987952469,
+    0.45975005329877705
+   ],
+   "decisionSha": "bfb37180848d412d1ededeb9020f5d4446682333880481efaf371ec275fee065",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.506685794959143,
+    15.511327451257875,
+    0.49622972949326555,
+    0.4795477168729895
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.5331994473134031,
+    12.246488704256684,
+    0.6344765750154289,
+    0.47583024991108025
+   ],
+   "decisionSha": "aef2f65b708e43d2080470687107e87e3769a38a769b775c93bd8d66198dc8a8",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.47937143714345,
+    15.502582717825174,
+    0.6424208242802601,
+    0.5018258368599884
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.478772144550422,
+    15.590184991518306,
+    0.55579152270986,
+    0.4321470509548006
+   ],
+   "decisionSha": "85bd8c3f4a80b95137dc649bfc7294a9235095d03bd89d0365d4d136cd7b396c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.462624273466755,
+    15.532505576034385,
+    0.5571743153828196,
+    0.5208090460791883
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.48411133127953,
+    15.429869591370544,
+    0.6803695784292505,
+    0.5311371934539593
+   ],
+   "decisionSha": "8dd2582bbc793e3df707ef39d9f47af99402a07a1064ae5f2f6b455cee9838cf",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.52846447607905,
+    15.544049053759135,
+    0.7072566602050104,
+    0.5910604613510826
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.466127291425703,
+    15.499919950529675,
+    0.5976427467250653,
+    0.5249844397966457
+   ],
+   "decisionSha": "6e2113a1391654662ee1e882768ac6fc6d9b49527e272c6289b5605d3cf796e8",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.47593903429383,
+    15.489817611834297,
+    0.6036031452152739,
+    0.48845080007747954
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.49402472005081,
+    15.507963523547478,
+    0.5035225792569187,
+    0.5189122640599076
+   ],
+   "decisionSha": "8b5aaae5a7a8f40fc0d3ca70c8da780f51c28d5fde310d4f6216d17dc0562671",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.510000748807443,
+    15.519227088261188,
+    0.49697261266825316,
+    0.486289633088895
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.5282691573997363,
+    14.801679883560393,
+    0.638717177015279,
+    0.4828928710498417
+   ],
+   "decisionSha": "48f5d8e3c964c4529798897048f0c2f96835268b4971785134e1bda1315c5138",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.499430598597804,
+    15.49930111639984,
+    0.6391013565282802,
+    0.5328774042961006
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.483397124961964,
+    15.52632169543999,
+    0.5664253650384035,
+    0.40043707263238737
+   ],
+   "decisionSha": "a33d0edfd785fa41f5596dfaf2ced2f351f14467e10b6ffb40ec810b69726d21",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.482446543186338,
+    15.521711759428836,
+    0.5476597206468807,
+    0.35899675386659513
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.505483805724218,
+    15.531509637483948,
+    0.7111742682913079,
+    0.619756574137206
+   ],
+   "decisionSha": "cbd3d01a8eb49474c5a12b543708901ea44c8fc209288ae78b35bcf73a36d453",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.545227205612626,
+    15.454517603687453,
+    0.6902887733207611,
+    0.5548351329444486
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.485512061746377,
+    15.481738038261092,
+    0.604258276083198,
+    0.5041021442602288
+   ],
+   "decisionSha": "ca71434380cad6e77be9627a7097be37e4cb04e60f2a33868fc43ffab90ad861",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.447037705635932,
+    15.452936215706034,
+    0.6073946547910317,
+    0.5274857285014183
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.482700273962553,
+    15.522514827089154,
+    0.5026880374706222,
+    0.47203712282023247
+   ],
+   "decisionSha": "97423b5904f734d5be76dcdafca61312a0120acde3945a320ac5b9ebfae7467e",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.512548605680973,
+    15.51007759117691,
+    0.5005316059128598,
+    0.531365619931236
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.5336503220340294,
+    12.256612827540929,
+    0.6408093079625684,
+    0.4781189886505779
+   ],
+   "decisionSha": "5983541a0a58b780e7752b74aab790d8f141bb895cfea82d34afb85c3773952b",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.482558524463123,
+    15.527058933701365,
+    0.6401376736870462,
+    0.5350015296768843
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.43880514825227,
+    15.455445840971365,
+    0.5517665071310216,
+    0.513945479587413
+   ],
+   "decisionSha": "219864640d032404db8fe453f90030f57966a021585ad2ae726dc7d35f45ed70",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.435379777578113,
+    15.498520213298756,
+    0.5589789240483946,
+    0.4112858271539081
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.519104718658348,
+    15.492272850922701,
+    0.7120428595910283,
+    0.5809425242112869
+   ],
+   "decisionSha": "3dd43de3fb1539a9a8c32844b19272aa4c6f50b153ac1f51ee5df56a2fa6b8e4",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.490118934627592,
+    15.54484715926641,
+    0.7045522857108122,
+    0.6525096479590546
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.457374392874048,
+    15.486435849002433,
+    0.5910834378240891,
+    0.4370593371588903
+   ],
+   "decisionSha": "22c6c4e49d7140de67842e8258772e21c6904dc1dab81955f6aab40c66ebc440",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.476727359972674,
+    15.456409448257313,
+    0.6163000082622979,
+    0.5410673955051399
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.492630277276756,
+    15.497893524911476,
+    0.5026571231657102,
+    0.472981244251795
+   ],
+   "decisionSha": "e374203283927cba614c9cd784bab52ee905a13710d0aa6d9482516bc0fcb74f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.477983348522596,
+    15.5065118949822,
+    0.5002617485241552,
+    0.47636556255174123
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.4793937117242173,
+    14.773471707988639,
+    0.6348693873286864,
+    0.4940060541885306
+   ],
+   "decisionSha": "91c89738152abd960035e971dce095a7bbfdf8ab8c4c7288ad05b640e31fd362",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.5000631033788,
+    15.504113109646921,
+    0.6347852278878225,
+    0.49591640912251106
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.46860686585523,
+    15.523278263539275,
+    0.5448212893290609,
+    0.4818622924457075
+   ],
+   "decisionSha": "97591e6954b8f5465c398812b60b5a88a9f2b0775a47932cb0e681466c541683",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.534748792386168,
+    15.466807986655905,
+    0.5656737742176797,
+    0.4099412023566478
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.5286425050276,
+    15.485790144556306,
+    0.7044504700168148,
+    0.5456735014225912
+   ],
+   "decisionSha": "10c207aeb1bdaa460a30b60f57a848787e4c175e8f1479ee7fe0338f3977005f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.445329662427508,
+    15.5128908748183,
+    0.6963363348611765,
+    0.46800646371691496
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.525671915400903,
+    15.489595872658503,
+    0.6138267541986695,
+    0.48372098592567414
+   ],
+   "decisionSha": "2ca05bc3638793752ab96fd03e88c1ac1c16b194ad8800962136ef3d0e7aec3a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.54867190979574,
+    15.460593722830565,
+    0.6020916142236591,
+    0.5028037334224219
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.494921778342,
+    15.501438738315088,
+    0.5045470890111259,
+    0.5028439716168408
+   ],
+   "decisionSha": "34d21ca3144a821e563210132b8094017a3baebcf8f110b3623598e7bb6694cb",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.542405406164416,
+    15.477901591383768,
+    0.5048964287779242,
+    0.49623522287652383
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.48050633945924587,
+    12.228324141930667,
+    0.6546768882391151,
+    0.49410330879177616
+   ],
+   "decisionSha": "7a35a23cc72602b69136edbcdeae755ff8a8f518bff1583f6f4e6b9f0b910e91",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.497276942865884,
+    15.492770041421155,
+    0.6433808260014261,
+    0.4941546316065898
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.52451121743487,
+    15.48952445165305,
+    0.5491218377872771,
+    0.4078781502473608
+   ],
+   "decisionSha": "210b09bf38ad53178bffec7d21db4e8ce46d2533d5c939151fb57fde62fa8a56",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.498956363643877,
+    15.510601647318829,
+    0.5645450392977298,
+    0.44273998139678616
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.50839704533925,
+    15.52388271591918,
+    0.7012532876152002,
+    0.49487779429702194
+   ],
+   "decisionSha": "3e208e17721842794762d2544d13927c020ffb6c5d2f370fe22553adcc8638d5",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.551229952025132,
+    15.449382105540947,
+    0.6877049729521234,
+    0.5383519646215276
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.462400451133984,
+    15.489155592384654,
+    0.6023839635105652,
+    0.4805470175903261
+   ],
+   "decisionSha": "01e8d785730665a3c07d54432c3dfc9bce8a81cab427cbeee2381911c0c837be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.582425573390683,
+    15.492356178417339,
+    0.5944197006601737,
+    0.37099656291935834
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.485655918114773,
+    15.50845174184059,
+    0.4970557519823174,
+    0.5048263574218707
+   ],
+   "decisionSha": "059ebff5c655819c7e128bd5749465d6db30e3a5c71f8644029c9d7cb591f0ec",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.502358409075068,
+    15.481207428576623,
+    0.5049028315214018,
+    0.5129939899903292
+   ],
+   "decisionSha": "5611c5bd625acb96780b5d3cbe689fd72d91ec68474c2107259c6b340e6912fa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    0.47668308168564316,
+    14.685750131234254,
+    0.6293930720832183,
+    0.5251270563978359
+   ],
+   "decisionSha": "74b44ec9e95d5b5c2f872fc332929e93764f20308d598fe84a48e311515833ad",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.48226161323797,
+    15.514363563468159,
+    0.641955053599608,
+    0.4861878587866553
+   ],
+   "decisionSha": "29acd4dcbdec24c6dd9db80a71a8c938fa1ee6443000e00cabb89d3de339f6be",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.539761457527323,
+    15.440782770349207,
+    0.5442298742780725,
+    0.43805195489419113
+   ],
+   "decisionSha": "52ffb67b50cd393caf0d8744d7870848a9eaba811f1bfb3fb15ee72303c0ce13",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.458144770486044,
+    15.461929763066317,
+    0.534730050976507,
+    0.407592812373529
+   ],
+   "decisionSha": "40f8ab63cdaf18c0655ec19e84fcddbe12c9cfde6db84049518330073715765d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.50291084330094,
+    15.477724556433317,
+    0.708347969039444,
+    0.5370917270236424
+   ],
+   "decisionSha": "087f983b64139c9b80bc1032683d74603989b570c1e2a975cf19d527621895b7",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.4860011963402,
+    15.510845250361799,
+    0.7201609142250778,
+    0.5802022354047611
+   ],
+   "decisionSha": "cc58cfc8b7e038e6674cb8be9d0a2d3834681be273d067808733aec29e17b983",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.483193010987694,
+    15.492611584068458,
+    0.6141008226082657,
+    0.5137572405128965
+   ],
+   "decisionSha": "632c8098b427178268deb87c007548b5e9f14a8ef4f10e1b5abc448ac46e179b",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.560400145187646,
+    15.429495447858123,
+    0.6138245637268915,
+    0.5206764682104604
+   ],
+   "decisionSha": "9c825b2f3f0bae9debb39a29213a6eb4878fc63c7631c7f188eb9d920743b5e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 5,
+   "aim": [
+    20.486110604348035,
+    15.515351448993874,
+    0.5037916404589994,
+    0.4867462852524708
+   ],
+   "decisionSha": "ecd2088dc1cae0e0dcf74194ca849f039e0175a1dfba18e46daf28ea4a824334",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    18.029902392241695,
+    3.0022218536880314,
+    0.6455924481100604,
+    0.4336461668395387
+   ],
+   "decisionSha": "34bd5bd8cf49512ca67c3d0f83d3a0008aea117a5fe1b6be204bcd800d827a41",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.19315948291235,
+    0.41059134694262917,
+    0.650666762995514,
+    0.8022914837676147
+   ],
+   "decisionSha": "1323f9a56235d4409231aa0e405b955173848e32515b5107c84533fd3cf998dc",
+   "kind": "acomodo",
+   "messages": [
+    "¡BOLA FUERA!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.511674394800664,
+    15.518329817545544,
+    0.6380877235773321,
+    0.49077944273430874
+   ],
+   "decisionSha": "4d5f1c86b5d44b5ca8cd37db84de2160f211a14101b58d31a7cecbf239260fae",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    18.01149767416816,
+    3.0365487475866475,
+    0.5488547528097689,
+    0.4758815516405801
+   ],
+   "decisionSha": "34bd5bd8cf49512ca67c3d0f83d3a0008aea117a5fe1b6be204bcd800d827a41",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.539232029686222,
+    0.6372743275458672,
+    0.5461346354581254,
+    0.3986412488914533
+   ],
+   "decisionSha": "1323f9a56235d4409231aa0e405b955173848e32515b5107c84533fd3cf998dc",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.49008392818723,
+    15.508185643562,
+    0.5596768534849941,
+    0.4068645646443443
+   ],
+   "decisionSha": "2c927856ca096d660f67f9c0f49702bf89070e24256a92e1dc6b8cd4d5e58672",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.499728418209404,
+    15.435027202422186,
+    0.6928722389022757,
+    0.5965744073793839
+   ],
+   "decisionSha": "6f340e982ac7daea7dd16c82741568a069eede1adc4b724ec82e20d0194fb258",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.4814744118384,
+    15.502567128302694,
+    0.7026459095807925,
+    0.5542392873668388
+   ],
+   "decisionSha": "5d184015152778b772ca4d386a217197a3f85886a3435a6383294394bf2f0ced",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.54670138674128,
+    15.54079747893645,
+    0.6250614006255558,
+    0.5028418625064445
+   ],
+   "decisionSha": "0710774e1f2ac1d49e0b6af592b57a11450dcd114230d2d1666136bcd807e43f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.515928625320882,
+    15.475368231174738,
+    0.5985560546572278,
+    0.5045698224522523
+   ],
+   "decisionSha": "c8b3a895010ca798e2f3c3d4ecbbf56374fb3fbc0ed5b6445878cde92f3c889e",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.505370205985287,
+    15.51668527868478,
+    0.4958335851476494,
+    0.5343152879515164
+   ],
+   "decisionSha": "737a31210ed4bb06e0616437332afde6a23d0bcaaba25ac60dec97c3a54975b1",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.500370231090244,
+    15.51572533227505,
+    0.49709065481902603,
+    0.48182149936789176
+   ],
+   "decisionSha": "6d2e268feb06be7df997186d48fc59723815cc50982bcd1145742dbfd9b82b6e",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.4792715495188,
+    1.481873750921575,
+    0.6543229156574658,
+    0.5032316863471682
+   ],
+   "decisionSha": "c987829873ad7180d78d78cb7bf26411651728a82c47da2ac54337fcabcbc908",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.48536294445913,
+    15.50615210727913,
+    0.643304842791239,
+    0.49648414282754105
+   ],
+   "decisionSha": "b2eef451758c54604bbd361b454ef3ab5b5de4cca6ded1da735658babe61499f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    3.3058319829835137,
+    1.5879327278390343,
+    0.5500394025893061,
+    0.41448328456536276
+   ],
+   "decisionSha": "b75ff1e5dad0ade5cecb3be7721a4e704e6bcf8da03c5692a92e9bd9c25c7e30",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.850442424850153,
+    2.599826723992711,
+    0.5531220846957522,
+    0.5151620232214555
+   ],
+   "decisionSha": "b3636a65c3b3e8ca7ca9f7db3bcc25c88db86bf49623174776e8030c0cbfb1a4",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.2436057932418865,
+    6.230131306226813,
+    0.5684507584207706,
+    0.2854086270568995
+   ],
+   "decisionSha": "a8615b4562dab53ca403bca2612c05baa64cc68b44c763830f87bd0509a7f95d",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.54801909800229,
+    15.4552437332045,
+    0.545781917545199,
+    0.3650082843342286
+   ],
+   "decisionSha": "5572a5e6f38c92754a72e93db8511f0eb0e804ed5f84325a9dec084f7cc40aae",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.446601165660613,
+    15.554499523872757,
+    0.693866202648195,
+    0.5462041992677406
+   ],
+   "decisionSha": "d92b6d8dfc5f738b27c8c43f287d2b3cbfdce852583a0faae81d872b376a1a3f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.497877931007004,
+    15.500223945826933,
+    0.6964587505707274,
+    0.6174441961270289
+   ],
+   "decisionSha": "e2def7de84ba350e4f9c63b16c63b9ce1f7647ccf184f83c16c2d11cff2523f8",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.511056537071866,
+    15.554513945108864,
+    0.6057562057054344,
+    0.5114602772095691
+   ],
+   "decisionSha": "9a433063a5cefb37f6a996900e4bd3b802dff8d400f0c7754d0f0046680d918f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.536586890595576,
+    15.545510218789865,
+    0.5934424471551868,
+    0.5220972623258552
+   ],
+   "decisionSha": "5d730179e8820926aaff1c469ca4668ef1d582a84e95f3be44599c8d98bbcf07",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.480040366083358,
+    15.510269778346798,
+    0.4969626335939474,
+    0.5109540907203899
+   ],
+   "decisionSha": "9dbb9818744d359c61efde521dd722f72897de85b48a3eb84871731c967be6ea",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.474579231495543,
+    15.4883647167488,
+    0.4990902238657686,
+    0.514740574406035
+   ],
+   "decisionSha": "a0a9060e840c193ab9ffa02295ffbd2d0d9e6da47358c26544f78e77cb8506aa",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.0011775127532208,
+    6.637432312625113,
+    0.6486210144896276,
+    0.3811003954766047
+   ],
+   "decisionSha": "1a6215534c47d75aaa4d1e30ab1fc0d6bed309441fcde3358026d7d062683036",
+   "kind": "touch a compañera",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.488821482365978,
+    15.49852560472831,
+    0.6338307313632404,
+    0.5287554585200268
+   ],
+   "decisionSha": "47c423d46988770d83ca7094e98ad109c82b5674c2c9cf7d9777a12b69440f73",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    0.17705428522966976,
+    8.602528068734381,
+    0.5442499083698809,
+    0.37457324620035615
+   ],
+   "decisionSha": "ecf4892e699673b2a7f35daaf5f7ad010125863d71205485d61c139a4f9cb5fd",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.36028772452395,
+    0.6962049057093733,
+    0.5494331796075465,
+    0.5838892590483685
+   ],
+   "decisionSha": "52a3237170746a62d2026f5c6c868e185532f5c7aa71bf76e9dab576e407e48e",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.144297571717193,
+    12.816893851726897,
+    0.5509964977853409,
+    0.5383383808049277
+   ],
+   "decisionSha": "5e26e012537c21d44f1dd451ef452e8d688779a91d74846c81196fb416677682",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.517577480526622,
+    15.542385541408471,
+    0.5363312114356713,
+    0.5426947894107261
+   ],
+   "decisionSha": "8db21cefe21dbc55d708783706c527a865a6633378771257c11e4da57ba5c250",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.51293841932768,
+    15.526492538956827,
+    0.6984120722575666,
+    0.5611327401920653
+   ],
+   "decisionSha": "1cefe9159cdc945371b62242be37c94774882585a8414f6e916cf2686b2fdfd8",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.545519429163043,
+    15.485890136076842,
+    0.7003951906642158,
+    0.5391386283185379
+   ],
+   "decisionSha": "ac0e8be9f5b695b8f3fbad924d1f7f18662d97f2471c1ee405b252e803dd4dfc",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.51884132443133,
+    15.559585425195182,
+    0.5973113994851362,
+    0.4522315915029124
+   ],
+   "decisionSha": "9241baffebb43ec0920cbf131907e678ff00b168c0a127cf948544d6f68cb96e",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.45627620397932,
+    15.538410271963984,
+    0.5871118942723936,
+    0.6341706087369496
+   ],
+   "decisionSha": "4532fb9cfd9c227c1abed4a2c1a3e5cbcc02123c0753c0fdb5129d649bd50242",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.4967333648382,
+    15.501842121103246,
+    0.5014828138322761,
+    0.4789141303465519
+   ],
+   "decisionSha": "3fc995d06c2d64693729bdbc1f14f8b53252080d8334971858593c53c16cef6a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.49676092645663,
+    15.485682064830659,
+    0.49554547192056475,
+    0.5274642827632985
+   ],
+   "decisionSha": "b0e8861dbdd42502b6060e2710854bed7202565e5bcc07a8ec115f32b487d56c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.627025897263337,
+    3.277162059067501,
+    0.6365908558120653,
+    0.5348867391326395
+   ],
+   "decisionSha": "5f232f6f3ea7b14ef306b1fcf3c873c04e57e4be9c546eed8923f9ad2469075d",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.511182979369302,
+    15.491740161629801,
+    0.6458735658217201,
+    0.5118833548795536
+   ],
+   "decisionSha": "43efedd7421688a5b94623343b505b0b0fac6168256600271e7772881b8e948b",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    2.3468677629277996,
+    14.978044285173196,
+    0.554752503597441,
+    0.4277871301853025
+   ],
+   "decisionSha": "96ba1964e74ce8a40777eda58e960562159b9ca44541f2bbc19ca21e2ed5e3c2",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.589750099406643,
+    15.49898304306054,
+    0.5506365797830254,
+    0.3755769534287613
+   ],
+   "decisionSha": "6984e18f836786ad5e847fa2dcc068a7e25b928d556d498b97646d2f76e32a83",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.50175743597845,
+    15.516864670063399,
+    0.7088634702530777,
+    0.5412700708642406
+   ],
+   "decisionSha": "a2c1c39ea0450f321c247dba2961dc57e1708523c885d0065e4fdfce3f6aa97c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.53916620363669,
+    15.475941672951413,
+    0.7125286624178165,
+    0.5270402770334105
+   ],
+   "decisionSha": "5e468e44cc8a077a108a55eb1650af13162772341259772d4330bb436fc64cfe",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.46166883174466,
+    15.431903217417426,
+    0.5937891519395687,
+    0.48437470548775863
+   ],
+   "decisionSha": "ed06b8c4e0766ba78bfa109f1cb6c969876b64c8a4e2477adc7cefd934b0aead",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.509238044512276,
+    15.517984946836325,
+    0.609480906534923,
+    0.5210215912257974
+   ],
+   "decisionSha": "938d0c052158440bc83039aa5087ef6cbbe2f1a87488e953102ef46cba276cc5",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.482570208937485,
+    15.491991532423423,
+    0.50113657152624,
+    0.5184323293561626
+   ],
+   "decisionSha": "d20417ef869307ff8fb4ef7e9091f62743283edbdae584c35dbf47b033e37fce",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.49557324135936,
+    15.490701152252896,
+    0.49731853835761786,
+    0.5205720855990376
+   ],
+   "decisionSha": "a5e63402afb85ead43cfb6f996473d7bf0d4377171cda6433158cb37f8f99eba",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    7.423119612389894,
+    1.066611219757969,
+    0.655098799560581,
+    0.5246752507950397
+   ],
+   "decisionSha": "bd34d2ada4fe9bfbde0ef527a61ae6f33d4deb7ce3c33a602745f63a31795af3",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.52737604806085,
+    15.485046237641901,
+    0.6398949567218456,
+    0.5050773140241972
+   ],
+   "decisionSha": "7b4f0a42784a8405c75bbfa4cc2e6dc18765b1fd26a9143d2c75de49e8dbbb10",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    0.24111285285355372,
+    13.70685797761636,
+    0.539377346817589,
+    0.4451901126489161
+   ],
+   "decisionSha": "0c5f3de2fd3fb8ea87ae995f9e1fdabf3444fc475b87ee9dfd8ef310a80dae4d",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    18.014291099896823,
+    2.9960818504354845,
+    0.5498972947079955,
+    0.45325507794108955
+   ],
+   "decisionSha": "bb29c300fdf2e968111ca0cdc0cffd325d496c922766e93e7956538c40c4bec6",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.585207435910536,
+    1.0297726143186403,
+    0.5599775163734149,
+    0.3887909073116508
+   ],
+   "decisionSha": "21025d92d742d48fec7b3c387017c2d12edc7a0c47d146ddf146e867c89940b5",
+   "kind": "acomodo",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.742498646476019,
+    -1,
+    0.9937366071914109,
+    0.5117190629241604
+   ],
+   "decisionSha": "dc1072df79d1d320528c01d15c5b13a33dc05bb6de1a023ccb135ba6a46cdefd",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 1 SALIÓ"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    6.588120816402916,
+    0.2212044575492562,
+    0.5678531006140957,
+    0.4927908212800982
+   ],
+   "decisionSha": "35dc72089441e555f4fb43158736d1c828eefbec106904920610bdcf6c31f35a",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.481744394110958,
+    15.493179142102669,
+    0.6872898351903378,
+    0.5901644158016249
+   ],
+   "decisionSha": "5e34b71e7471f04705f0027d09e304febcbd54cd22f0052492fe43103f365c5d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    17.998257090593885,
+    2.996682517763196,
+    0.7086496340790343,
+    0.5779801209373507
+   ],
+   "decisionSha": "45ac26a689e4875f624de3325fa0c918ee28904372c91484a0d7fa38c8d44941",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    2.5159078877656254,
+    1.5676173969898932,
+    0.6827371787471078,
+    0.47275588468632684
+   ],
+   "decisionSha": "69576faa8e720b5c84cd0ca397a87e6dc36c3a925eae1544d1da6d76a5a75664",
+   "kind": "puerta 2",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    20.504789947993288,
+    15.435461679129451,
+    0.5801417302257902,
+    0.5340254008653369
+   ],
+   "decisionSha": "f2fc6deb39d1986a3dc44898af41953488e461bbb7600028543c7d745d8993d6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    17.965059412570167,
+    3.0267548549550867,
+    0.6060062208533162,
+    0.49409125063070425
+   ],
+   "decisionSha": "d84a2ccec1f6784ea3e273fe4d8c3065b4a480db5cc5f7c6a490919528eda5a8",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.495596280511993,
+    1.8155538457835183,
+    0.6071913729714569,
+    0.4369955117483386
+   ],
+   "decisionSha": "7b178e0924d4dca4458447e068c57be7d68ead3a63007824950e337c669b8e42",
+   "kind": "puerta 2",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    17.991405492334906,
+    5.97273352110078,
+    0.5087381505636029,
+    0.4873517933430022
+   ],
+   "decisionSha": "29773d6f84fbb42e52d46e94885d66e7560b2edb3fe35d42e861cce01fad9fa5",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.24687873897204,
+    0.8617966804448217,
+    0.5172361361429451,
+    0.11777607701384385
+   ],
+   "decisionSha": "abfbb514cfca9bada40d33f0e0a536b985cd2bdc9f7111b5291a3218fd45e58b",
+   "kind": "acomodo",
+   "messages": [
+    "¡TOUCH A LA BOLA 8!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    7.953061414459357,
+    -0.9623760175728416,
+    1,
+    0.48882387753805867
+   ],
+   "decisionSha": "3ef961c31fd6cff1ff79ade1caa4b8654e39174eaedef0782a04fb450797f2f4",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 8 SALIÓ"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.617895305586122,
+    2.901744990702618,
+    0.5040350857628609,
+    0.5303767615073182
+   ],
+   "decisionSha": "82fe6cb109cad662bc6744c651a4c891deecbe2018ecdeea1fb6fc3075149280",
+   "kind": "puerta 2",
+   "messages": [
+    "¡PASÓ LA PUERTA 2! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    6.483228743065223,
+    0.14196123972836266,
+    0.5021396582502266,
+    0.520904647604144
+   ],
+   "decisionSha": "a0b342b7a291b36fb7df9717c146e9adfc2cf08d905933056483c1b4533359f3",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 4!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    6.4622687730459,
+    -1,
+    0.9974828607959151,
+    0.4915792603992146
+   ],
+   "decisionSha": "b8781c2a48c136c35d895f19d1cc417738e6ecc918c28a1deae9c9d29f505c5d",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 4 SALIÓ"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.013798198676144,
+    0.31013835724681266,
+    0.5078055890855202,
+    0.4720591824310844
+   ],
+   "decisionSha": "0f3b2e68f2b04cd3d2cc58a44c5ba1540794661d75b470f6f0204bed08cdd2e7",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 6!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.328701137416402,
+    -0.9955302374989967,
+    1,
+    0.5525482784789216
+   ],
+   "decisionSha": "df0b74ee8a074360e6b2a9635134f6b195e79fd4bd5a4f4e341c9a0a6ee34c0d",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 6 SALIÓ"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    7.938077303027171,
+    13.008596294896936,
+    0.5143856780663334,
+    0.32152639459879606
+   ],
+   "decisionSha": "39cc623556d82812dce3403e65b84b6e922a536b5f09fb8bc4225afe561a46cc",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    17.990040877893197,
+    2.9850889343144518,
+    0.5038295842680098,
+    0.5122840529180163
+   ],
+   "decisionSha": "144126bf5a9200446ccb790043e9c04c82b3b97a6727a0e4cd170d84243efbcf",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    6.038826451049437,
+    1.9218737662671452,
+    0.5057684086112784,
+    0.8481126001208672
+   ],
+   "decisionSha": "22cb926d6eef38df38feca900e18c644a2f375341cbcac8f2db886a6bac6e2c3",
+   "kind": "puerta 2",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.5320648193447919,
+    10.566549788230898,
+    0.6522754103665573,
+    0.522985254603
+   ],
+   "decisionSha": "28b7346cf637e00f756a709f816f9f6ce0204a24684edbf5859c37f0ad369df4",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    17.990421751437317,
+    2.988890137347745,
+    0.6381119808088576,
+    0.4740836313278213
+   ],
+   "decisionSha": "cc7b173464d90d9976bcf74b45daf90b10c1d044c54dc29f6ca571646a4f63f7",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.5275880187220725,
+    1.8320588215890297,
+    0.6402308030778074,
+    0.6918710713174041
+   ],
+   "decisionSha": "56f5e7a4f5f7ec396f8b6ce85da149560fbb1144f369679f96d3a9d959cb9054",
+   "kind": "puerta 2",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.778322790556385,
+    10.2632069516397,
+    0.5575636811638196,
+    0.5043276601145353
+   ],
+   "decisionSha": "113460541a63cab7bf59b111c64518b4b140561e986f9b46ff3497896c6d6717",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.196314078842489,
+    9.807380682503421,
+    0.5577473404921933,
+    0.49005065207163423
+   ],
+   "decisionSha": "31118d40b39d37d18486c73175736690cc2feab7633b6368f9342def2caa7fe5",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.613250995566757,
+    13.830246799298472,
+    0.5479024102634477,
+    0.35767389820135
+   ],
+   "decisionSha": "11b9e35364951e3b6ab36c7d21de207d1983f2843952799acdef56850821e028",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 9!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.10899450511415,
+    1.3100497778871418,
+    0.5514084012546863,
+    0.30254012644685346
+   ],
+   "decisionSha": "d3b06d152c5d99aea52f8a0ae04a7ee0e43c9dfdcd7e1997dbe715a82eddf174",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.114883376162412,
+    7.318044262926862,
+    0.5525180625535877,
+    0.2256624977039915
+   ],
+   "decisionSha": "85c61719be5a2ffe75e337ec4023a380f3f80049f3bd7eb0249932795f1257e4",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    0.98930939980082,
+    0.4810579120232087,
+    0.5533450082888987,
+    0.5036035486243312
+   ],
+   "decisionSha": "2deee21eaf8603e837cf7b81092f07578f165b0e639a627388a0faeb0d98875d",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    18.00081585517578,
+    6.053564067288346,
+    0.6959930794409229,
+    0.5964180316297085
+   ],
+   "decisionSha": "13e270fad334458841ff329c6b81ccc43d666397019a5fa86a3124ea2d156e06",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    12.728829559177338,
+    3.161280850649609,
+    0.687651054320863,
+    0.6438622186451617
+   ],
+   "decisionSha": "aa04ccd650ba2da320ff374fe1df6c71b860f98d481b318f92c44decfcda3158",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.465540300272213,
+    7.499708229423181,
+    0.700547782201102,
+    0.559321779753035
+   ],
+   "decisionSha": "0d136142d63e2c3662fd0ba7fc6182206f8e2a4c9272d5b6656ae814874e1d31",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    18.04118134144404,
+    2.9467211301762077,
+    0.6201757231229226,
+    0.4429342593231373
+   ],
+   "decisionSha": "145fe1ddca776155f057654497cac90afd7a2a67f37f46c001bb5d83a2192cec",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.426566149204286,
+    1.8533972282054612,
+    0.6042323877299686,
+    0.6886453468383847
+   ],
+   "decisionSha": "84c051e272a37c2499de29771b3533bf36963048edfb557c95a6b2259b724124",
+   "kind": "puerta 2",
+   "messages": [
+    "¡TOUCH A LA BOLA 9!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.196381980208823,
+    3.037334561192571,
+    0.5932957210583759,
+    0.620230154478859
+   ],
+   "decisionSha": "2b22a23e23f48293efec71d6ffcf507479df4965870b15dc8184a2f43f353b1b",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    5.8702038158813,
+    1.1425795711965405,
+    0.5992434194757298,
+    0.47374900770472794
+   ],
+   "decisionSha": "92e5e0c0c2e330806b857fe9f424408c8074feff7ae53e885f8b349ab8d9ee0a",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 10!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    0.3353422208759432,
+    9.743189750345385,
+    0.5981641128202065,
+    0.23847318359896214
+   ],
+   "decisionSha": "04fb42136d69a449a0898c0d707dc0e09c2ed39f44df10defcf51309a42b43c2",
+   "kind": "spark: mover bola rival",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.660442189372805,
+    0.8297790361284082,
+    0.5907115469299562,
+    0.6260038046403174
+   ],
+   "decisionSha": "f5ecc6d8047d9619e5da792fc73e4ad58d7d1ec160240430b980603aeda7ce2c",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 2!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    -1,
+    1.0262485926591642,
+    0.7797852775486307,
+    0.738880695485755
+   ],
+   "decisionSha": "3e75e955e4a3010fdeaf3341bacf4b63e3fd747f6589920b438e6b7af33bdeab",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 2 SALIÓ"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    7.772879579407733,
+    8.555260972120834,
+    0.6014576568738156,
+    0.27295833570739303
+   ],
+   "decisionSha": "c7fd9f1704a8aa178a23b4e3019a852a0bb04ae692e70c6cdfbd1557e6e98d8f",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 3!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    11.040248892362543,
+    1.0285723469101657,
+    0.6088970724154774,
+    0.5718722095715805
+   ],
+   "decisionSha": "661b59626dde91f8311dd3c795502190b5c76926be8a583b44679140c3a7ee23",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.0110849708708627,
+    7.307253553524655,
+    0.6001853305508852,
+    0.4438667607940917
+   ],
+   "decisionSha": "995b3a8e5275f96a62d9b5751246117f732befa8099e54d7085b8108cb344663",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 6!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    -0.2948665073841178,
+    14.144480697991723,
+    0.8600357527211783,
+    0.584886935200481
+   ],
+   "decisionSha": "579fbca9c5853cbe8e5533ec2463ee5771a9f11089cc00ed91be6aa4e2fea2f0",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 10 SALIÓ"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    4.94569152951589,
+    10.179554169521332,
+    0.5940187800374435,
+    0.5038227857271856
+   ],
+   "decisionSha": "dc6f73202c642e36c4c9741c0b08a6938097600769b540e99850532eeb2aa7ca",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    11.470336351363565,
+    0.670617669984957,
+    0.5937655737005195,
+    0.7583492715801624
+   ],
+   "decisionSha": "7da6b9dd031d8650f42aca92bcb7401f83e7620628d8a2fcb789754de56b92d5",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    14.5511568726102,
+    1.900980576181355,
+    0.6090504451267814,
+    0
+   ],
+   "decisionSha": "0ff3b0c90774977fe702bb3a4a8578a0032d1b8eeec2f8f1d3f78d2bf91d09f9",
+   "kind": "touch a compañera",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    16.522143369723658,
+    13.518353777668086,
+    0.602000415032365,
+    0.42911048523202433
+   ],
+   "decisionSha": "50246220936862b0a79b863e32ba6ed1d7f983af2cc53d774d9a9e68b9e15902",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    14.040309469389888,
+    3.3392200710294135,
+    0.5059041150267092,
+    0.4139770913423213
+   ],
+   "decisionSha": "89bcde3a0e5f82d92c15a40056c07329b2bbf9b383dfb4b1125930b26a66ee8b",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 5!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    10.011935465525031,
+    2.0013284236643667,
+    0.5049872628119386,
+    0.46821561811199675
+   ],
+   "decisionSha": "e08fdf8e04f2f95c954325346f86e672155c8afb6df8be3f2d9e9efc0d6eedd7",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    13.995017971895091,
+    0.9691172145385399,
+    0.5021593995819303,
+    0.4903219328176607
+   ],
+   "decisionSha": "73c3327c42bb9aa671deff519708e6a88dd52f293b2698786752232e648a4408",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 7!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.356727984728131,
+    1.0236565072740405,
+    0.5075556627368301,
+    0.5247309107410317
+   ],
+   "decisionSha": "3a113fc04d4a7d5f1d56e7e5e6e0603b683f2c921325ce9dd87c4811c3de7360",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    11.234652300219132,
+    0.8260181648391419,
+    0.4940260092105942,
+    0.4876216077275298
+   ],
+   "decisionSha": "5913c42fde88d183fc9a0be78a51e2d465ceda9f54e81079aa183c764e2f961f",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 3!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.50761465004356,
+    1.605712138965361,
+    0.5019308061846496,
+    0.5211459965582367
+   ],
+   "decisionSha": "0cbc4be17b9e02c7da398818b6b7495a0af2b7bd4e5d428927bd55e6cddf8267",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    10.646948247278813,
+    -0.009678027947675538,
+    0.5045317951050744,
+    0.48449893593154436
+   ],
+   "decisionSha": "a0a6b69d49f2c2ea31b235a221aaba39e761ee1543d8cdcb0e2a202b20c2a900",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    5.813334485635453,
+    5.090523854579292,
+    0.5030621101673886,
+    0.5055137722158024
+   ],
+   "decisionSha": "2cf3270ab08dc1a89157ddf69dd1326e688d5a86e765e6b375cec595a2a3aee6",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    13.284781116419397,
+    0.16646565103932057,
+    0.49697343241855996,
+    0.4868989076723421
+   ],
+   "decisionSha": "8371c6a99132f135f8167a45981a0ea277eec375685b7388a4292bc2f227f492",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    7.541325492240997,
+    13.522613826517437,
+    0.5050314798760821,
+    0.5146019779692903
+   ],
+   "decisionSha": "ccb466d5f4a0cc822dd090028d5c1b4b1782890d63ccbd0f9e00fc8d20588679",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    2.7318783749280238,
+    3.489528630167657,
+    0.646610403784068,
+    0.4391813754479952
+   ],
+   "decisionSha": "705a52971ed91973bcf3c66fcea28ed4b0f77a14ef61a9d403e8c6481dcdda18",
+   "kind": "puerta 2",
+   "messages": [
+    "¡PASÓ LA PUERTA 2! +1"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    1.0049356129764369,
+    0.45027167631250675,
+    0.6441740723451479,
+    0.5503054115159745
+   ],
+   "decisionSha": "925ba74c88e8a9ec410ee541e2c32ee582f62b7e30d6f79922bde77cacfa4f55",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 4!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    -0.7350207312533071,
+    -0.49620024521148287,
+    0.9937671671734216,
+    0.5114008392471399
+   ],
+   "decisionSha": "59a11f3814b0fdc58f6e1f39edf5dba97e0d1abb840600407796aeff25644fef",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 4 SALIÓ"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    7.713822428589952,
+    5.383271664100854,
+    0.6502857368363293,
+    0.4556191019023208
+   ],
+   "decisionSha": "e441568b5f4b55a9e97cf9b72713f26202f8d6835307375486a5654f6673a8f9",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 3!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    11.596283716413636,
+    0.25908117404041553,
+    0.6371384933434137,
+    0.41429483246950105
+   ],
+   "decisionSha": "a0680a714397506379bc6fdc4c2bc08226e629b81ba78d2131810ca8e6ae1d4a",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    12.159995395255983,
+    1.2844272122714202,
+    0.6349963879714823,
+    0.285412979108724
+   ],
+   "decisionSha": "efa2a0661d1996c2be546e59d43c9bc05d3921261a1ba226c095f7595ddf5490",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 7!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.467978072313397,
+    1.6013808287582252,
+    0.636918694649395,
+    0.5167124881139908
+   ],
+   "decisionSha": "e17ee386e1516c778483ada2d3509e0074068e4f90a4cefd34edee15ca394954",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    13.323506922192148,
+    0.26184692203435733,
+    0.6489044203223204,
+    0.5215137342358508
+   ],
+   "decisionSha": "9a97d9e09746d3ad8fc195d1c6e96c5c7ba6b2f6c531a1412151f766df315121",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 9!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    8.427453388661332,
+    5.302958057449755,
+    0.6557995682664314,
+    0.46523268746387336
+   ],
+   "decisionSha": "a986f67cc386372e75e884b4d6f9d83f6a8cdbb097b01f167217e370c3fac3b1",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    9.088373954613482,
+    2.3220800964408017,
+    0.626787157752593,
+    0.5935546966239342
+   ],
+   "decisionSha": "16dd75ee1074698e7f1a30cd7e7237c34862a3ab79d8fc612e85a532ed00f669",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 5!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    10.503925160286837,
+    2.4289065335051796,
+    0.6523024529656389,
+    0.4998979496681025
+   ],
+   "decisionSha": "5baa05dc9e3f3af668c2b8e390ef58cd82e6b29d75f46af38bd2cc0d1eb8742c",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 6,
+   "aim": [
+    15.730545865306189,
+    1.7844984387897695,
+    0.607182708147369,
+    0.3669183732241387
+   ],
+   "decisionSha": "df6ac09502b806028c179cfe6a0ae14768dbfcd3ae6b8122bc7a717d975e7767",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 6,
+   "aim": [
+    0.05940523740117308,
+    -0.04982137900953328,
+    0.6394733257579341,
+    0.5023382996300915
+   ],
+   "decisionSha": "921fd945b025955d25c707cb466de0d2935894d218eeea863c4eb3f0d5c4d56a",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.97333129241151,
+    3.001878437212587,
+    0.6386387112736283,
+    0.5165317956606078
+   ],
+   "decisionSha": "34bd5bd8cf49512ca67c3d0f83d3a0008aea117a5fe1b6be204bcd800d827a41",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.483484037334643,
+    0.42311811179607733,
+    0.6450758852683555,
+    0.7954955942699741
+   ],
+   "decisionSha": "1323f9a56235d4409231aa0e405b955173848e32515b5107c84533fd3cf998dc",
+   "kind": "acomodo",
+   "messages": [
+    "¡BOLA FUERA!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.497651341087185,
+    15.487225399334475,
+    0.6479091934205884,
+    0.5313273669411145
+   ],
+   "decisionSha": "4d5f1c86b5d44b5ca8cd37db84de2160f211a14101b58d31a7cecbf239260fae",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.96250033347979,
+    2.9903097109759686,
+    0.5497059929198719,
+    0.4831620971491055
+   ],
+   "decisionSha": "34bd5bd8cf49512ca67c3d0f83d3a0008aea117a5fe1b6be204bcd800d827a41",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    9.652575070705401,
+    0.4219309334944329,
+    0.5420505770848897,
+    0.6493965444453903
+   ],
+   "decisionSha": "1323f9a56235d4409231aa0e405b955173848e32515b5107c84533fd3cf998dc",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.410541135543546,
+    15.553423468651708,
+    0.5412777084661853,
+    0.5123045564878059
+   ],
+   "decisionSha": "12074d62dc4ddb1b48f0537769350ae22f7b973a960b7383be958fcc2f12e74c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.4880628026868,
+    15.522846896980449,
+    0.6900742071865648,
+    0.6136387495324875
+   ],
+   "decisionSha": "90864ce354a4653f56879bbf5c43763d9d268a3d9ff77c7fcc70d6b456882b37",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.528484465901474,
+    15.483922497409019,
+    0.6919994613511495,
+    0.5962422387309924
+   ],
+   "decisionSha": "4714d02f6caa0dc57f801852941eb592364eb30320b14d782287ca19b13acff5",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.531768277148966,
+    15.528199995593003,
+    0.5831983939169241,
+    0.4685801733561775
+   ],
+   "decisionSha": "906e3cbf8422b98dc1844a72209bb1c885325c7b6dc13665a271fe49cb7a96c2",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.53183776595329,
+    15.463304094355651,
+    0.6070611635709107,
+    0.5634440460537973
+   ],
+   "decisionSha": "4541d37c08dc8966b8a6bf9f94e1d0262e5e184d5e8d12ee185b37f2fa155a55",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.49978625647598,
+    15.497333367195015,
+    0.4979621148212937,
+    0.488508079039644
+   ],
+   "decisionSha": "27aa20a384645f861e679d17a4faa647c72e867b7316fb5f61b2f155c28cdf5a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.49173628066166,
+    15.50004748186188,
+    0.5003780313474274,
+    0.5110948685935298
+   ],
+   "decisionSha": "b3d995942464da9e253d4b89866c5c215295d1f8e076cacb72ac69bba230026e",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    5.1513209160621045,
+    0.9374126721857502,
+    0.639909413197442,
+    0.49715001129737335
+   ],
+   "decisionSha": "2a7498bc032f9568124c935016714e2dd7b5aedcdc69a63112686bd64a8cbd9a",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.490387308887108,
+    15.498542921067376,
+    0.6493210597467161,
+    0.4602189146365275
+   ],
+   "decisionSha": "7396b818f95b79b4d1b58a3787c7350b05169edb151249609e199a854c59b154",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    4.2784545420650115,
+    1.129710527328749,
+    0.5490806965350449,
+    0.622155722240156
+   ],
+   "decisionSha": "84f2b426cd7fb0656ace2f6a0822257de56292af71d605f2a905fd3c0687ef0a",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.32335736053886,
+    0.8570622402716569,
+    0.5523233844457588,
+    0.48312539412908573
+   ],
+   "decisionSha": "32607f9e9ea82c3ed0cb63a6a0c1f84c74c640aecd9e10f0ef0edfdb0379602d",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.13845991571430966,
+    3.865385398256692,
+    0.5361958297338327,
+    0.4797223874703398
+   ],
+   "decisionSha": "f35df2511de5ffde71d05e1b85dc1646f48c5d5e203ff314108f6ddb26cfd669",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.45095348785401,
+    15.477760924268974,
+    0.5183484904843318,
+    0.45389985586765635
+   ],
+   "decisionSha": "7c85666f449afd89839a5354f5b5437a1ed854d8e30a6000fb9d23d8d56d0938",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.53115195293762,
+    15.504371639582233,
+    0.7075735171795438,
+    0.6188144254262445
+   ],
+   "decisionSha": "6d4252c4126afe1c5e79458124d5ea9a7aa3d33a376ca0561f28601599d73cdc",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.56895355537209,
+    15.45391206712047,
+    0.7078686129419519,
+    0.5132849082237936
+   ],
+   "decisionSha": "04123459ccec268d40ec1b9ce3091c8a08fff9ec9eb4930917f110987f1a0faf",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.45762662688939,
+    15.521819145104132,
+    0.6006987141038079,
+    0.3835525537511618
+   ],
+   "decisionSha": "2f14eec5a406cc2cbdeec499ab6cc6df7ed66938ef7c52b1d191c513157e0de6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.49813642127364,
+    15.55014590852284,
+    0.579878790896681,
+    0.40319908892986134
+   ],
+   "decisionSha": "fcd4d19eac76d3516d54b20ba80d9bcf9c37b6b5628fca7d0386bba1ce7e619c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.485396162726957,
+    15.507402910934605,
+    0.49460454623041217,
+    0.5072056096686979
+   ],
+   "decisionSha": "a0bc4ece73783cd1c81554c0fc7a8964405f70bb32d852811cbe695cf525436b",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.50331834819063,
+    15.509563541963441,
+    0.4967805405283471,
+    0.5097288212840486
+   ],
+   "decisionSha": "1b5879b49d7e2ace1a9bf40edb1e857e18374307c41e6eecdd5987160442822d",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    2.520030306737306,
+    0.9110441346332652,
+    0.6387295281736826,
+    0.3377488989353224
+   ],
+   "decisionSha": "580e60afe1639336a259effd2eeb1d2101b1374a2b93883c4f458d8808271d45",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.510339510978778,
+    15.490971791525936,
+    0.637874779366443,
+    0.5188060857739445
+   ],
+   "decisionSha": "9801de069978969bb192c37eed7cd1c0c3c00e8bd660afc36058019c95bef22c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    2.5655787779197285,
+    1.002493676785911,
+    0.5356737840470527,
+    0.45607983378421546
+   ],
+   "decisionSha": "f8d85b77a275a2d9970af978b6521ed31e1d22722712dc0182ca486e1aef311f",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.892079126896427,
+    3.815519699265666,
+    0.5600735676988099,
+    0.7124180469318344
+   ],
+   "decisionSha": "61100c141e7477328884eeec42c58d02121e1da7840653ada0fedd0a62ff032f",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.2609861799143474,
+    2.411200676147981,
+    0.5586377832115871,
+    0.4038061577550007
+   ],
+   "decisionSha": "7f94171800482a960142bd120a8bb33fa0f0e202a5897d86915915e8984746a5",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.556942883810198,
+    15.496870029317293,
+    0.5584747154534141,
+    0.4249522631144497
+   ],
+   "decisionSha": "49de9b1deef985569282e53e913bd50532da9bee3c84140b5694acfc3f5b1bd9",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.50408350148079,
+    15.503677707938364,
+    0.7105689662202459,
+    0.500840006698522
+   ],
+   "decisionSha": "81673af1b38471d6dfdad09d808f64a0fde86497b5197f8bfb5c344fda1ff597",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.497129658053844,
+    15.519586407460098,
+    0.7076675885662254,
+    0.5711465387084714
+   ],
+   "decisionSha": "01849bec69ce7570cdd51ed40340ab481421ec4b5f219c78db1b2b15c2be126a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.468426649494948,
+    15.50084756492978,
+    0.5998245378164475,
+    0.5082209396751326
+   ],
+   "decisionSha": "dd5b14fa84f9fe92263373dc5a8c43485558fb1bcb1d374c4ed918bdd2d6f1f7",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.457385926946863,
+    15.479176178053722,
+    0.6109704402069546,
+    0.5574293202214565
+   ],
+   "decisionSha": "66407004675016da5a648f3fc6e248831a9f6ec9dc5da4b4297d58b57eeaa5b8",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.48712504264314,
+    15.481932115056255,
+    0.5029095607830117,
+    0.5108304633111584
+   ],
+   "decisionSha": "2b49bd40bc01708f10bc45687d2662ac3138e0e10b8ec274c5a1ca23bd5f337f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.51567861579951,
+    15.478861267758683,
+    0.497397927556881,
+    0.4645555356072728
+   ],
+   "decisionSha": "af245b6f821bd29037d22e6f9007ccf9bad278fa74cef81a57c7333dc39a03fc",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    3.0704421272320945,
+    4.142932632200261,
+    0.6409262356623964,
+    0.46625940820404466
+   ],
+   "decisionSha": "582c26615f3c2a05cc9d2b21ccc01fe923b8ab53af44d57947da1b12e9a74054",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.517652272714514,
+    15.50893409456974,
+    0.6467654647789821,
+    0.46107747541480276
+   ],
+   "decisionSha": "2d492d38ccbc1cc7e50809399d549a9557dcdc542f18337edb94a9beef0100ce",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    3.6703227498744666,
+    4.41169877148577,
+    0.5549348196580065,
+    0.38366360724261545
+   ],
+   "decisionSha": "1e7c0a5438ab857d23c2a30cf0501a4a82c3be62828ef7192bcf1ee8329a9cc8",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.740744902880696,
+    1.105259941496618,
+    0.557050828802177,
+    0.28724791567019536
+   ],
+   "decisionSha": "a067912971e2518bbecd2d4d00cdbc3accdabade5b94ea91e9a48d5cd739f941",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.4827836102538917,
+    4.004340934643037,
+    0.5390819925720632,
+    0.38222205246813445
+   ],
+   "decisionSha": "f001e0e626a119a7a715fcaf6ee61be1f7b61cadbd6bb8ce86272c23f8e6b01c",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.548754644265024,
+    15.545220207243492,
+    0.5595027129302251,
+    0.4941644136045274
+   ],
+   "decisionSha": "72dd80428e4527b1af6d2e8c7ceac1c31889bc615806401a5f3aa02f0634ef9a",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.515848197977864,
+    15.491993326623959,
+    0.6853982243928819,
+    0.5342864812623982
+   ],
+   "decisionSha": "27e700a9befa32cfe64fa8561d73f9e33cb0d2cdf208548a9812085215d9a510",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.51379800043979,
+    15.519031747767318,
+    0.702684505230496,
+    0.6070040376115751
+   ],
+   "decisionSha": "c5d6173c97ca1c01b725c85e44b99da520a69fe931da722049820528481e56e6",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.500091871995526,
+    15.514004325292964,
+    0.5984619845361122,
+    0.5228144420207368
+   ],
+   "decisionSha": "145662df6f9278a75494a73edf01e93e4f4fdc44b79ba21281613c70afd0a243",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.417511688722833,
+    15.449497772746225,
+    0.6279951023372546,
+    0.5454958599363752
+   ],
+   "decisionSha": "8153256bb75c7e1c6069482c85f7274ef9e52f9c83a477d45aaa2ea74853bfdf",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.501575003873356,
+    15.496429281862929,
+    0.5067570041037757,
+    0.4740327425195698
+   ],
+   "decisionSha": "7351817f1ab6713ea8c8420409fdc204018eeae2bfaf57487853fd32ea47acb7",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.48454340634682,
+    15.525543972157179,
+    0.4997779971249016,
+    0.48711943877141434
+   ],
+   "decisionSha": "594a64b5167803cbc834ccaa96b0546f5dcb913cf1ab805868ef4530d90d2ebb",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    2.8361617433429838,
+    0.9320307482659945,
+    0.6294328371609231,
+    0.2916223914877312
+   ],
+   "decisionSha": "08628e26cfe9d9e3ec8c2f437d2a50f82f1efd859f528062fc848be9686d7687",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.508549733103127,
+    15.47263163171159,
+    0.6473734501875679,
+    0.4965397626569633
+   ],
+   "decisionSha": "0b76451e69fe7fca4379e9eba7ae5ea227abfe50b20f60adcfcd8710d6fbd30c",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    3.146232034064769,
+    0.9839806654720591,
+    0.5503792439067504,
+    0.4590537559972706
+   ],
+   "decisionSha": "f6e4b7a28c8c6297e0791ff8b5995b0c570b361ea0cd42c2eefaba48d387c1f8",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    9.512874443665526,
+    1.6359016001104159,
+    0.5513343001362101,
+    0.22427522578534945
+   ],
+   "decisionSha": "ea6b747e7eff2039bed146af0ac3ee8293a43498bcd98460f48ce78aab62b0f5",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    1.5979390412554533,
+    3.588101875981559,
+    0.5431038374155153,
+    0.45419472063789
+   ],
+   "decisionSha": "53e19e2085d36252dfbee7d8be3b1f968bfb06e897b43c9f323d0dc8b915b5f6",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.49619672909058,
+    15.560498982740691,
+    0.5570202165331314,
+    0.3106802605463655
+   ],
+   "decisionSha": "1bed8141a8ba6b415413b1067cf1e83edc03b3ffe6601b01806aff6bfe485fbd",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.492657089588132,
+    15.521703351104037,
+    0.7082107089998205,
+    0.5343944911345002
+   ],
+   "decisionSha": "8686c7a364cd3b78cbf6c691d887c864fb8f84f81f67406aca9f3bfe80168742",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.49139952419029,
+    15.49222894542516,
+    0.6946153909622316,
+    0.5385822906729852
+   ],
+   "decisionSha": "04473e7a2f36356e01036233f28ff28d3ed47e95a4425bcc611764b20cb90bbb",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.52661849495206,
+    15.502126640872131,
+    0.6103537239666176,
+    0.45032784954216065
+   ],
+   "decisionSha": "85ab861fb984cf88f617e66f27cfdb03d2afe1abcf00ccc0d5e48f95ac7ef08e",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.481132298694195,
+    15.450487008053054,
+    0.5908053254259279,
+    0.5317447257956669
+   ],
+   "decisionSha": "5c266bae121597d402086c8b36b88b48789833d410d17ff7869fe00150320d75",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.981861136741124,
+    3.0674199573701024,
+    0.5037828339758773,
+    0.44520130400281605
+   ],
+   "decisionSha": "91f8d1366bcf86f5eea949e6afa09229b523e0816e21ebe1b0c0e01f59bc844a",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    4.458992723201427,
+    1.7010927380243643,
+    0.509764255085566,
+    0.8118722312763669
+   ],
+   "decisionSha": "6e3dcaa886512fc16226895bab77490aeb0d1d576e0ffefc0ffc819390d3e391",
+   "kind": "puerta 2",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.511823402305573,
+    15.516863888822341,
+    0.501138179092332,
+    0.482484064684943
+   ],
+   "decisionSha": "1823f86efc92c74623bd9daf34c0c53517f5a0ad0828753eef702878503b841f",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    4.673647200490178,
+    3.0026681100927894,
+    0.6293144688349106,
+    0.5299859778105538
+   ],
+   "decisionSha": "1181fb55423f618fc9d22917eaa20eb78e08907a920d58d9754b525c921504a6",
+   "kind": "puerta 2",
+   "messages": [
+    "¡PASÓ LA PUERTA 2! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.9884189739873634,
+    3.6167084375572056,
+    0.6455809432384405,
+    0.508414190479234
+   ],
+   "decisionSha": "9132d8e3a5dd33978ce031a11cb7be6d8167ac2f399469c32fd906dabfef907d",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 3!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    3.9146293665308876,
+    1.3547826949072121,
+    0.637528567040085,
+    0.501680708191271
+   ],
+   "decisionSha": "2d9d21c15df0f63e11d6e99a7ba08cab31e10fbc3728076c5f67a209a75bde03",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    1.7739536790929749,
+    5.957937712649998,
+    0.6447172741694673,
+    0.4983103975098276
+   ],
+   "decisionSha": "ddeefadd2ccaeafca2af62f71a29df2e73a990bdd8e746901f79506726fde841",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.526175148368583,
+    15.490637440645017,
+    0.6434979467422798,
+    0.4949207440405532
+   ],
+   "decisionSha": "2baa544338bfa739e4209fb78bedb32cf571f5b71bb33a12601b80179c24bbdf",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    1.3001749235117823,
+    6.862244668253883,
+    0.5442864163644984,
+    0.6780894611707323
+   ],
+   "decisionSha": "37f3246df16ffed72657a829880fabdc08c91f433a7a0c47c6101f3eb3f43b11",
+   "kind": "touch a compañera",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.97562899583701,
+    2.9994029165719365,
+    0.5615037018774283,
+    0.3996307004586051
+   ],
+   "decisionSha": "5e07226bcc64dd69740879f9252b1b0e94062d6434bd70a983f30a410efa833e",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    6.018980307787375,
+    1.861859184881786,
+    0.5507884552904359,
+    0.2913911133468028
+   ],
+   "decisionSha": "ae14675d200e3f74de648427490010cd0b085ac6f6be32fb92256ba05c8d5cab",
+   "kind": "puerta 2",
+   "messages": [
+    "¡PASÓ LA PUERTA 2! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.9903947793333427,
+    6.724044454788819,
+    0.5495434050160516,
+    0.4860197228884639
+   ],
+   "decisionSha": "9dabecef85f5118d76d5552be1867a99616ac0bd1e32a14930251a8e27bc13d3",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    -1,
+    5.810006822538735,
+    0.9902906064206364,
+    0.45756010946198783
+   ],
+   "decisionSha": "02f3e47398ed22ed445ed014767ec6f3d41f0ca356b5c6615d8304faab638773",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 1 SALIÓ"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.8845225461761204,
+    6.61175173706811,
+    0.5674927575297184,
+    0.3981358936284978
+   ],
+   "decisionSha": "2c2c74efd337d33323b8652507b279f39432f562191e420448ccf1f084f1493d",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 3!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    -0.9224165645334252,
+    6.4426560634234,
+    1,
+    0.40505994011865887
+   ],
+   "decisionSha": "64ac3a812fc82a0636f603c6965a3af527ab89a23a0dc0b501e527e133c9a403",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 3 SALIÓ"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.9184209294979622,
+    12.46057969462555,
+    0.5488167565612014,
+    0.6237716268818031
+   ],
+   "decisionSha": "6b4274d2278299f5ea3dfd8440652d38f1a19e1003434629bfa0e77363bdbcfd",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.46726916436754,
+    15.476629036059741,
+    0.710514650635936,
+    0.5419496700546512
+   ],
+   "decisionSha": "27021c86485ef6501840be2a5e5ca607df1c14b6c971faeefe62d6c21081f4de",
+   "kind": "salida (no pasa la puerta 1)",
+   "messages": [
+    "FALLÓ LA PUERTA 1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.997166804073192,
+    5.98259053528812,
+    0.7081791019903879,
+    0.533544539203383
+   ],
+   "decisionSha": "620953610a8fe956988a983ebc5a61d10d042ecd343e3399869028cb973d352d",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    4.424196767310396,
+    1.657122311068087,
+    0.7175927014343246,
+    0.414273820929692
+   ],
+   "decisionSha": "86b19cd7c99521aeade0e69eefb818c1169220d3a877b9512c969a39ddbc2731",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.911022709872302,
+    5.999887427340748,
+    0.6091947829911434,
+    0.5577236551411734
+   ],
+   "decisionSha": "5c841bd39f7dda29484018971d91fc2a8e6b85f404a51d6e1e086a235fc5d22e",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    2.5087336416706973,
+    1.211588369692615,
+    0.5831838840152717,
+    0.404750752622647
+   ],
+   "decisionSha": "d736bda7f2d841fd08b2f917a28ef0ba58eb3e40e81afb43387f85fb4e9b5942",
+   "kind": "acomodo",
+   "messages": [
+    "¡TOUCH A LA BOLA 6!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    3.5009671852084,
+    -0.9673712708846417,
+    0.9841269978602573,
+    0.4071553361930714
+   ],
+   "decisionSha": "5c42e8a33ee46f26f436d339d7838b27e15cc918f4b318993392309a7feabb8c",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 6 SALIÓ"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    10.477815408438326,
+    2.5479852937624297,
+    0.6126539854495253,
+    0.47015400343788916
+   ],
+   "decisionSha": "c6a239f7b779a4e572672d9efe9498d3310b820c8f8400bb267f12cd63b2ac32",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.98098355278939,
+    6.022202110271034,
+    0.6141931003967422,
+    0.4491525210434251
+   ],
+   "decisionSha": "0cbca4d2b660ee07d6b3edfd911cf785e866ce3900b27629ee3462552a3feaae",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    3.130092515018638,
+    -0.534277149339669,
+    0.6073774997445102,
+    0.23967461722197786
+   ],
+   "decisionSha": "e210d34bd76c4f4663db7c9ae918750dbee0820f1570df23d7a03b0b3c4b22da",
+   "kind": "touch a rival",
+   "messages": [
+    "¡BOLA FUERA!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.914709908409625,
+    1.6365670343416248,
+    0.49809597222022955,
+    0.5389311018456195
+   ],
+   "decisionSha": "c35c1fb732a0c81b444ed1de97984d2fa3e028ba73d99c0b9f503f1d9e3f133b",
+   "kind": "puerta 2",
+   "messages": [
+    "¡TOUCH A LA BOLA 7!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    11.285360280322692,
+    0.8561108153109427,
+    0.5035715605816095,
+    0.5033995070299679
+   ],
+   "decisionSha": "73f5c484ff00c27564fe8d7dee70f33c3dd9ad8c2801589f0bfec7423fe5a40c",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    2.5085723068803065,
+    2.0041410220151517,
+    0.49952857320447885,
+    0.5341596646624962
+   ],
+   "decisionSha": "c3a848e6f97bba1dd2f80d6225be1ec52fdbe89924e1691b90875cc9200ff110",
+   "kind": "puerta 2",
+   "messages": [
+    "¡PASÓ LA PUERTA 2! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.02625921283900717,
+    1.9594077609660705,
+    0.5008541211382249,
+    0.44693017964403475
+   ],
+   "decisionSha": "305245a34093cd330875fe38c949a3d7fd727d52c535d671da0abcc32996c4f4",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.98802044219897,
+    3.020799858416996,
+    0.4925679292539997,
+    0.5282114386275478
+   ],
+   "decisionSha": "d5b20e6f26efa3911aac6fc28a51099b93c5694903a709c51fd7fcb0b86d905e",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    5.996045241506688,
+    1.8433228200115976,
+    0.5270931395243968,
+    0.6350304336926278
+   ],
+   "decisionSha": "1cf96ee7a18f80049fe139c0d80388ea0bf1362c0ded756a00ed97a07340fa4f",
+   "kind": "puerta 2",
+   "messages": [
+    "¡PASÓ LA PUERTA 2! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.069516423713882,
+    12.95062331754867,
+    0.5183347979099504,
+    0.35132575562361334
+   ],
+   "decisionSha": "33c4b3c349dac95e223f860948ace50eefd4e7fa07451a30ab7041825b00183d",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.0639192505835671,
+    5.110814454673233,
+    0.6320972595342268,
+    0.5336363429708771
+   ],
+   "decisionSha": "ccdd06d18e2837e9a00f2566a8d4ebbde977327699723846332f477efc492e47",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.977302271922444,
+    3.0137113086009766,
+    0.624016617421345,
+    0.5666088159946137
+   ],
+   "decisionSha": "d9d9a497a2e42dd06b55083dfaf649a06b2bac8c46088d92832108b56bcd6459",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    11.391776842294258,
+    1.1254586923891867,
+    0.6282096402099615,
+    0.5692627095916443
+   ],
+   "decisionSha": "7a2ad3915b62687934630ff5caae677813a960375d3de2d320bb50c2b5eaeb8f",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    16.47979581700877,
+    1.4878502455470868,
+    0.5456382511231969,
+    0.47096369234436847
+   ],
+   "decisionSha": "a9a8efae9a8c08f3adc999779a15a3cf1b914a86e7f7dbb44f84e5d336bf0f1f",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    15.51044098643214,
+    13.330076366843807,
+    0.5562551268913414,
+    0.4842922014439589
+   ],
+   "decisionSha": "b3806a2294e6124d7b29a1c20986df459b04010f08e7eaec125781a4540d4ee2",
+   "kind": "puerta 3",
+   "messages": [
+    "¡PASÓ LA PUERTA 3! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    10.441995737232247,
+    10.249455804413005,
+    0.5471585246854476,
+    0.4297637443833297
+   ],
+   "decisionSha": "c2f4e6fc5ba4faec8bbf9162024515c46b0bd8304bdd9feaf0e34da9baf11556",
+   "kind": "acomodo",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    18.008203955684657,
+    2.9739525982794364,
+    0.7078600429864892,
+    0.5270120120217514
+   ],
+   "decisionSha": "7b82e20b9a4fbc48e8f47bd23bb5b24d7e12eb1ef6e45492c4f19430d452712a",
+   "kind": "salida: puerta 1",
+   "messages": [
+    "¡PASÓ LA PUERTA 1! +1"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    11.50862591366109,
+    1.0044702378347823,
+    0.7097014820267565,
+    0.5208440471975546
+   ],
+   "decisionSha": "7769174e55900ab45ad1e553923d1f303ce2023590546e420592629c923860cc",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 2!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    12.125142027945893,
+    -0.9689760903219433,
+    0.9829470291054556,
+    0.5464636396409388
+   ],
+   "decisionSha": "08ebaa39b96c000c852f9b10442488c4002d4eddd0fc69caf0bd20deb41d058b",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 2 SALIÓ"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    4.697577406891482,
+    3.178954557352016,
+    0.707199971510896,
+    0.4890878665898428
+   ],
+   "decisionSha": "b583f36873f5ebb42f95d8fbf88feda01646188759a042f82fb75cbf025bc7a4",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 7!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    10.026281422867614,
+    11.236677618136193,
+    0.6965499371989875,
+    0.5820359328729677
+   ],
+   "decisionSha": "5065d08c41db9e9c440917504b5aa235f831de630e2d284fb6582d68cccefe6d",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    4.565597670808102,
+    1.3998416546689025,
+    0.707589553073974,
+    0.5495734690616996
+   ],
+   "decisionSha": "4ddff0b31a3e1eb4d7a973b20a2a8eea03f0182b5b3bb3d950bc4848a30ec1a2",
+   "kind": "puerta 2",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    16.46381258662065,
+    10.550221601805484,
+    0.6856710112560126,
+    0.6101558724363675
+   ],
+   "decisionSha": "9fe1b3270667bf3c1b0835f1bf8bb85dd57426b64b7c9ee013f179863d94eadb",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    10.707780641939179,
+    10.090302662287268,
+    0.6213037606966456,
+    0.5132013987977445
+   ],
+   "decisionSha": "91a04ced0f271bf3f1f47608eba44019e291f1961debe1cfa4e4f26a57dc63ce",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 4!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    7.526485849836738,
+    15.784997984122118,
+    0.9079932520631419,
+    0.35530343225159533
+   ],
+   "decisionSha": "3cdd36550b513f03eca06d80d66e8ebc14830dd609703a4f62aff9635f5cd994",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 4 SALIÓ"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.222587165729115,
+    13.687320242466146,
+    0.5945277790739297,
+    0.46729151242576117
+   ],
+   "decisionSha": "da40aa99a6bfe5827b8712b37e179aae781e84b3c36611065f63fa249f4936dd",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 10!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    8.722836376082086,
+    15.989356621609788,
+    1,
+    0.4630908241012792
+   ],
+   "decisionSha": "5797c5c2e7315ff85b5929f104b04932b754574bffa51e23e6fd3bf74dfdbe23",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 10 SALIÓ"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    17.364537286049877,
+    10.122150342499406,
+    0.5796858462403027,
+    0.4800733076679441
+   ],
+   "decisionSha": "be8c2643182f6809bc86794389396c532e791648b3ee0efc0ad914a4b453efda",
+   "kind": "touch a rival",
+   "messages": [
+    "¡TOUCH A LA BOLA 6!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    20.961808511523426,
+    9.833322331893275,
+    0.9546350223984325,
+    0.49484925586281603
+   ],
+   "decisionSha": "3861c259982c936b49c49db01e3afc9b165cb231f80fc5ea86a22bd953be906e",
+   "kind": "spark: expulsar bola rival",
+   "messages": [
+    "¡SPARK!",
+    "BOLA 6 SALIÓ"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    16.377605526846505,
+    1.036977224113901,
+    0.5976322533466242,
+    0.27236013438669676
+   ],
+   "decisionSha": "ccc1bae7281a2c0eb6bac7806e70b621ac5b2367fe6428fc22bc86855a18127c",
+   "kind": "touch a compañera",
+   "messages": []
+  },
+  {
+   "seed": 7,
+   "aim": [
+    16.474016952239083,
+    13.574351554610717,
+    0.5996447082595417,
+    0.5434934091973663
+   ],
+   "decisionSha": "d6a515432bf5544a32bae33768284ebac0a53b5266a54dfcb4b68408a233b574",
+   "kind": "reentrada",
+   "messages": [
+    "BOLA EN JUEGO"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    0.027915552311387145,
+    5.787912265651017,
+    0.5002844544400562,
+    0.5227457615869104
+   ],
+   "decisionSha": "62513713460d90ccbc56c9fffc95aec1846493b17ba0ad1a411f3036eba2be2e",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 1!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    6.471886405996273,
+    12.666234326853196,
+    0.507874014183766,
+    0.6154153885703905
+   ],
+   "decisionSha": "228f082d60e38e7a3eb49b7f4025325695feaac4757ea6a3a93823b3f818d1d8",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    10.399521832037136,
+    1.9046147118651953,
+    0.4860784400503827,
+    0.6073082493110801
+   ],
+   "decisionSha": "0118460fe7834a764d7ea99a7e002c55b23528b8620385d8f7b445a2379f60a1",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 5!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    12.30973111208438,
+    11.566918056485436,
+    0.4976426728161785,
+    0.5145020042234438
+   ],
+   "decisionSha": "ebea74ef25784837714fd0b4b4a8e7414ea8920cb81b9af3d40397a9ad140961",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    16.582329455987225,
+    1.0112738490769932,
+    0.5102481753863551,
+    0.33049514113120354
+   ],
+   "decisionSha": "fb110379e3d96899368eb7ebea4e36159e61ebb2297af42e4854fe9bcf75c013",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 7!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    18.627499414846167,
+    7.556001044954202,
+    0.5082150139525128,
+    0.5901914610574934
+   ],
+   "decisionSha": "e828fafe54dd474eb195713fe2c4ad5e3c72088e3d121fea25f7c4588f449164",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    19.006834192568185,
+    2.885302267182446,
+    0.49803178026656514,
+    0.4801735133605266
+   ],
+   "decisionSha": "34a200d437d4b430df2d3841ff65a76220ac5165be5754d0bb8d64989487362f",
+   "kind": "touch a compañera",
+   "messages": [
+    "¡TOUCH A LA BOLA 3!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    15.010144280502391,
+    9.27520104765766,
+    0.4987970686433586,
+    0.3038625450159237
+   ],
+   "decisionSha": "6530df115dd4e22873feb22ec4ac9fb8d931d19c20eb93f94e371fd82b0595b5",
+   "kind": "spark propio: acomodo",
+   "messages": [
+    "¡SPARK!"
+   ]
+  },
+  {
+   "seed": 7,
+   "aim": [
+    16.90561382064934,
+    14.141059073893773,
+    0.4742993103676163,
+    0.13612975825743479
+   ],
+   "decisionSha": "1643374092dc5bbe2070fe54583ec1782f1f61ce2837f5911d34e83f2517351d",
+   "kind": "acomodo",
+   "messages": []
+  }
+ ]
+}

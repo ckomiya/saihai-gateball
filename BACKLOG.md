@@ -4,6 +4,7 @@ El historial anterior al 2026-10-28 (iteraciones B a G, v1.0 a v1.4) está en el
 
 ## Hecho
 - [x] Separación de gateball-retro (2026-10-28): motor, kantoku, pesos, herramientas y pruebas; API pública; build a `dist/`; licencia MIT.
+- [x] v1.4.2 (rama `i18n-v1.4.2`): multiidioma `es`/`en` sin cambiar jugadas; README, RULES y CHANGELOG en inglés y español con glosario; `examples/duelo.mjs --lang`. Pendiente de merge y etiqueta (los hace Chris).
 
 ## Siguiente: Saihai v1.5
 Observaciones de Chris de la partida 2026-10-28 (v1.4), para **medir antes de cambiar** (detalle en el BACKLOG de gateball-retro, sección «Observaciones de Chris — partida 2026-10-28»). Partidas guardadas en `tests/fixtures/registros/`.
