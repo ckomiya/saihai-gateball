@@ -12,6 +12,7 @@
 > Status: in development. The repository is **public** (MIT); install it straight from GitHub.
 
 - **Hugging Face:** [model card and weights](https://huggingface.co/ckomiya/saihai-gateball) · [play against Saihai in the browser (Space)](https://huggingface.co/spaces/ckomiya/saihai-gateball-demo)
+- **itch.io:** [play the demo on itch.io](https://ckomiya.itch.io/nana-ban)
 
 ## Installation
 
