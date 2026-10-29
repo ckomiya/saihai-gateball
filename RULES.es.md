@@ -50,4 +50,5 @@ Las referencias «Art. N» apuntan a los artículos del reglamento oficial de ga
 ## Reloj y fin del partido (Art. 5, 6, 7)
 - Cuenta regresiva de 30 minutos, que corre más rápido que el real según `clockFactor`. **Propio.**
 - Al acabarse el tiempo, o cuando un equipo llega a 25 puntos (juego perfecto), el partido termina con una bola blanca. Simplificación: si las blancas llegan a 25 por una jugada de una roja, también juega la blanca siguiente. **Propio.**
-- Límite de 10 segundos por golpe y sorteo de quién sale primero: **No** (salen las rojas).
+- Sorteo de quién sale primero (Art. 5): **Pendiente (fase futura)** (por ahora salen las rojas).
+- Límite de 10 segundos por golpe: **No se aplica (decisión de diseño).**
