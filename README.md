@@ -6,7 +6,7 @@
 
 - No Phaser, no DOM; runs in Node and in the browser.
 - Injectable seeded randomness: matches replay exactly.
-- Current model: `saihai-v1.4`. Every decision can be explained (`explain`).
+- Current model: `saihai-v1.5`. Every decision can be explained (`explain`).
 - Texts in Spanish (default) or English: `lang: 'es' | 'en'` (see [Languages](#languages)). Gateball terms are kept in their original form; the [glossary](#glossary) explains them.
 
 > Status: in development. The repository is **public** (MIT); install it straight from GitHub.
@@ -17,7 +17,7 @@
 ## Installation
 
 ```bash
-npm install github:ckomiya/saihai-gateball#v1.4.2
+npm install github:ckomiya/saihai-gateball#v1.5.0
 ```
 
 - **It is built on install.** The package is installed from Git, so npm runs its `prepare` script (`node scripts/build.mjs`), which generates `dist/` (ESM JavaScript with the weights inside, and `.d.ts` types). It needs `esbuild` and `typescript` (both in `devDependencies`; npm installs them for that step), which is why the first `install` takes a few extra seconds.
