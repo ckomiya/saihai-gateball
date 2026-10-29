@@ -18,6 +18,7 @@ Observaciones de Chris de la partida 2026-10-28 (v1.4), para **medir antes de ca
 - [ ] Arreglar los 12 errores de `npm run typecheck:todo` (variables sin usar, tipos de `rounds.ts`, `waitdiag.ts`, `partida1027b`) y pasarlo a `typecheck`.
 - [ ] Etiqueta `v1.4.0` y que el juego dependa de `github:ckomiya/saihai-gateball#v1.4.0` (lo decide Chris).
 - [ ] GitHub Pages del juego con Saihai privado: necesita token; mejor esperar a que Saihai sea público.
+- [ ] Corregir en `TRAINING.md` la cifra de genes: la sección «Qué entrena» dice **36 números** (22 base + 14 multiplicadores), que es el genoma del v1. El `saihai-v1.4.json` real tiene 45 valores: **31 genes del entrenamiento v4** (21 pesos base + 8 multiplicadores + `leadSlope` y `clockSlope`) y 14 fijos o de configuración (5 constantes de `rules`, 5 `riskWeights`, 2 de `sims`, `advanced` y `version`). La ficha del modelo en Hugging Face ya usa estas cifras. (2026-10-28)
 
 ## Preguntas abiertas
 - ¿Cuándo se hace público el repositorio? (Después de la revisión de Chris.)
