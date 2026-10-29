@@ -6,9 +6,12 @@ import { Saihai, createMatch, playShot } from '../src/index';
 import { messageFor, messagesFor, noTouchMessage, NO_TOUCH_MSG } from '../src/game/messages';
 import { OPENING_SITES } from '../src/game/openings';
 import type { MatchEvent } from '../src/game/match';
+import { kantokuBrain } from '../src/game/kantoku';
 
 let bad = 0;
 const check = (ok: boolean, msg: string) => { console.log(`${ok ? '✓' : '✗'} ${msg}`); if (!ok) bad++; };
+// v1.5 cambió jugadas a propósito (último turno ganado): la huella de la v1.4.1 se compara con ese cambio apagado (`legacyLastReach`), lo que además prueba que apagarlo devuelve la v1.4.1 exacta
+Object.assign(kantokuBrain.file, { legacyLastReach: true });
 const sha = (s: string) => createHash('sha256').update(s).digest('hex');
 
 interface Fixture { events: MatchEvent[]; messages: string[]; shots: { seed: number; aim: number[]; decisionSha: string; kind: string; messages: string[] }[] }

@@ -40,7 +40,10 @@ const ownDiff = (m: Match, team: 0 | 1) => m.teamScore(team) - m.teamScore(team 
  * jugador (`samples` golpes sorteados) y, si el turno sigue, se busca la mejor continuación desde ese tablero (`Match.clone`). Valor = puntos que suma el equipo (menos los del rival)
  * en el resto del turno. Un turno que sigue al llegar al horizonte vale `kantokuLastLeafSpark` / `kantokuLastLeafCont`; en el penúltimo, además, la probabilidad de pasar la siguiente puerta.
  */
-export function planChain(m: Match, F: FutureCtx, kind: EndTurn): ChainPlan | null {
+export function planChain(m: Match, F: FutureCtx, kind: EndTurn, legacyReach = false): ChainPlan | null {
+  // v1.5: el alcance largo y el desempate a favor de la compañera solo con el resultado asegurado (último turno con el reloj agotado y el equipo ya gana: no queda turno rival y los puntos no se pierden). Con el resultado en juego, más candidatos
+  // con valoración ruidosa hacían elegir peor (h2h 44 % contra la v1.4 al aplicarlo siempre).
+  legacyReach ||= !(kind === 'ultimo' && m.clock <= 0 && ownDiff(m, m.b.team) > 0); // reloj agotado: el modelo de ritmo puede llamar «último» a un turno con rivales por jugar
   const rng = mulberry32(Math.floor(m.rng() * 2 ** 31));
   const team = m.b.team;
   let nodes = 0;
@@ -66,7 +69,7 @@ export function planChain(m: Match, F: FutureCtx, kind: EndTurn): ChainPlan | nu
     const touches = res.touches.join(',');
     const next = res.next;
     const tr = mc.proceed();
-    return { gain, next, tr, touches, gate: res.shotGate };
+    return { gain, next, tr, touches, touched: res.touches, gate: res.shotGate };
   };
 
   const leaf = (tr: string) => (tr === 'spark' ? CONFIG.kantokuLastLeafSpark : tr === 'continue' ? CONFIG.kantokuLastLeafCont : 0);
@@ -81,23 +84,24 @@ export function planChain(m: Match, F: FutureCtx, kind: EndTurn): ChainPlan | nu
     const origin = sp ? mc.balls[pinned] : mc.balls[si];
     const bars = mc.bars();
     const ideal = { power: bars.power.sweetSpot, acc: bars.accuracy.sweetSpot };
-    const list = candidates(origin, si, mc.balls, mode, pinned, false, true, true, false, true);
+    const list = candidates(origin, si, mc.balls, mode, pinned, false, true, true, false, true, false, legacyReach ? 12 : CONFIG.kantokuLastReachM);
     // 1. todos los candidatos sin error; por clase de resultado (qué bolas toca y si pasa una puerta) se queda el de mayor valor inmediato: así la búsqueda no se llena de variantes del mismo golpe
-    const ranked = new Map<string, { aim: { x: number; y: number }; h: number; what: string; gain: number; tr: string; next: Match; cls: string; alt: { x: number; y: number }[] }>();
+    const ranked = new Map<string, { aim: { x: number; y: number }; h: number; mate: number; what: string; gain: number; tr: string; next: Match; cls: string; alt: { x: number; y: number }[] }>();
     for (const c of list) {
       const t = mc.clone(rng);
       const r = strike(t, c.aim, ideal.power, ideal.acc);
       const h = r.gain + leaf(r.tr);
       const cls = `${r.touches}|${r.gate > 0 ? 1 : 0}`;
       const cur = ranked.get(cls);
-      if (!cur || h > cur.h + 1e-9) ranked.set(cls, { aim: c.aim, h, what: `${r.tr} toca[${r.touches}] puerta${r.gate} +${r.gain}`, gain: r.gain, tr: r.tr, next: t, cls, alt: [] });
+      if (!cur || h > cur.h + 1e-9) ranked.set(cls, { aim: c.aim, h, mate: r.touched.some((i) => i !== si && mc.balls[i].team === team) ? 1 : 0, what: `${r.tr} toca[${r.touches}] puerta${r.gate} +${r.gain}`, gain: r.gain, tr: r.tr, next: t, cls, alt: [] });
       else if (Math.abs(h - cur.h) <= 1e-9) cur.alt.push(c.aim); // misma jugada ideal con otra mira: el error decide cuál es más segura
     }
     if (!ranked.size) return { value: 0 };
     const root = depth === CONFIG.kantokuLastDepth;
     const beam = root ? CONFIG.kantokuLastBeam : CONFIG.kantokuLastBeamDeep;
     const samples = root ? CONFIG.kantokuLastSamples : CONFIG.kantokuLastSamplesDeep;
-    const top = [...ranked.values()].sort((a, b) => b.h - a.h).slice(0, beam);
+    // a igual valor ideal, tocar a una compañera primero (v1.5): puede pasar una puerta con su spark; tocar a una rival solo la mueve. Sin esto el haz se llenaba de touches a rivales por el orden de los candidatos
+    const top = [...ranked.values()].sort((a, b) => b.h - a.h || (legacyReach ? 0 : b.mate - a.mate)).slice(0, beam);
     // 2. los mejores se miden con el error del jugador: con probabilidad p el golpe sale como el ideal y el turno sigue desde ese tablero (se busca la continuación UNA vez); si no, vale lo que dé cada golpe fallido
     let best: { value: number; aim: { x: number; y: number } } | null = null;
     for (const c0 of top) {

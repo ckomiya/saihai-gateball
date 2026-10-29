@@ -261,6 +261,9 @@ export const CONFIG = {
   kantokuLastLeafSpark: 0.6,
   kantokuLastLeafCont: 0.3,
   kantokuLastNextGate: 0.25,
+  // v1.5 (Chris, 2026-10-28, partida 20261028-073420, último turno): la cadena final no consideraba las bolas a más de 12 m (la blanca 10 estaba a 13,7 m de la 8, con el partido ya ganado). Sin riesgo, un touch largo de poca probabilidad
+  // pero con spark y puerta detrás vale la pena; `candidates` ahora toma este alcance en la cadena del último turno (0 = el de siempre, 12).
+  kantokuLastReachM: 18,
   // Sacar a propósito la propia bola desde el juego (v1.3, Chris, 2026-10-27, partida 20261027-181359 turno 4): no es barato. Después de salir hay que gastar un turno en volver a entrar y esa reentrada suele quedar tan expuesta
   // como quedarse (en esa partida: -5,4 al reentrar contra -4 a -6 por quedarse). Se suma a `shooterOutLater` (≈ 1,25) cuando la bola ya está en juego (puertas 2 a poste) y sale por decisión. `legacySelfOut` lo apaga.
   kantokuSelfOutCost: 3,

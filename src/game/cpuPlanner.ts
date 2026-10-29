@@ -1052,7 +1052,7 @@ export function touchOvershoot(origin: P, target: P): number {
 }
 
 /** Golpes a probar: hacia puntos de interés (puerta, rivales, compañeras, acomodo) con varios largos, más un anillo de direcciones. */
-export function candidates(origin: P, si: number, balls: SimBall[], mode: 'stroke' | 'spark', pinned: number, extraEntry = false, touchRule = false, heap = false, nearPole = false, lineSpots = false, farEntry = false): Candidate[] {
+export function candidates(origin: P, si: number, balls: SimBall[], mode: 'stroke' | 'spark', pinned: number, extraEntry = false, touchRule = false, heap = false, nearPole = false, lineSpots = false, farEntry = false, reach = 12): Candidate[] {
   const sh = balls[si];
   const list: Candidate[] = [];
   // Kantoku, tiro de salida a la puerta 1: no apunta a quedarse a menos de `kantokuLineMarginM` de la línea (un error de fuerza o el pasto la sacan). El resto de los golpes sí puede esconderse junto
@@ -1089,7 +1089,7 @@ export function candidates(origin: P, si: number, balls: SimBall[], mode: 'strok
   // Otras bolas en juego (rivales y compañeras): touch, o en un spark, empujarlas
   for (let i = 0; i < balls.length; i++) {
     if (i === si || i === pinned || !inPlay(balls[i])) continue;
-    if (distTo(origin, balls[i]) > 12) continue;
+    if (distTo(origin, balls[i]) > reach) continue; // `reach`: la cadena del último turno (sin riesgo) mira más lejos, `kantokuLastReachM`
     toward(balls[i], mode === 'stroke' && touchRule ? [touchOvershoot(origin, balls[i])] : [0.3, 1, 2.5], [-3, 0, 3], true);
   }
   // Spark de una compañera: llevarla a donde mejor juegue su turno (frente a su puerta, cerca de rivales para atacar; `mateDestinations`)

@@ -13,8 +13,14 @@ Las versiones son `X.Y.Z`: `X.Y` es el modelo (`saihai-vX.Y`) y `Z` son correcci
 | `kantoku-v1.2` | `saihai-v1.2` (idem) | Reentradas que casi siempre entran; candidatos pegados a la línea |
 | `kantoku-v1.3` | `saihai-v1.3` (idem) | Último turno: búsqueda de la cadena que más puntos suma |
 | `kantoku-v1.4` | **`saihai-v1.4`** | Spark sin chocar con bolas propias, apertura bloqueada por cualquier bola, `juntarse` y `avanza` según quién vuelve a jugar |
+| (aún no en el juego) | **`saihai-v1.5`** | Último turno con el resultado asegurado: también intenta touches largos a una compañera (hasta 18 m) |
 
 Los pesos de v1.0 a v1.3 no se republican como versiones; están en `src/game/cpuWeights.v10.json` a `v13.json` solo para comparar (`npm run h2h`).
+
+## 1.5.0 (modelo `saihai-v1.5`; cambia una jugada)
+- Último turno con el partido ya decidido (reloj en cero y el equipo gana): la cadena final también considera bolas hasta 18 m (`kantokuLastReachM`, antes 12 m) y, a igualdad, prefiere tocar a una compañera. Caso: partida 20261028-073420, la última bola (blanca 8) no intentó el touch a la blanca 10 frente a la puerta 3. Fuera de esa situación las jugadas son las de la 1.4. `legacyLastReach: true` en el archivo de pesos devuelve la 1.4; `src/game/cpuWeights.v14.json` es el archivo de la 1.4 para `npm run h2h`.
+- Medido y no cambiado (detalle en `BACKLOG.md` y `TRAINING.md`): turno 24 (triple ángulo para una roja que no pasó la puerta 1), turno 28 (reentrada junto a una cadena roja) y turno 16 (blanca cerca de la línea).
+- `tests/lastturn.test.ts` es nueva; `tests/i18n.test.ts` compara ahora la huella de la 1.4.1 con `legacyLastReach` activado.
 
 ## 1.4.2 (multiidioma; mismas jugadas)
 - Sin cambios de juego: los goldens, el planner-golden y las pruebas dan lo mismo que en 1.4.1.
