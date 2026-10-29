@@ -77,5 +77,21 @@ if (existsSync(distIndex)) {
   console.log('· dist/ no está compilado (npm run build): se omite la comprobación del paquete');
 }
 
+// 6) La etiqueta del modelo coincide con la versión declarada: `package.json` (X.Y de X.Y.Z) y la última entrada con modelo de los dos CHANGELOG
+{
+  const { readFileSync } = await import('node:fs');
+  const { SAIHAI_MODEL } = await import('../src/index');
+  const version = (JSON.parse(readFileSync('package.json', 'utf8')) as { version: string }).version;
+  const [major, minor] = version.split('.');
+  check(SAIHAI_MODEL === `saihai-v${major}.${minor}`, `SAIHAI_MODEL (${SAIHAI_MODEL}) coincide con el modelo de package.json (saihai-v${major}.${minor})`);
+  for (const file of ['CHANGELOG.md', 'CHANGELOG.es.md']) {
+    const text = readFileSync(file, 'utf8');
+    const top = text.match(/^## (\d+\.\d+\.\d+)/m)?.[1];
+    const model = text.match(/^## [^\n]*`(saihai-v\d+\.\d+)`/m)?.[1];
+    check(top === version, `${file}: la primera entrada (${top}) es la versión de package.json (${version})`);
+    check(model === SAIHAI_MODEL, `${file}: el último modelo anotado (${model}) coincide con SAIHAI_MODEL`);
+  }
+}
+
 console.log(bad ? `\n${bad} fallas` : '\nTodo bien');
 if (bad) process.exit(1);

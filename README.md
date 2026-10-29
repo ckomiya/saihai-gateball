@@ -17,7 +17,7 @@
 ## Installation
 
 ```bash
-npm install github:ckomiya/saihai-gateball#v1.5.0
+npm install github:ckomiya/saihai-gateball#v1.5.1
 ```
 
 - **It is built on install.** The package is installed from Git, so npm runs its `prepare` script (`node scripts/build.mjs`), which generates `dist/` (ESM JavaScript with the weights inside, and `.d.ts` types). It needs `esbuild` and `typescript` (both in `devDependencies`; npm installs them for that step), which is why the first `install` takes a few extra seconds.

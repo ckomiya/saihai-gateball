@@ -17,6 +17,10 @@ Versions are `X.Y.Z`: `X.Y` is the model (`saihai-vX.Y`) and `Z` are fixes that 
 
 The v1.0 to v1.3 weights are not republished as versions; they are in `src/game/cpuWeights.v10.json` to `v13.json` only for comparison (`npm run h2h`).
 
+## 1.5.1 (fix, same plays)
+- `SAIHAI_MODEL` (`src/index.ts`) said `'saihai-v1.4'` although the model since 1.5.0 is `saihai-v1.5`; it now says `'saihai-v1.5'`. It is only a label (the example `examples/duelo.mjs` prints it): the plays, the goldens and the weights do not change.
+- `tests/api.test.ts` now checks that `SAIHAI_MODEL` matches the model version in `package.json` and in the latest model entry of `CHANGELOG.md` and `CHANGELOG.es.md`, so it cannot go stale again.
+
 ## 1.5.0 (model `saihai-v1.5`; one play changes)
 - Last turn with the match already decided (clock at zero and the team leads): the final chain also considers balls up to 18 m away (`kantokuLastReachM`, before 12 m) and, between equal options, prefers touching a teammate. Case: match 20261028-073420, last ball (white 8) did not try the touch to white 10 in front of gate 3. Outside that situation the plays are the same as 1.4. `legacyLastReach: true` in the weights file gives 1.4 back; `src/game/cpuWeights.v14.json` is the 1.4 file for `npm run h2h`.
 - Measured and not changed (details in `HISTORIAL.md` and `TRAINING.md`): turn 24 (triple angle for a red ball that has not passed gate 1), turn 28 (re-entry next to a red chain) and turn 16 (white ball near the line).

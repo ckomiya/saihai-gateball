@@ -43,4 +43,4 @@ Saihai (采配) es un agente de IA kantoku para gateball: motor de reglas, físi
 - Cambios de versión: sube `X.Y.Z` en `package.json`, anota en `CHANGELOG.md`, etiqueta `vX.Y.Z`. El juego fija la versión con `github:ckomiya/saihai-gateball#vX.Y.Z`; para trabajar en los dos a la vez, `npm install ../saihai-gateball` en el juego (no commitear la ruta `file:`).
 
 ## Estado actual
-`saihai-v1.5` estable (etiqueta `v1.5.0`), separado de gateball-retro (el diario de la separación está en `HISTORIAL.md`). Lo que sigue está en `BACKLOG.md`.
+`saihai-v1.5` estable (etiqueta `v1.5.1`; la 1.5.0 solo tenía mal la etiqueta `SAIHAI_MODEL`), separado de gateball-retro (el diario de la separación está en `HISTORIAL.md`). Lo que sigue está en `BACKLOG.md`.

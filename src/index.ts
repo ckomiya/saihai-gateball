@@ -19,7 +19,7 @@ import type { Lang } from './game/i18n';
 import type { Rng } from './game/rng';
 import { mulberry32 } from './game/rng';
 
-export const SAIHAI_MODEL = 'saihai-v1.4';
+export const SAIHAI_MODEL = 'saihai-v1.5';
 
 export type { ErrorBase, CpuPlan, Resolution, Rng, MatchEvent, Transition, FoulReason, BallState, SoundCue, Lang };
 export { messageFor, messagesFor } from './game/messages';
