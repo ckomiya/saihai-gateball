@@ -17,6 +17,10 @@ Las versiones son `X.Y.Z`: `X.Y` es el modelo (`saihai-vX.Y`) y `Z` son correcci
 
 Los pesos de v1.0 a v1.3 no se republican como versiones; están en `src/game/cpuWeights.v10.json` a `v13.json` solo para comparar (`npm run h2h`).
 
+## 1.5.1 (corrección; mismas jugadas)
+- `SAIHAI_MODEL` (`src/index.ts`) decía `'saihai-v1.4'` aunque el modelo desde la 1.5.0 es `saihai-v1.5`; ahora dice `'saihai-v1.5'`. Es solo una etiqueta (la imprime `examples/duelo.mjs`): las jugadas, los golden y los pesos no cambian.
+- `tests/api.test.ts` ahora comprueba que `SAIHAI_MODEL` coincide con la versión del modelo de `package.json` y de la última entrada con modelo de `CHANGELOG.md` y `CHANGELOG.es.md`, para que no vuelva a quedar desfasado.
+
 ## 1.5.0 (modelo `saihai-v1.5`; cambia una jugada)
 - Último turno con el partido ya decidido (reloj en cero y el equipo gana): la cadena final también considera bolas hasta 18 m (`kantokuLastReachM`, antes 12 m) y, a igualdad, prefiere tocar a una compañera. Caso: partida 20261028-073420, la última bola (blanca 8) no intentó el touch a la blanca 10 frente a la puerta 3. Fuera de esa situación las jugadas son las de la 1.4. `legacyLastReach: true` en el archivo de pesos devuelve la 1.4; `src/game/cpuWeights.v14.json` es el archivo de la 1.4 para `npm run h2h`.
 - Medido y no cambiado (detalle en `HISTORIAL.md` y `TRAINING.md`): turno 24 (triple ángulo para una roja que no pasó la puerta 1), turno 28 (reentrada junto a una cadena roja) y turno 16 (blanca cerca de la línea).

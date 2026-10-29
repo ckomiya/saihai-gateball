@@ -20,7 +20,6 @@
 - El h2h tiene un sesgo: el control v1.4 contra sí mismo da 47,8 % (el umbral de 48 % no se puede cumplir ni con dos copias idénticas). **A cambiar:** la meta debe basarse en el control (la versión contra sí misma, mismas semillas) en vez del 48 % fijo.
 
 ## Pendientes de la separación
-- [ ] `SAIHAI_MODEL` en `src/index.ts` sigue en `'saihai-v1.4'` aunque el modelo es `saihai-v1.5` (la versión del paquete es 1.5.0). Revisar si cambiarlo afecta a alguna prueba antes de tocarlo.
 - [ ] Mover los pesos a `weights/` (`saihai-v1.4.json` y `weights/history/`): hoy conservan `src/game/cpuWeights*.json` para no tocar 47 referencias.
 - [ ] Arreglar los 12 errores de `npm run typecheck:todo` (variables sin usar, tipos de `rounds.ts`, `waitdiag.ts`, `partida1027b`) y pasarlo a `typecheck`.
 - [ ] GitHub Pages del juego con Saihai privado: necesita token; mejor esperar a que Saihai sea público.
