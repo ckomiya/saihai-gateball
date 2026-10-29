@@ -19,7 +19,7 @@ Los pesos de v1.0 a v1.3 no se republican como versiones; están en `src/game/cp
 
 ## 1.5.0 (modelo `saihai-v1.5`; cambia una jugada)
 - Último turno con el partido ya decidido (reloj en cero y el equipo gana): la cadena final también considera bolas hasta 18 m (`kantokuLastReachM`, antes 12 m) y, a igualdad, prefiere tocar a una compañera. Caso: partida 20261028-073420, la última bola (blanca 8) no intentó el touch a la blanca 10 frente a la puerta 3. Fuera de esa situación las jugadas son las de la 1.4. `legacyLastReach: true` en el archivo de pesos devuelve la 1.4; `src/game/cpuWeights.v14.json` es el archivo de la 1.4 para `npm run h2h`.
-- Medido y no cambiado (detalle en `BACKLOG.md` y `TRAINING.md`): turno 24 (triple ángulo para una roja que no pasó la puerta 1), turno 28 (reentrada junto a una cadena roja) y turno 16 (blanca cerca de la línea).
+- Medido y no cambiado (detalle en `HISTORIAL.md` y `TRAINING.md`): turno 24 (triple ángulo para una roja que no pasó la puerta 1), turno 28 (reentrada junto a una cadena roja) y turno 16 (blanca cerca de la línea).
 - `tests/lastturn.test.ts` es nueva; `tests/i18n.test.ts` compara ahora la huella de la 1.4.1 con `legacyLastReach` activado.
 
 ## 1.4.2 (multiidioma; mismas jugadas)

@@ -3,7 +3,7 @@
 Saihai (采配) es un agente de IA kantoku para gateball: motor de reglas, física, planificador, pesos entrenados y herramientas de medición. Sin interfaz. Lo consume el juego **Nana-Ban** (repo `gateball-retro`) y, más adelante, otros desarrolladores. Modelo actual: `saihai-v1.4` (= `kantoku-v1.4` del juego).
 
 ## Al empezar cada sesión
-1. Lee `BACKLOG.md`: qué sigue y las preguntas abiertas. El historial de decisiones del kantoku está en `TRAINING.md`.
+1. Lee solo `BACKLOG.md` (qué sigue y las preguntas abiertas). `HISTORIAL.md` (lo hecho) y `TRAINING.md` (decisiones y mediciones del kantoku) se leen solo si hace falta. **El BACKLOG es solo para lo que viene; lo hecho va a `HISTORIAL.md`, `TRAINING.md` o `CHANGELOG.md`.**
 2. Confirma con Chris el objetivo de la iteración antes de escribir código.
 
 ## Reglas legales (no negociables)
@@ -43,4 +43,4 @@ Saihai (采配) es un agente de IA kantoku para gateball: motor de reglas, físi
 - Cambios de versión: sube `X.Y.Z` en `package.json`, anota en `CHANGELOG.md`, etiqueta `vX.Y.Z`. El juego fija la versión con `github:ckomiya/saihai-gateball#vX.Y.Z`; para trabajar en los dos a la vez, `npm install ../saihai-gateball` en el juego (no commitear la ruta `file:`).
 
 ## Estado actual
-`saihai-v1.4` estable, separado de gateball-retro (ver `DECISIONES-NOCHE.md` en la rama `separacion-saihai` del juego). Lo que sigue está en `BACKLOG.md` (Saihai v1.5: observaciones de las partidas de Chris).
+`saihai-v1.4` estable, separado de gateball-retro (el diario de la separación está en `HISTORIAL.md`). Lo que sigue está en `BACKLOG.md` (Saihai v1.5: observaciones de las partidas de Chris).
