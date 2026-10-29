@@ -3,7 +3,7 @@
 **El BACKLOG es solo para lo que viene; lo hecho va a `HISTORIAL.md`, `TRAINING.md` o `CHANGELOG.md`.** El historial anterior (iteraciones B a G, v1.0 a v1.5, separación de gateball-retro) está en `HISTORIAL.md`; las mediciones y decisiones de entrenamiento, en `TRAINING.md`.
 
 ## Estado
-`saihai-v1.4` (etiqueta `v1.4.0`) es la que usa el juego. Pendientes de merge y etiqueta (los hace Chris): `i18n-v1.4.2` (multiidioma `es`/`en`) y `v1.5` (etiqueta `v1.5.0`: último turno con el resultado asegurado, alcance 18 m; ver `CHANGELOG.md`).
+`saihai-v1.5` (etiqueta `v1.5.0`, ya con merge) es la que usa el juego: último turno con el resultado asegurado, alcance 18 m (ver `CHANGELOG.md`). Los pesos son los de v1.4.
 
 ## Siguiente (v2.0)
 - [ ] Riesgo que sume cadenas independientes de una rival (montón + bola alineada con la puerta) en vez de solo el máximo, y candidatos pegados a la línea rodeando los postes: casos del turno 24 y 16 de la partida 2026-10-28; requiere reentrenar con la fase 5 (atributos S/M/L).
@@ -16,7 +16,8 @@
 ## Errores conocidos / limitaciones
 - La cadena de touch supone que la bola queda junto a la bola tocada (no calcula hasta dónde sigue según la fuerza).
 - El turno 21 de la partida 2026-10-27 (dos puentes + puerta) sigue sin modelo.
-- El h2h tiene un sesgo: el control v1.4 contra sí mismo da 47,8 % (el umbral de 48 % no se puede cumplir ni con dos copias idénticas).
+- El combo «bola y puerta» del turno 24 (partida 2026-10-28) mide la puerta 1 en lugar de la 2 para una rival que aún no la pasó. Corrección conocida pero revertida porque el h2h bajó a 46,0 %: arreglarla junto con el reentrenamiento (ver «Siguiente»).
+- El h2h tiene un sesgo: el control v1.4 contra sí mismo da 47,8 % (el umbral de 48 % no se puede cumplir ni con dos copias idénticas). **A cambiar:** la meta debe basarse en el control (la versión contra sí misma, mismas semillas) en vez del 48 % fijo.
 
 ## Pendientes de la separación
 - [ ] Mover los pesos a `weights/` (`saihai-v1.4.json` y `weights/history/`): hoy conservan `src/game/cpuWeights*.json` para no tocar 47 referencias.
