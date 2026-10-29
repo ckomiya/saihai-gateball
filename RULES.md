@@ -50,4 +50,5 @@ The "Art. N" references point to the articles of the official gateball rulebook 
 ## Clock and end of the match (Art. 5, 6, 7)
 - A 30-minute countdown, which runs faster than real time according to `clockFactor`. **Own.**
 - When time runs out, or when a team reaches 25 points (perfect game), the match ends after a white ball has played. Simplification: if white reaches 25 through a red ball's play, the next white ball also plays. **Own.**
-- 10-second limit per stroke and the draw for who starts: **No** (red starts).
+- Draw for who starts (Art. 5): **Pending (future phase)** (red starts for now).
+- 10-second limit per stroke: **Not enforced (design decision).**
