@@ -6,7 +6,7 @@
 
 - Sin Phaser ni DOM; corre en Node y en el navegador.
 - Azar con semilla inyectable: las partidas se repiten exactamente.
-- Modelo actual: `saihai-v1.4`. Cada decisión puede explicarse (`explain`).
+- Modelo actual: `saihai-v1.5`. Cada decisión puede explicarse (`explain`).
 - Textos en español (por defecto) o inglés: `lang: 'es' | 'en'` (ver [Idiomas](#idiomas)). Los términos del gateball se conservan tal cual; el [glosario](#glosario) los explica.
 
 > Estado: en desarrollo. El repositorio es **público** (MIT); se instala directo desde GitHub.
@@ -17,7 +17,7 @@
 ## Instalación
 
 ```bash
-npm install github:ckomiya/saihai-gateball#v1.4.2
+npm install github:ckomiya/saihai-gateball#v1.5.0
 ```
 
 - **Se compila al instalar.** El paquete se instala desde Git, así que npm ejecuta su script `prepare` (`node scripts/build.mjs`), que genera `dist/` (JavaScript ESM con los pesos adentro y tipos `.d.ts`). Necesita `esbuild` y `typescript` (están en `devDependencies`; npm los instala para ese paso), por eso el primer `install` tarda unos segundos más.
