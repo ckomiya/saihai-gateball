@@ -69,7 +69,7 @@ function plannedTarget(m: Match, level: number, opts: CpuOptions): { aim: P; pow
   const future = weights.certainty ? futureOf(m, opts, pace) : undefined;
   const endKind = future && !weights.legacyLastTurn ? endTurnOf(m, future) : null;
   if (future && endKind) {
-    const ch = planChain(m, future, endKind);
+    const ch = planChain(m, future, endKind, weights.legacyLastReach);
     if (ch) return { aim: ch.aim, chain: { turn: endKind, value: ch.value, nodes: ch.nodes } };
   }
   const si = sp ? m.balls.indexOf(sp) : m.turn, mode = sp ? 'spark' : 'stroke', pinned = sp ? m.turn : -1;
